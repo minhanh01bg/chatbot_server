@@ -36,4 +36,19 @@ class Intent(models.Model):
     
     class Meta:
         db_table = 'intents'
+
+class FilesQuestion(models.Model):
+    filesQuestion = models.FileField(upload_to='questions')
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    
+    class Meta:
+        db_table = 'FilesQuestion'
         
+class FilesAnswer(models.Model):
+    filesAnswer = models.FileField(upload_to='answers')
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    
+    class Meta:
+        db_table = 'FilesAnswer'
