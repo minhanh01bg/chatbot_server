@@ -11,7 +11,7 @@ from rest_framework.parsers import MultiPartParser
 from drf_yasg.utils import swagger_auto_schema
 from .forms import ImageUploadForm, FilesQuestionUploadForm, FilesAnswerUploadForm
 from .models import Image, QuestionForChatbot, AnswerForChatbot, Intent, FilesQuestion, FilesAnswer
-from .serializers import ImageSerializer, QuestionForChatbotSerializer, AnswerForChatbotSerializer, IntentSerializer
+from .serializers import ImageSerializer, QuestionForChatbotSerializer, AnswerForChatbotSerializer, IntentSerializer, FilesAnswerSerializer, FilesQuestionSerializer
 ALLOW_FILE_TYPES_IMAGE = ['jpg', 'jpeg', 'png']
 ALLOW_FILE_TYPES_QUESTION = ['csv']
 ALLOW_FILE_TYPES_ANSWER = ['csv']
@@ -48,6 +48,16 @@ class Images(APIView):
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
 
+    parser_classes = (MultiPartParser,)
+    @swagger_auto_schema(operation_description='Get all images...')
+    def get(self, request, *args, **kwargs):
+        if request.method == 'GET':
+            images = ImageSerializer(Image.objects.all(), many=True)
+            return Response(images.data, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    
 class Intents(APIView):
     parser_classes = (MultiPartParser,)
     @swagger_auto_schema(operation_description='Get all intents...')
@@ -90,11 +100,17 @@ class Question(APIView):
     parser_classes = (MultiPartParser,)
     @swagger_auto_schema(operation_description='Create new question...',
                          manual_parameters=[openapi.Parameter(
-                             name="intent_name",
+                             name="intent_id",
                              in_=openapi.IN_FORM,
                              type=openapi.TYPE_STRING,
                              required=True,
-                             description="intent name"
+                             description="enter intent id"
+                         ),openapi.Parameter(
+                             name="question",
+                             in_=openapi.IN_FORM,
+                             type=openapi.TYPE_STRING,
+                             required=True,
+                             description="question"
                          )])
     def post(self, request, *args, **kwargs):
         if request.method == 'POST':
@@ -127,11 +143,17 @@ class Answer(APIView):
     parser_classes = (MultiPartParser,)
     @swagger_auto_schema(operation_description='Create new answer...',
                          manual_parameters=[openapi.Parameter(
-                             name="intent_name",
+                             name="intent_id",
                              in_=openapi.IN_FORM,
                              type=openapi.TYPE_STRING,
                              required=True,
-                             description="intent name"
+                             description="enter intent id"
+                         ),openapi.Parameter(
+                             name="answer",
+                             in_=openapi.IN_FORM,
+                             type=openapi.TYPE_STRING,
+                             required=True,
+                             description="enter answer"
                          )])
     def post(self, request, *args, **kwargs):
         if request.method == 'POST':
@@ -162,7 +184,7 @@ class Answer(APIView):
         
 class FilesQuestionView(APIView):
     parser_classes = (MultiPartParser,)
-    @swagger_auto_schema(operation_description='Upload attack file...',
+    @swagger_auto_schema(operation_description='Upload question file...',
                          manual_parameters=[openapi.Parameter(
                              name="file",
                              in_=openapi.IN_FORM,
@@ -198,7 +220,8 @@ class FilesQuestionView(APIView):
     def get(self, request, *args, **kwargs):
         if request.method == 'GET':
             filesQuestion = FilesQuestion.objects.all()
-            return Response(filesQuestion.data, status=status.HTTP_200_OK)
+            filesQuestionSerializer = FilesQuestionSerializer(filesQuestion, many=True)
+            return Response(filesQuestionSerializer.data, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
         
@@ -240,7 +263,8 @@ class FilesAnswerView(APIView):
     def get(self, request, *args, **kwargs):
         if request.method == 'GET':
             filesAnswer = FilesAnswer.objects.all()
-            return Response(filesAnswer.data, status=status.HTTP_200_OK)
+            filesAnswerSerializer = FilesAnswerSerializer(filesAnswer, many=True)
+            return Response(filesAnswerSerializer.data, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
         
