@@ -4892,3 +4892,6 @@ nlu:
     - em mất sổ đoàn rồi thì làm sao đươc ad
     - Em ko xin được giấy chuyển sinh hoạt đoàn thì phải làm sao
     - Trường em chỉ trả sổ đoàn không có giấy sinh hoạt đoàn ad ơi
+- intent: out_of_scope
+  examples: |
+    - em ăn cơm chưa

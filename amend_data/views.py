@@ -11,8 +11,8 @@ from drf_yasg import openapi
 from rest_framework.parsers import MultiPartParser
 from drf_yasg.utils import swagger_auto_schema
 from .forms import ImageUploadForm, FilesQuestionUploadForm, FilesAnswerUploadForm
-from .models import Image, QuestionForChatbot, AnswerForChatbot, Intent, FilesQuestion, FilesAnswer
-from .serializers import ImageSerializer, QuestionForChatbotSerializer, AnswerForChatbotSerializer, IntentSerializer, FilesAnswerSerializer, FilesQuestionSerializer
+from .models import Image, QuestionForChatbot, AnswerForChatbot, Intent, FilesQuestion, FilesAnswer, Out_of_scope
+from .serializers import ImageSerializer, QuestionForChatbotSerializer, AnswerForChatbotSerializer, IntentSerializer, FilesAnswerSerializer, FilesQuestionSerializer, OutOfScopeSerializer
 from django.utils.encoding import smart_str
 
 import pandas as pd
@@ -366,7 +366,7 @@ class FilesQuestionView(APIView):
                             if data_raw['topic'][j] == list[i]:
                                 f.write('    - ' + data_raw['question'][j] + '\n')
                                 
-                from django.utils.encoding import smart_str
+                
 
                 file_path = './media/nlu_data/nlu.yml'
                 file_name = 'nlu.yml'
@@ -477,3 +477,152 @@ class FilesAnswerView(APIView):
             return Response({'success': 'Delete all files answer successfully.'}, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
+
+
+class OutOfScopeView(APIView):
+    parser_classes = (MultiPartParser,)
+    @swagger_auto_schema(operation_description='Get all out of scope...')
+    def get(self, request, *args, **kwargs):
+        if request.method == 'GET':
+            outOfScope = Out_of_scope.objects.all()
+            outOfScopeSerializer = OutOfScopeSerializer(outOfScope, many=True)
+            return Response(outOfScopeSerializer.data, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    parser_classes = (MultiPartParser,)
+    @swagger_auto_schema(operation_description='Fill new outOfScope...',
+                         manual_parameters=[openapi.Parameter(
+                             name="outOfScope",
+                             in_=openapi.IN_FORM,
+                             type=openapi.TYPE_STRING,
+                             required=True,
+                             description="outOfScope"
+                         )])
+    def post(self, request, *args, **kwargs):
+        if request.method == 'POST':
+            outOfScope = request.POST.get('outOfScope')
+            if outOfScope is None:
+                return Response(status=status.HTTP_400_BAD_REQUEST)
+            else:
+                out = Out_of_scope.objects.filter(out_of_scope=outOfScope)
+                if len(out) > 0:
+                    return Response({'error': 'Out of scope already exists.'}, status=status.HTTP_400_BAD_REQUEST)
+                # save
+                new_outOfScope = Out_of_scope(out_of_scope=outOfScope)
+                new_outOfScope.save()
+                return Response({'success': 'Out of scope created successfully.'}, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
+        
+    parser_classes = (MultiPartParser,)
+    @swagger_auto_schema(operation_description='Delete all out of scope...')
+    def delete(self, request, *args, **kwargs):
+        if request.method == 'DELETE':
+            Out_of_scope.objects.all().delete()
+            return Response({'success': 'Delete all out of scope successfully.'}, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
+    
+class ExportAll(APIView):
+    parser_classes = (MultiPartParser,)
+    @swagger_auto_schema(operation_description='Export all data...')
+    def get(self, request, *agrs, **kwargs):
+        questions_list = QuestionForChatbot.objects.all()
+        questions_list_serializer = QuestionForChatbotSerializer(questions_list, many=True)
+        
+        intent_list = Intent.objects.all()
+        intent_list_serializer = IntentSerializer(intent_list, many=True)
+
+        #  convert to csv 
+        df_intent = pd.DataFrame(intent_list_serializer.data)
+        df_question = pd.DataFrame(questions_list_serializer.data)
+        # map intent id
+        intent_id_to_name = dict(zip(df_intent['id'], df_intent['intent_name']))
+        print('------------------')
+        print(intent_id_to_name)
+        print('------------------')
+        df_question['intent_id'] = df_question['intent_id'].map(intent_id_to_name)
+        
+        # print(df_question.head())
+        df_question.rename(columns={'question': 'question','intent_id': 'topic'}, inplace=True)
+        
+        outOfScope = Out_of_scope.objects.all()
+        outOfScopeSerializer = OutOfScopeSerializer(outOfScope, many=True)
+        df_outOfScope = pd.DataFrame(outOfScopeSerializer.data)
+        df_outOfScope.rename(columns={'out_of_scope': 'question'}, inplace=True)
+        new_column = np.full(df_outOfScope.shape[0],'out_of_scope')
+        df_outOfScope['topic'] = new_column
+        
+        df_outOfScope = df_outOfScope[['question', 'topic']]        
+        print(df_outOfScope.head())
+        data_raw = df_question[['question', 'topic']]
+        data_raw = pd.concat([data_raw, df_outOfScope], ignore_index=True)
+        print('# Drop nan')
+        print('  - Before: ',data_raw.shape)
+        data_raw.dropna(inplace=True)
+        data_raw.drop_duplicates(inplace=True)
+        print('  - After: ',data_raw.shape)
+        
+        print('# Remove Number with regex')
+        print('# Drop numbers in columns question of data_raw')
+        data_raw['question'] = data_raw['question'].apply(lambda x:re.sub(r'\d+','',x))
+        
+        print('# Remove Punctuation')
+        punctuation = string.punctuation
+        data_raw['question'] = data_raw['question'].apply(lambda x: x.translate(str.maketrans('', '', punctuation)))
+        
+        print('# Remove whitespace')
+        data_raw['question'] = data_raw['question'].apply(lambda x: re.sub(r'\s+', ' ', x, flags=re.I))
+        
+        print('# Remove emoji')
+        emoj = re.compile("["
+                u"\U0001F600-\U0001F64F"  # emoticons
+                u"\U0001F300-\U0001F5FF"  # symbols & pictographs
+                u"\U0001F680-\U0001F6FF"  # transport & map symbols
+                u"\U0001F1E0-\U0001F1FF"  # flags (iOS)
+                u"\U00002500-\U00002BEF"  # chinese char
+                u"\U00002702-\U000027B0"
+                u"\U00002702-\U000027B0"
+                u"\U000024C2-\U0001F251"
+                u"\U0001f926-\U0001f937"
+                u"\U00010000-\U0010ffff"
+                u"\u2640-\u2642" 
+                u"\u2600-\u2B55"
+                u"\u200d"
+                u"\u23cf"
+                u"\u23e9"
+                u"\u231a"
+                u"\ufe0f"  # dingbats
+                u"\u3030"
+                            "]+", re.UNICODE)
+
+        data_raw['question'] = data_raw['question'].apply(lambda x: re.sub(emoj, '', x))
+        
+        print('# Remove non ascii')
+        print('# Remove character #x009f')
+        data_raw['question'] = data_raw['question'].apply(lambda x: re.sub(r'[\x00-\x1F\x7F-\x9F]', '', x))
+        
+        list = data_raw['topic'].unique()
+        with open('./media/nlu_data/nlu.yml', 'w') as f:
+            f.write('version: "3.1"\n\n')
+            f.write('nlu:\n')
+            for i in range(len(list)):
+                name_intent = remove_diacritics(list[i].lower()).replace(' ', '_')
+                f.write('- intent: ' + name_intent + '\n')
+                f.write('  examples: |\n')
+                for j in range(data_raw.shape[0]):
+                    if data_raw['topic'][j] == list[i]:
+                        f.write('    - ' + data_raw['question'][j] + '\n')
+        
+        
+
+        file_path = './media/nlu_data/nlu.yml'
+        file_name = 'nlu.yml'
+
+        response = FileResponse(open(file_path, 'rb'), content_type='application/force-download')
+        response['Content-Disposition'] = f'attachment; filename={smart_str(file_name)}'
+
+        return response
+
+

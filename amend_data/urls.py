@@ -6,6 +6,8 @@ from .views import (
     Answer,
     FilesQuestionView,
     FilesAnswerView,
+    ExportAll,
+    OutOfScopeView,
 )
 
 urlpatterns = [
@@ -15,4 +17,6 @@ urlpatterns = [
     path('answers',Answer.as_view()),
     path('files/question',FilesQuestionView.as_view()),
     path('files/answer',FilesAnswerView.as_view()),
+    path('files/export',ExportAll.as_view()),
+    path('out_of_scope',OutOfScopeView.as_view()),
 ]

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import QuestionForChatbot, AnswerForChatbot, Intent, Image,FilesAnswer, FilesQuestion
+from .models import QuestionForChatbot, AnswerForChatbot, Intent, Image,FilesAnswer, FilesQuestion, Out_of_scope
 
 class QuestionForChatbotSerializer(serializers.ModelSerializer):
     class Meta:
@@ -31,3 +31,9 @@ class FilesQuestionSerializer(serializers.ModelSerializer):
     class Meta:
         model = FilesQuestion
         fields = ('id','filesQuestion','created_at','updated_at')
+        
+        
+class OutOfScopeSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Out_of_scope
+        fields = ('id','out_of_scope','created_at','updated_at')

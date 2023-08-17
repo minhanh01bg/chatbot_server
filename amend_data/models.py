@@ -52,3 +52,21 @@ class FilesAnswer(models.Model):
     
     class Meta:
         db_table = 'FilesAnswer'
+
+
+class Synonyms(models.Model):
+    synonym_primary = models.CharField(max_length=1000)
+    synonym = models.CharField(max_length=1000)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now_add=True)
+    
+    class Meta:
+        db_table = 'sysnonyms'
+        
+class Out_of_scope(models.Model):
+    out_of_scope = models.CharField(max_length=1000)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now_add=True)
+    
+    class Meta:
+        db_table = 'out_of_scope'
