@@ -72,8 +72,7 @@ class Images(APIView):
             return Response(images.data, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
-    
-    
+      
 class Intents(APIView):
     parser_classes = (MultiPartParser,)
     @swagger_auto_schema(operation_description='Get intents...',
@@ -159,12 +158,42 @@ class Intents(APIView):
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
     
     parser_classes = (MultiPartParser,)
-    @swagger_auto_schema(operation_description='Delete all intents...')
+    @swagger_auto_schema(operation_description='Delete all intents...',
+                         manual_parameters=[openapi.Parameter(
+                                name="id",
+                                in_=openapi.IN_FORM,
+                                type=openapi.TYPE_STRING,
+                                required=False,
+                                description="delete by id of intent"
+                         ),openapi.Parameter(
+                                name="intent_name",
+                                in_=openapi.IN_FORM,
+                                type=openapi.TYPE_STRING,
+                                required=False,
+                                description="delete by intent_name"
+                         )])
     def delete(self, request, *args, **kwargs):
         if request.method == 'DELETE':
-            intents = Intent.objects.all()
-            intents.delete()
-            return Response({'success': 'Delete all intents successfully.'}, status=status.HTTP_200_OK)
+            id = request.GET.get('id')
+            intent_name = request.GET.get('intent_name')
+            if id is not None:
+                intent = Intent.objects.filter(id=id)
+                if len(intent) == 0:
+                    return Response({'error': 'Intent does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+                else:
+                    intent.delete()
+                    return Response({'success': 'Delete intent successfully.'}, status=status.HTTP_200_OK)
+            elif intent_name is not None:
+                intent = Intent.objects.filter(intent_name=intent_name)
+                if len(intent) == 0:
+                    return Response({'error': 'Intent does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+                else:
+                    intent.delete()
+                    return Response({'success': 'Delete intent successfully.'}, status=status.HTTP_200_OK)
+            else:
+                intents = Intent.objects.all()
+                intents.delete()
+                return Response({'success': 'Delete all intents successfully.'}, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
 
@@ -276,12 +305,47 @@ class Question(APIView):
     
     
     parser_classes = (MultiPartParser,)
-    @swagger_auto_schema(operation_description='Delete all questions...')
+    @swagger_auto_schema(operation_description='Delete questions...',
+                         manual_parameters=[openapi.Parameter(
+                             name="id",
+                             in_=openapi.IN_FORM,
+                             type=openapi.TYPE_STRING,
+                             required=False,
+                             description="delete by id of question"
+                         ),openapi.Parameter(
+                             name="intent_id",
+                             in_=openapi.IN_FORM,
+                             type=openapi.TYPE_STRING,
+                             required=False,
+                             description="delete by intent_id"
+                         ),openapi.Parameter(
+                             name="question",
+                             in_=openapi.IN_FORM,
+                             type=openapi.TYPE_STRING,
+                             required=False,
+                             description="delete by question"
+                         )])
     def delete(self, request, *args, **kwargs):
         if request.method == 'DELETE':
-            questions = QuestionForChatbot.objects.all()
-            questions.delete()
-            return Response({'success': 'Delete all questions successfully.'}, status=status.HTTP_200_OK)
+            id = request.GET.get('id')
+            intent_id = request.GET.get('intent_id')
+            question = request.GET.get('question')
+            if id is not None:
+                questions = QuestionForChatbot.objects.filter(id=id)
+                questions.delete()
+                return Response({'success': 'Delete questions successfully.'}, status=status.HTTP_200_OK)
+            elif intent_id is not None:
+                questions = QuestionForChatbot.objects.filter(intent_id=intent_id)
+                questions.delete()
+                return Response({'success': 'Delete questions successfully.'}, status=status.HTTP_200_OK)
+            elif question is not None:
+                questions = QuestionForChatbot.objects.filter(question=question)
+                questions.delete()
+                return Response({'success': 'Delete questions successfully.'}, status=status.HTTP_200_OK)
+            else:
+                questions = QuestionForChatbot.objects.all()
+                questions.delete()
+                return Response({'success': 'Delete all questions successfully.'}, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
         
@@ -318,7 +382,6 @@ class Answer(APIView):
                 return Response(answer_serializer_json, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
-    
     
     parser_classes = (MultiPartParser,)
     @swagger_auto_schema(operation_description='Update answer...', manual_parameters=[
@@ -392,9 +455,51 @@ class Answer(APIView):
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
     
     parser_classes = (MultiPartParser,)
-    @swagger_auto_schema(operation_description='Delete all awswers...')
+    @swagger_auto_schema(operation_description='Delete awswers...',
+                         manual_parameters=[openapi.Parameter(
+                             name="id",
+                             in_=openapi.IN_FORM,
+                             type=openapi.TYPE_STRING,
+                             required=False,
+                             description="delete by id of awswer"
+                         ),openapi.Parameter(
+                             name="intent_id",
+                             in_=openapi.IN_FORM,
+                             type=openapi.TYPE_STRING,
+                             required=False,
+                             description="delete by intent_id"
+                         ),openapi.Parameter(
+                             name="awswer",
+                             in_=openapi.IN_FORM,
+                             type=openapi.TYPE_STRING,
+                             required=False,
+                             description="delete by awswer"
+                         )])
     def delete(self, request, *args, **kwargs):
         if request.method == 'DELETE':
+            id = request.GET.get('id')
+            intent_id = request.GET.get('intent_id')
+            answer = request.GET.get('answer')
+            if id is not None:
+                answers = AnswerForChatbot.objects.filter(id=id)
+                if len(answers) == 0:
+                    return Response({'error': 'Answer does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+                answers.delete()
+                return Response({'success': 'Delete answers successfully.'}, status=status.HTTP_200_OK)
+            elif intent_id is not None:
+                answers = AnswerForChatbot.objects.filter(intent_id=intent_id)
+                if len(answers) == 0:
+                    return Response({'error': 'Intent does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+                answers.delete()
+                return Response({'success': 'Delete answers successfully.'}, status=status.HTTP_200_OK)
+
+            elif answer is not None:
+                answers = AnswerForChatbot.objects.filter(answer=answer)
+                if len(answers) == 0:
+                    return Response({'error': 'Answer does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+                answers.delete()
+                return Response({'success': 'Delete answers successfully.'}, status=status.HTTP_200_OK)
+
             answers = AnswerForChatbot.objects.all()
             answers.delete()
             return Response({'success': 'Delete all answers successfully.'}, status=status.HTTP_200_OK)
@@ -402,7 +507,6 @@ class Answer(APIView):
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
     
 class FilesQuestionView(APIView):
-    
     parser_classes = (MultiPartParser,)
     @swagger_auto_schema(operation_description='Upload question file...',
                          manual_parameters=[openapi.Parameter(
@@ -653,12 +757,41 @@ class FilesAnswerView(APIView):
 
 class OutOfScopeView(APIView):
     parser_classes = (MultiPartParser,)
-    @swagger_auto_schema(operation_description='Get all out of scope...')
+    @swagger_auto_schema(operation_description='Get out of scope...',
+                         manual_parameters=[
+                             openapi.Parameter(
+                                    name="id",
+                                    in_=openapi.IN_QUERY,
+                                    type=openapi.TYPE_STRING,
+                                    required=False,
+                                    description="out of scope id"
+                                ),openapi.Parameter(
+                                    name="outOfScope",
+                                    in_=openapi.IN_QUERY,
+                                    type=openapi.TYPE_STRING,
+                                    required=False,
+                                    description="out of scope"
+                                )])
     def get(self, request, *args, **kwargs):
         if request.method == 'GET':
-            outOfScope = Out_of_scope.objects.all()
-            outOfScopeSerializer = OutOfScopeSerializer(outOfScope, many=True)
-            return Response(outOfScopeSerializer.data, status=status.HTTP_200_OK)
+            id = request.GET.get('id')
+            outOfScope = request.GET.get('outOfScope')
+            if id is not None and outOfScope is not None:
+                outOfScope_ = Out_of_scope.objects.filter(id=id, out_of_scope=outOfScope)
+                outOfScopeSerializer = OutOfScopeSerializer(outOfScope_, many=True)
+                return Response(outOfScopeSerializer.data, status=status.HTTP_200_OK)
+            elif id is not None:
+                outOfScope_ = Out_of_scope.objects.filter(id=id)
+                outOfScopeSerializer = OutOfScopeSerializer(outOfScope_, many=True)
+                return Response(outOfScopeSerializer.data, status=status.HTTP_200_OK)
+            elif outOfScope is not None:
+                outOfScope_ = Out_of_scope.objects.filter(out_of_scope=outOfScope)
+                outOfScopeSerializer = OutOfScopeSerializer(outOfScope_, many=True)
+                return Response(outOfScopeSerializer.data, status=status.HTTP_200_OK)
+            else:
+                outOfScope = Out_of_scope.objects.all()
+                outOfScopeSerializer = OutOfScopeSerializer(outOfScope, many=True)
+                return Response(outOfScopeSerializer.data, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
     
@@ -686,13 +819,77 @@ class OutOfScopeView(APIView):
                 return Response({'success': 'Out of scope created successfully.'}, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    @swagger_auto_schema(operation_description='Get out of scope...',
+                         manual_parameters=[
+                             openapi.Parameter(
+                                    name="id",
+                                    in_=openapi.IN_FORM,
+                                    type=openapi.TYPE_STRING,
+                                    required=True,
+                                    description="out of scope id"
+                                ),openapi.Parameter(
+                                    name="outOfScope",
+                                    in_=openapi.IN_FORM,
+                                    type=openapi.TYPE_STRING,
+                                    required=True,
+                                    description="out of scope"
+                                )])
+    def put(self, request, *args, **kwargs):
+        if request.method == 'PUT':
+            id = request.GET.get('id')
+            outOfScope = request.GET.get('outOfScope')
+            if id is None or outOfScope is None:
+                return Response(status=status.HTTP_400_BAD_REQUEST)
+            outOfScope_ = Out_of_scope.objects.filter(id=id)
+            if len(outOfScope_) == 0:
+                return Response({'error': 'Out of scope does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+            else:
+                outOfScope_ = outOfScope_[0]
+                outOfScope_.out_of_scope = outOfScope
+                outOfScope_.save()
+                outOfScopeSerializer = OutOfScopeSerializer(outOfScope_)
+                outOfScopeSerializerJson = outOfScopeSerializer.data
+                return Response(outOfScopeSerializerJson, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
         
     parser_classes = (MultiPartParser,)
-    @swagger_auto_schema(operation_description='Delete all out of scope...')
+    @swagger_auto_schema(operation_description='Delete all out of scope...',manual_parameters=[
+                             openapi.Parameter(
+                                    name="id",
+                                    in_=openapi.IN_FORM,
+                                    type=openapi.TYPE_STRING,
+                                    required=True,
+                                    description="out of scope id for delete"
+                                ),openapi.Parameter(
+                                    name="outOfScope",
+                                    in_=openapi.IN_FORM,
+                                    type=openapi.TYPE_STRING,
+                                    required=True,
+                                    description="out_of_scope for delete"
+                                )])
     def delete(self, request, *args, **kwargs):
         if request.method == 'DELETE':
-            Out_of_scope.objects.all().delete()
-            return Response({'success': 'Delete all out of scope successfully.'}, status=status.HTTP_200_OK)
+            id = request.GET.get('id')
+            outOfScope_ = request.GET.get('outOfScope')
+            if id is not None:
+                outOfScope = Out_of_scope.objects.filter(id=id)
+                if len(outOfScope) == 0:
+                    return Response({'error': 'Out of scope does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+                else:
+                    outOfScope.delete()
+                    return Response({'success': 'Delete out of scope successfully.'}, status=status.HTTP_200_OK)
+            elif outOfScope_ is not None:
+                outOfScope = Out_of_scope.objects.filter(out_of_scope=outOfScope_)
+                if len(outOfScope) == 0:
+                    return Response({'error': 'Out of scope does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+                else:
+                    outOfScope.delete()
+                    return Response({'success': 'Delete out of scope successfully.'}, status=status.HTTP_200_OK)
+            else:
+                Out_of_scope.objects.all().delete()
+                return Response({'success': 'Delete all out of scope successfully.'}, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
     
