@@ -76,11 +76,24 @@ class Images(APIView):
     
 class Intents(APIView):
     parser_classes = (MultiPartParser,)
-    @swagger_auto_schema(operation_description='Get all intents...')
+    @swagger_auto_schema(operation_description='Get intents...',
+                         manual_parameters=[openapi.Parameter(
+                            name="id",
+                            in_=openapi.IN_QUERY,
+                            type=openapi.TYPE_STRING,
+                            required=False,
+                            description="intent id"
+                        )])
     def get(self, request, *args, **kwargs):
         if request.method == 'GET':
-            intents = IntentSerializer(Intent.objects.all(), many=True)
-            return Response(intents.data, status=status.HTTP_200_OK)
+            id = request.GET.get('id')
+            if id is not None:
+                intents = Intent.objects.filter(id=id)
+                intents = IntentSerializer(intents, many=True)
+                return Response(intents.data, status=status.HTTP_200_OK)
+            else:
+                intents = IntentSerializer(Intent.objects.all(), many=True)
+                return Response(intents.data, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
     
@@ -111,6 +124,40 @@ class Intents(APIView):
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
 
+    parser_classes = (MultiPartParser,)
+    @swagger_auto_schema(operation_description='Update intent...', manual_parameters=[
+        openapi.Parameter(
+            name="intent_id",
+            in_=openapi.IN_FORM,
+            type=openapi.TYPE_STRING,
+            required=True,
+            description="intent id"
+        ),openapi.Parameter(
+            name="intent_name",
+            in_=openapi.IN_FORM,
+            type=openapi.TYPE_STRING,
+            required=True,
+            description="intent name"
+        )])
+    def put(self,request, *args, **kwargs):
+        if request.method == 'PUT':
+            intent_id = request.POST.get('intent_id')
+            intent_name = remove_diacritics(request.POST.get('intent_name').strip().lower()).replace(' ', '_')
+            if intent_id is None or intent_name is None:
+                return Response(status=status.HTTP_400_BAD_REQUEST)
+            intent = Intent.objects.filter(id=intent_id)
+            if len(intent) == 0:
+                return Response({'error': 'Intent does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+            else:
+                intent = intent[0]
+                intent.intent_name = intent_name
+                intent.save()
+                intent_serializer = IntentSerializer(intent)
+                intent_serializer_json = intent_serializer.data
+                return Response(intent_serializer_json, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
+    
     parser_classes = (MultiPartParser,)
     @swagger_auto_schema(operation_description='Delete all intents...')
     def delete(self, request, *args, **kwargs):
@@ -156,14 +203,78 @@ class Question(APIView):
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
     
     parser_classes = (MultiPartParser,)
-    @swagger_auto_schema(operation_description='Get all questions...')
+    @swagger_auto_schema(operation_description='Get all questions...',
+                         manual_parameters=[openapi.Parameter(
+                             name="id",
+                             in_=openapi.IN_QUERY,
+                             type=openapi.TYPE_STRING,
+                             required=False,
+                             description="question id"
+                         ),openapi.Parameter(
+                             name="intent_id",
+                             in_=openapi.IN_QUERY,
+                             type=openapi.TYPE_STRING,
+                             required=False,
+                             description="intent id"
+                         )])
     def get(self, request, *args, **kwargs):
         if request.method == 'GET':
-            questions = QuestionForChatbotSerializer(QuestionForChatbot.objects.all(), many=True)
-            return Response(questions.data, status=status.HTTP_200_OK)
+            id = request.GET.get('id')
+            intent_id = request.GET.get('intent_id')
+            if id is not None and intent_id is not None:
+                questions = QuestionForChatbot.objects.filter(id=id, intent_id=intent_id)
+                questions = QuestionForChatbotSerializer(questions, many=True)
+                return Response(questions.data, status=status.HTTP_200_OK)
+            elif id is not None:
+                questions = QuestionForChatbot.objects.filter(id=id)
+                questions = QuestionForChatbotSerializer(questions, many=True)
+                return Response(questions.data, status=status.HTTP_200_OK)
+            elif intent_id is not None:
+                questions = QuestionForChatbot.objects.filter(intent_id=intent_id)
+                questions = QuestionForChatbotSerializer(questions, many=True)
+                return Response(questions.data, status=status.HTTP_200_OK)
+            else:
+                questions = QuestionForChatbotSerializer(QuestionForChatbot.objects.all(), many=True)
+                return Response(questions.data, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
 
+    parser_classes = (MultiPartParser,)
+    @swagger_auto_schema(operation_description='Update question...', manual_parameters=[
+        openapi.Parameter(
+            name="question_id",
+            in_=openapi.IN_FORM,
+            type=openapi.TYPE_STRING,
+            required=True,
+            description="question id"
+        ),openapi.Parameter(
+            name="question",
+            in_=openapi.IN_FORM,
+            type=openapi.TYPE_STRING,
+            required=True,
+            description="question name"
+        )])
+    def put(self,request, *args, **kwargs):
+        if request.method == 'PUT':
+            question_id = request.POST.get('question_id')
+            question_name = request.POST.get('question')
+            if question_id is None or question_name is None:
+                return Response(status=status.HTTP_400_BAD_REQUEST)
+            question = QuestionForChatbot.objects.filter(id=question_id)
+            if len(question) == 0:
+                return Response({'error': 'Question does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+            else:
+                question = question[0]
+                question.question = question_name
+                print('question: ',question.question)
+                question.save()
+                question_serializer = QuestionForChatbotSerializer(question)
+                question_serializer_json = question_serializer.data
+                return Response(question_serializer_json, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    
     parser_classes = (MultiPartParser,)
     @swagger_auto_schema(operation_description='Delete all questions...')
     def delete(self, request, *args, **kwargs):
@@ -208,12 +319,75 @@ class Answer(APIView):
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
     
+    
     parser_classes = (MultiPartParser,)
-    @swagger_auto_schema(operation_description='Get all answers...')
+    @swagger_auto_schema(operation_description='Update answer...', manual_parameters=[
+        openapi.Parameter(
+            name="answer_id",
+            in_=openapi.IN_FORM,
+            type=openapi.TYPE_STRING,
+            required=True,
+            description="answer id"
+        ),openapi.Parameter(
+            name="answer",
+            in_=openapi.IN_FORM,
+            type=openapi.TYPE_STRING,
+            required=True,
+            description="answer"
+        )])
+    def put(self,request, *args, **kwargs):
+        if request.method == 'PUT':
+            answer_id = request.POST.get('answer_id')
+            answer = request.POST.get('answer')
+            if answer_id is None or answer is None:
+                return Response(status=status.HTTP_400_BAD_REQUEST)
+            answer_model = AnswerForChatbot.objects.filter(id=answer_id)
+            if len(answer_model) == 0:
+                return Response({'error': 'Answer does not exist.'}, status=status.HTTP_400_BAD_REQUEST)
+            else:
+                answer_model = answer_model[0]
+                answer_model.answer = answer
+                answer_model.save()
+                answer_serializer = AnswerForChatbotSerializer(answer_model)
+                answer_serializer_json = answer_serializer.data
+                return Response(answer_serializer_json, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
+    
+    parser_classes = (MultiPartParser,)
+    @swagger_auto_schema(operation_description='Get all answers...',
+                         manual_parameters=[openapi.Parameter(
+                                name="id",
+                                in_=openapi.IN_QUERY,
+                                type=openapi.TYPE_STRING,
+                                required=False,
+                                description="answer id"
+                            ),openapi.Parameter(
+                                name="intent_id",
+                                in_=openapi.IN_QUERY,
+                                type=openapi.TYPE_STRING,
+                                required=False,
+                                description="intent id"
+                            )])
     def get(self, request, *args, **kwargs):
         if request.method == 'GET':
-            answers = AnswerForChatbotSerializer(AnswerForChatbot.objects.all(), many=True)
-            return Response(answers.data, status=status.HTTP_200_OK)
+            id = request.GET.get('id')
+            intent_id = request.GET.get('intent_id')
+            if id is not None and intent_id is not None:
+                answers = AnswerForChatbot.objects.filter(id=id, intent_id=intent_id)
+                answers = AnswerForChatbotSerializer(answers, many=True)
+                return Response(answers.data, status=status.HTTP_200_OK)
+            elif id is not None:
+                answers = AnswerForChatbot.objects.filter(id=id)
+                answers = AnswerForChatbotSerializer(answers, many=True)
+                return Response(answers.data, status=status.HTTP_200_OK)
+            elif intent_id is not None:
+                answers = AnswerForChatbot.objects.filter(intent_id=intent_id)
+                answers = AnswerForChatbotSerializer(answers, many=True)
+                return Response(answers.data, status=status.HTTP_200_OK)
+            else:
+                answers = AnswerForChatbotSerializer(AnswerForChatbot.objects.all(), many=True)
+                return Response(answers.data, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
     
@@ -226,7 +400,7 @@ class Answer(APIView):
             return Response({'success': 'Delete all answers successfully.'}, status=status.HTTP_200_OK)
         else:
             return Response({'error': 'Invalid request method.'}, status=status.HTTP_400_BAD_REQUEST)
-       
+    
 class FilesQuestionView(APIView):
     
     parser_classes = (MultiPartParser,)
@@ -365,8 +539,6 @@ class FilesQuestionView(APIView):
                         for j in range(data_raw.shape[0]):
                             if data_raw['topic'][j] == list[i]:
                                 f.write('    - ' + data_raw['question'][j] + '\n')
-                                
-                
 
                 file_path = './media/nlu_data/nlu.yml'
                 file_name = 'nlu.yml'
