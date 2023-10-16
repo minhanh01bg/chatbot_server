@@ -96,7 +96,7 @@ class SortAnswer(models.Model):
     intent_id = models.ForeignKey('Intent', on_delete=models.CASCADE)
     type_answer = models.CharField(max_length=1000)
     id_answer = models.IntegerField()
-    sort = models.IntegerField(unique=True)
+    sort = models.IntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now_add=True)
     

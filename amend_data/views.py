@@ -2690,7 +2690,9 @@ class SortAnswerView(APIView):
                 return Response({'error': 'Invalid request.'}, status=status.HTTP_400_BAD_REQUEST)
             if sort_answer.count() == 0:
                 return Response({'error': 'Not sort answer'}, status=status.HTTP_400_BAD_REQUEST)
-            
+            sort_check = SortAnswer.object.filter(intent_id=int(intent_id),sort=int(sort))
+            if len(sort_check) > 0:
+                return Response({'error': 'Sort already exists.'}, status=status.HTTP_400_BAD_REQUEST)
             sort_answer = sort_answer[0]
             sort_answer.sort = sort
             sort_answer.type_answer = type_answer
