@@ -8,7 +8,22 @@ from .views import (
     FilesAnswerView,
     ExportAll,
     OutOfScopeView,
+    AutoTrain,
+    Login,
+    Logout,
+    Register,
+    ChangePassword,
+    ModelRasaView,
+    ExportView,
+    AddUserGroupView,
+    GroupView,
+    AuthPermissionGroupView,
+    PermissionView,
+    UserView,
+    UserViewInfo,
+    SortAnswerView
 )
+
 
 urlpatterns = [
     path('files/images',Images.as_view()),
@@ -17,6 +32,20 @@ urlpatterns = [
     path('answers',Answer.as_view()),
     path('files/question',FilesQuestionView.as_view()),
     path('files/answer',FilesAnswerView.as_view()),
-    path('files/export',ExportAll.as_view()),
+    path('files/convert',ExportAll.as_view()),
     path('out_of_scope',OutOfScopeView.as_view()),
+    path('AutoTrain',AutoTrain.as_view()),
+    path('accounts/login',Login.as_view()),
+    path('accounts/logout',Logout.as_view()),
+    path('accounts/register',Register.as_view()),
+    path('accounts/change_password',ChangePassword.as_view()),
+    path('ModelRasaView',ModelRasaView.as_view()),  
+    path('export',ExportView.as_view()),
+    path('user_group',AddUserGroupView.as_view()),
+    path('group',GroupView.as_view()),
+    path('auth_permission_group',AuthPermissionGroupView.as_view()),
+    path('permission',PermissionView.as_view()),
+    path('user_info',UserView.as_view()),
+    path('user_view_info',UserViewInfo.as_view()),
+    path('sort_answer',SortAnswerView.as_view())
 ]

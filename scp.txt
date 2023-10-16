@@ -1,0 +1,2 @@
+scp -r /home/minhthuy/Desktop/chatbot_server/chatbot_server/ ubuntu@192.168.10.197:/home/ubuntu/Desktop/server_data_stdv/
+scp -r /home/minhthuy/Downloads/nlu.yml ubuntu@192.168.10.197:/home/ubuntu/Desktop/chatbot_bert/data/

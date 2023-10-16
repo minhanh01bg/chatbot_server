@@ -1,0 +1,306 @@
+version: "3.1"
+
+nlu:
+- intent: cau_1:_trach_nhiem_cua_dang_vien_dang_cong_tac_xuyen_giu_moi_lien_he_voi_to_chuc_dang_va_nhan_dan_noi_cu_tru_nhu_the_nao?
+  examples: |
+    - Trách nhiệm của đảng viên đang công tác xuyên giữ mối liên hệ với tổ chức đảng và nhân dân nơi cư trú như thế nào?
+    - Trách nhiệm của đảng viên là gì
+    - Trách nhiệm của đảng viên đang công tác
+    - Trách nhiệm của đảng viên đang công tác ở các cơ quan
+    - Trách nhiệm của đảng viên đang công tác ở các doanh nghiệp
+    - Trách nhiệm của đảng viên đang công tác ở các đơn vị sự nghiệp, lực lượng vũ trang.
+    - Trách nhiệm của đảng viên đang công tác xuyên giữ mối liên hệ với tổ chức đảng như thế nào?
+    - Trách nhiệm của đảng viên đang công tác xuyên giữ mối liện hệ với nhân dân nơi cư chú như thế nào?
+    - Trách nhiệm của đảng viên xuyên giữ mối liên hệ với nhân dân nơi cư trú như thế nào?
+    - Trách nhiệm của đảng viên xuyên giữ mối liên hệ với nhân dân nơi cư trú?
+    - Trách nhiệm của đảng viên xuyên giữ mối liên hệ với với tổ chức đảng?
+    - Trách nhiệm của đảng viên tại nơi đang cư trú
+    - Trách nhiệm của đảng viên tại nơi ở
+    - Trách nhiệm của đảng viên tại khu vực sống
+    - Trách nhiệm của đảng viên đang công tác với nhân dân ở khu vực
+    - Trách nhiệm của đảng viên ở khu vực đang công tác
+    - Trách nhiệm của đảng viên tại nơi đang công tác
+    - Trách nhiệm của đảng viên tại khu vực đang công tác
+    - Trách nhiệm của đảng viên với tổ chức đảng
+    - Trách nhiệm của đảng viên đang công tác với tổ chức đảng
+    - Đảng viên phải thực hiện những biện pháp gì để duy trì liên hệ mạnh mẽ với tổ chức đảng tại nơi cư trú?
+    - Trong bối cảnh thay đổi nhanh chóng của xã hội, làm thế nào đảng viên có thể đảm bảo liên kết vững chắc với nhân dân tại địa phương?
+    - Đảng viên cần tham gia vào những hoạt động gì để tăng cường sự hiểu biết về quan điểm và chính sách của đảng trong cộng đồng?
+    - Làm thế nào đảng viên có thể thúc đẩy tinh thần tương tác và giao lưu giữa đảng và nhân dân tại nơi cư trú?
+    - Trong trường hợp xảy ra sự không đồng tình về một chính sách hoặc quyết định của đảng, đảng viên nên tiếp cận vấn đề đó như thế nào khi trò chuyện với nhân dân?
+    - Đảng viên cần chủ động tham gia vào các dự án và hoạt động cộng đồng để thể hiện tinh thần đảng và sự quan tâm tới nhân dân, đúng không?
+    - Làm thế nào đảng viên có thể thúc đẩy tinh thần đoàn kết và sự gắn kết trong cộng đồng tại nơi cư trú?
+    - Trách nhiệm gì đảng viên phải thực hiện để thường xuyên cập nhật tin tức và thông tin từ tổ chức đảng trung ương?
+    - Khi tổ chức đảng có chính sách mới, đảng viên phải thực hiện các biện pháp gì để giới thiệu và giải thích cho nhân dân tại địa phương?
+    - Làm thế nào đảng viên có thể thúc đẩy tinh thần tương tác và giao lưu giữa các chi hội, các địa phương khác nhau của tổ chức đảng?
+    - Trong trường hợp có thông tin sai lệch hoặc tin đồn xoay quanh đảng, đảng viên cần thực hiện gì để làm rõ thông tin cho nhân dân?
+    - Trách nhiệm của đảng viên là gì khi cần phải tham gia vào việc thúc đẩy các hoạt động giáo dục chính trị tại địa phương?
+    - Làm thế nào đảng viên có thể giúp đỡ nhân dân trong việc tham gia vào các hoạt động kinh tế - xã hội tại địa phương?
+    - Đảng viên cần thực hiện những biện pháp gì để đảm bảo thông tin từ cấp trung ương được truyền đạt đúng và đầy đủ tới cơ sở?
+    - Trong trường hợp mâu thuẫn xảy ra giữa các nhóm trong cộng đồng, làm thế nào đảng viên có thể hòa giải và tạo cầu nối để giải quyết vấn đề?
+    - Trách nhiệm của đảng viên là gì trong việc đảm bảo tôn trọng và thực hiện chính sách về đa dạng văn hóa tại địa phương?
+    - Làm thế nào đảng viên có thể tham gia vào việc tuyên truyền về các thành tựu và mục tiêu phát triển của đảng tại địa phương?
+    - Khi tổ chức đảng đặt ra các mục tiêu quan trọng, làm thế nào đảng viên có thể hỗ trợ trong việc thực hiện và đạt được những mục tiêu đó?
+    - Trách nhiệm gì của đảng viên đối với việc quản lý và sử dụng thông tin một cách chính xác khi tương tác với nhân dân?
+    - Đảng viên cần thực hiện những biện pháp gì để thúc đẩy tinh thần hợp tác và sự phối hợp hiệu quả giữa các tổ chức và đơn vị trong cộng đồng?
+
+- intent: cau_2:_trach_nhiem_cua_to_chuc_co_so_dang_theo_quy_dinh_so_213?
+  examples: |
+    - Trách nhiệm của tổ chức cơ sở đảng theo Quy định số 213?
+    - Theo Quy định số 213, tổ chức cơ sở đảng cần thực hiện những nhiệm vụ và trách nhiệm gì để đảm bảo hoạt động đảng mạnh mẽ và hiệu quả?
+    - Làm thế nào tổ chức cơ sở đảng có thể duy trì và tăng cường mối liên hệ với đảng cấp trên theo Quy định số 213?
+    - Trách nhiệm gì của tổ chức cơ sở đảng trong việc thực hiện và truyền đạt chính sách, quyết định của đảng tại cơ sở?
+    - Để thúc đẩy tinh thần đoàn kết và sự gắn kết trong cộng đồng cơ sở, tổ chức đảng cần thực hiện những biện pháp gì?
+    - Làm thế nào tổ chức cơ sở đảng có thể thúc đẩy tinh thần tương tác và giao lưu giữa các đảng viên trong cộng đồng?
+    - Theo Quy định số 213, tổ chức cơ sở đảng cần có vai trò gì trong việc tạo điều kiện cho đảng viên tham gia các hoạt động giáo dục chính trị?
+    - Trong trường hợp có sự không đồng tình về chính sách hoặc quyết định của đảng, tổ chức cơ sở đảng cần thực hiện gì để giải quyết tình hình?
+    - Làm thế nào tổ chức cơ sở đảng có thể tham gia vào việc tuyên truyền về thành tựu và mục tiêu của đảng tại địa phương?
+    - Trách nhiệm của tổ chức cơ sở đảng là gì trong việc đảm bảo đảng viên tham gia tích cực và hiệu quả vào các hoạt động cộng đồng?
+    - Để duy trì tính đoàn kết và tương tác trong tổ chức, làm thế nào tổ chức cơ sở đảng có thể tổ chức các sự kiện và hoạt động giao lưu?
+    - Theo Quy định số 213, tổ chức cơ sở đảng có trách nhiệm nắm bắt thông tin từ đảng cấp trên và truyền đạt thông tin gì tới đảng viên?
+    - Làm thế nào tổ chức cơ sở đảng có thể tham gia vào việc thúc đẩy các hoạt động kinh tế - xã hội tại địa phương?
+    - Trách nhiệm gì của tổ chức cơ sở đảng đối với việc tạo điều kiện thuận lợi để nhân dân tham gia vào các hoạt động chính trị?
+    - Để đảm bảo đảng viên được thể hiện ý kiến và đóng góp ý kiến, tổ chức
+    - Làm thế nào tổ chức cơ sở đảng có thể tham gia vào việc đảm bảo đa dạng văn hóa và tôn trọng quyền lợi của các tầng lớp nhân dân?
+    - Trách nhiệm gì của tổ chức cơ sở đảng đối với việc thúc đẩy tinh thần hợp tác và sự phối hợp giữa các tổ chức và đơn vị trong cộng đồng?
+    - Làm thế nào tổ chức cơ sở đảng có thể tham gia vào việc đảm bảo an ninh, trật tự và ổn định xã hội tại địa phương?
+    - Trách nhiệm gì của tổ chức cơ sở đảng đối với việc tham gia vào quản lý và sử dụng thông tin chính xác khi tương tác với nhân dân?
+    - Để thúc đẩy tinh thần tương tác và giao lưu giữa các tổ chức cơ sở đảng khác nhau, làm thế nào tổ chức này có thể tạo điều kiện thuận lợi?
+    - Theo Quy định số 213, tổ chức cơ sở đảng cần có trách nhiệm gì đối với việc đảm bảo tuân thủ nguyên tắc dân chủ trong hoạt động của mình?
+
+- intent: cau_3:_nhiem_vu_cua_dang_vien_dang_cong_tac_o_noi_cu_tru_theo_quy_dinh_so_213?
+  examples: |
+    - Nhiệm vụ của đảng viên đang công tác ở nơi cư trú theo Quy định số 213?
+    - Theo Quy định số 213, đảng viên đang làm việc tại nơi cư trú cần thực hiện những nhiệm vụ gì để thể hiện tinh thần đảng và gắn kết với cộng đồng?
+    - Nhiệm vụ chính của đảng viên tại nơi cư trú theo Quy định số 213 là gì trong việc duy trì và thúc đẩy liên hệ với tổ chức đảng và cộng đồng?
+    - Trách nhiệm của đảng viên tại nơi cư trú là gì khi cần phải thực hiện việc giới thiệu và thảo luận về các chính sách mới từ tổ chức đảng trung ương?
+    - Làm thế nào đảng viên có thể thúc đẩy tinh thần đoàn kết và sự gắn kết trong các hoạt động cộng đồng tại nơi cư trú theo Quy định số 213?
+    - Nhiệm vụ của đảng viên là gì khi tham gia vào việc tổ chức và thúc đẩy các hoạt động giáo dục chính trị tại địa phương theo Quy định số 213?
+    - Làm thế nào đảng viên có thể hỗ trợ cộng đồng trong việc tham gia vào các hoạt động kinh tế - xã hội và giải quyết vấn đề tại nơi cư trú?
+    - Trách nhiệm gì của đảng viên theo Quy định số 213 đối với việc thường xuyên cập nhật thông tin từ tổ chức đảng trung ương?
+    - Nhiệm vụ của đảng viên tại nơi cư trú là gì trong việc tuyên truyền về các thành tựu và mục tiêu phát triển của đảng đối với cộng đồng?
+    - Khi tổ chức đảng đặt ra các mục tiêu quan trọng, đảng viên cần thực hiện những biện pháp gì để đóng góp vào việc thực hiện những mục tiêu đó?
+    - Trách nhiệm của đảng viên tại nơi cư trú là gì khi tham gia vào việc quản lý và sử dụng thông tin một cách chính xác khi tương tác với cộng đồng?
+    - Nhiệm vụ của đảng viên theo Quy định số 213 đối với việc đảm bảo tương tác và giao lưu giữa các chi hội, các địa phương khác nhau của tổ chức đảng?
+    - Trách nhiệm của đảng viên tại nơi cư trú là gì trong việc thúc đẩy tinh thần tương tác và giao lưu giữa đảng và nhân dân tại địa phương?
+    - Nhiệm vụ của đảng viên tại nơi cư trú là gì trong việc thúc đẩy tinh thần tương tác và sự phối hợp hiệu quả giữa các tổ chức và đơn vị trong cộng đồng?
+
+- intent: cau_4:_nhiem_vu_cua_cap_uy_co_so_noi_dang_vien_dang_cong_tac_theo_quy_dinh_so_213?
+  examples: |
+    - Nhiệm vụ của cấp ủy cơ sở nơi đảng viên đang công tác theo Quy định số 213?
+    - Cấp ủy cơ sở theo Quy định số 213 cần thực hiện những nhiệm vụ gì để đảm bảo đảng viên đang công tác tại nơi cư trú thực hiện đầy đủ trách nhiệm của mình?
+    - Nhiệm vụ chính của cấp ủy cơ sở là gì trong việc thúc đẩy việc tuyên truyền và giải thích về quan điểm, chính sách của đảng cho đảng viên tại địa phương?
+    - Cấp ủy cơ sở cần thực hiện những biện pháp gì để thúc đẩy tinh thần đoàn kết và gắn kết trong các hoạt động cộng đồng tại nơi cư trú?
+    - Nhiệm vụ chính của cấp ủy cơ sở trong việc hỗ trợ đảng viên tham gia vào các hoạt động kinh tế - xã hội và giải quyết vấn đề tại địa phương là gì?
+    - Nhiệm vụ của cấp ủy cơ sở là gì trong việc thúc đẩy việc thực hiện chính sách về đa dạng văn hóa và tôn trọng các giá trị địa phương?
+    - Nhiệm vụ chính của cấp ủy cơ sở là gì trong việc đảm bảo tương tác và giao lưu giữa các chi hội, các địa phương khác nhau của tổ chức đảng?
+    - Nhiệm vụ của cấp ủy cơ sở nơi đảng viên đang công tác
+    - Theo quy định số 213, nhiệm vụ của cấp ủy cơ sở nơi đảng viên đang công tác là gì
+    - Nhiệm vụ của cấp ủy cơ sở là gì
+    - Theo quy định 213, Nhiệm vụ của cấp ủy cơ sở là gì
+    - Nhiệm vụ của cấp ủy cơ sở
+
+- intent: cau_5:_nhiem_vu_cua_to_chuc_dang_noi_dang_vien_dang_cong_tac_cu_tru_theo_quy_dinh_so_213?
+  examples: |
+    - Nhiệm vụ của tổ chức đảng nơi đảng viên đang công tác cư trú theo Quy định số 213?
+    - Cấp ủy xã, phường, thị trấn thực hiện nhiệm vụ gì để đảm bảo sự kết nối và giữ mối liên hệ chặt chẽ giữa đảng viên đang công tác cư trú và tổ chức đảng?
+    - Làm thế nào cấp ủy xã, phường, thị trấn tạo điều kiện cho việc họp đảng viên đang công tác cư trú để thông báo tình hình và tham gia góp ý vào các vấn đề quan trọng?
+    - Nhiệm vụ chính của cấp ủy xã, phường, thị trấn trong việc kiểm tra và giám sát đảng viên đang công tác cư trú là gì?
+    - Làm thế nào cấp ủy xã, phường, thị trấn đảm bảo rằng đảng viên đang công tác cư trú thực hiện đầy đủ và hiệu quả nhiệm vụ của mình?
+    - Đảng ủy xã, phường, thị trấn có nhiệm vụ gì trong việc đánh giá thành tích của đảng viên đang công tác?
+    - Nhiệm vụ của tổ chức đảng nơi đảng viên đang công tác cư trú là gì
+    - Nhiệm vụ của tổ chức đảng đổi với đảng viên đang công tác
+    - Theo quy định 213, Nhiệm vụ của tổ chức đảng là gì đối với đảng viên đang công tác cư trú
+    - Nhiệm vụ của tổ chức đảng
+    - Nhiệm vụ của tổ chức đảng nơi đảng viên đang công tác
+    - Nhiệm vụ của tổ chức đảng nơi đảng viên cư trú
+    - Khi đảng viên đang công tác cư trú có thành tích xuất sắc, cấp ủy xã, phường, thị trấn thực hiện những nhiệm vụ gì để biểu dương và khen thưởng?
+
+- intent: cau_6:_dang_vien_gioi_thieu_nhung_duoc_mien_sinh_hoat_noi_cu_tru_trong_nhung_truong_hop_nao?
+  examples: |
+    - Đảng viên giới thiệu nhưng được miễn sinh hoạt nơi cư trú trong những trường hợp nào?
+    - Điều kiện được miễn sinh hoạt nơi cư trú?
+    - Trong những trường hợp nào đảng viên được miễn sinh hoạt nơi cư trú?
+    - Điều kiện nào khiến đảng viên đang công tác trong Quân đội nhân dân và Công an nhân dân được miễn sinh hoạt tại nơi cư trú?
+    - Đảng viên công tác tại cơ quan, đơn vị nhưng thường xuyên làm việc xa nơi cư trú có thể được miễn sinh hoạt tại nơi cư trú trong trường hợp nào?
+    - Ai là những đảng viên được miễn sinh hoạt tại nơi cư trú trong trường hợp học tập trung trên 12 tháng trong năm?
+    - Đảng viên là học sinh, sinh viên thường xuyên đi học xa nhà mà không thường xuyên về nơi cư trú có được miễn sinh hoạt tại nơi cư trú không?
+    - Khi đảng viên đang công tác xa nhà hoặc lưu động, họ có cần thực hiện bất kỳ trách nhiệm nào liên quan đến sinh hoạt tại nơi cư trú?
+    - Miễn sinh hoạt nơi cư trú
+    - Trong trường hợp đảng viên tham gia học tập trung trên 12 tháng, liệu họ có được miễn nhận xét định kỳ hằng năm?
+    - Đảng viên công tác tại các doanh nghiệp thường xuyên đi làm việc xa nơi cư trú, liệu họ cần tham gia sinh hoạt đảng tại nơi cư trú không?
+    - Đảng viên đang công tác tại địa phương khác nhau hoặc có công việc di chuyển liên tục có được miễn nhận xét định kỳ hằng năm?
+    - Khi đảng viên là cán bộ, công chức đi học tập trung 12 tháng trong năm, liệu họ cần tham gia sinh hoạt đảng tại nơi cư trú không?
+    - Nếu đảng viên đang công tác xa nơi cư trú, liệu họ còn có trách nhiệm tham gia vào các hoạt động xã hội tại nơi cư trú không?
+    - Đảng viên đang công tác tại doanh nghiệp có luân chuyển thường xuyên giữa các địa điểm, liệu họ còn phải thực hiện trách nhiệm tại nơi cư trú không?
+    - Khi đảng viên thường xuyên làm việc tại các địa điểm khác nhau, liệu cấp ủy xã, phường, thị trấn có thể miễn nhận xét định kỳ hằng năm cho họ?
+
+- intent: cau_7:_dang_vien_duoc_mien_gioi_thieu_ve_to_chuc_dang_noi_cu_tru_trong_nhung_truong_hop_nao?
+  examples: |
+    - Đảng viên được miễn giới thiệu về tổ chức đảng nơi cư trú trong những trưởng hợp nào?
+    - Đảng viên đang công tác trong Quân đội nhân dân và Công an nhân dân thực hiện nhiệm vụ đặc biệt nào khiến họ được miễn giới thiệu về tổ chức đảng nơi cư trú?
+    - Đảng viên được miễn giới thiệu về tổ chức đảng nơi cư trú
+    - Điều kiện Đảng viên được miễn giới thiệu về tổ chức đảng nơi cư trú
+    - Trong trường hợp nào Đảng viên được miễn giới thiệu về tổ chức đảng nơi cư trú
+    - Khi đảng viên đang công tác tại vùng biên giới, hải đảo hoặc các vùng sâu, xa, liệu họ cần phải giới thiệu về tổ chức đảng tại nơi cư trú không?
+    - Điều gì khiến đảng viên đang công tác tại các cơ quan ngoại giao, văn phòng đại diện, đơn vị kinh tế ở nước ngoài được miễn giới thiệu về tổ chức đảng tại nơi cư trú?
+    - Đảng viên tham gia lực lượng gìn giữ hòa bình của Liên Hợp Quốc có cần tham gia giới thiệu về tổ chức đảng tại nơi cư trú không?
+    - Trong trường hợp đảng viên ra nước ngoài lao động, làm việc, học tập 12 tháng, liệu họ còn cần phải thực hiện việc giới thiệu về tổ chức đảng tại nơi cư trú không?
+    - Đảng viên đang công tác mắc bệnh cần điều trị hoặc dưỡng bệnh liên tục trong 12 tháng có thể được miễn giới thiệu về tổ chức đảng tại nơi cư trú không?
+    - Đảng viên ở các đơn vị quân sự thường trực sẵn sàng chiến đấu có được miễn giới thiệu về tổ chức đảng tại nơi cư trú không?
+    - Đảng viên đang công tác ở vùng biên giới, hải đảo có trách nhiệm gì liên quan đến việc duy trì liên hệ với tổ chức đảng tại nơi cư trú?
+
+- intent: cau_8:_tham_quyen_xem_xet,_quyet_dinh_dang_vien_gioi_thieu_nhung_duoc_mien_sinh_hoat_noi_cu_tru_hoac_duoc_mien_gioi_thieu_ve_to_chuc_dang_noi_cu_tru?
+  examples: |
+    - Thẩm quyền xem xét, quyết định đảng viên giới thiệu nhưng được miễn sinh hoạt nơi cư trú hoặc được miễn giới thiệu về tổ chức đảng nơi cư trú?
+
+- intent: cau_9:_theo_quy_dinh_thi_quan_chung_co_tu_di_tham_tra_ly_lich_xin_vao_dang_cua_minh_khong?
+  examples: |
+    - Theo quy định thì Quần chúng có tự đi thẩm tra lý lịch xin vào Đảng của mình không?
+    - Quần chúng có tự đi thẩm tra lý lịch xin vào Đảng của mình không
+    - Điều gì trong quy định cấm người xin vào đảng hoặc người thân của họ thẩm tra lý lịch?
+    - Trong quy định, chi bộ và cấp ủy cơ sở phải thực hiện những biện pháp nào để đảm bảo tính minh bạch và công bằng trong việc thẩm tra lý lịch?
+    - Theo quy định, chi bộ và cấp ủy cơ sở nơi người xin vào đảng cần thực hiện trách nhiệm gì đối với việc kiểm tra và xác nhận lý lịch của họ?
+    - Thẩm tra lý lịch
+    - Lý lịch xin vào đảng
+    - Cấp ủy cơ sở cần gửi công văn gì để thẩm tra và xác nhận lý lịch người xin vào đảng? Trong trường hợp nào cần cử đảng viên đi thẩm tra?
+    - Trách nhiệm chính của đảng viên tham gia thẩm tra lý lịch của người xin vào đảng là gì? Họ phải báo cáo những thông tin gì sau khi thẩm tra?
+    - Điều gì quy định về việc cấp ủy cơ sở tổng hợp kết quả thẩm tra lý lịch người xin vào đảng?
+    - Trường hợp nào khiến người xin vào đảng không được tự thẩm tra lý lịch của mình?
+    - Quy định nào nêu rõ về việc không được cử người thân của người xin vào đảng để thẩm tra lý lịch?
+    - Cấp ủy cơ sở cần tuân thủ những quy định nào liên quan đến việc thẩm tra lý lịch của người xin vào đảng?
+    - Người xin vào đảng phải thực hiện trách nhiệm gì đối với việc thẩm tra lý lịch của họ?
+    - Điều gì quy định về trách nhiệm của đảng viên đi thẩm tra lý lịch khi báo cáo và chịu trách nhiệm trước đảng?
+
+- intent: cau_10:_dang_vien_den_thoi_diem_duoc_xet_tang_huy_hieu_dang_neu_bi_xu_ly_ky_luat_dang_thi_co_duoc_xet_tang_huy_hieu_dang_hay_khong?
+  examples: |
+    - Đảng viên đến thời điểm được xét tặng Huy hiệu đảng nếu bị xử lý kỷ luật đảng thì có được xét tặng Huy hiệu đảng hay không?
+
+- intent: cau_11:_dang_vien_duoc_mien_sinh_hoat_vi_pham_ky_luat_thi_thuc_hien_ky_luat_hay_xoa_ten_dang_vien_do?
+  examples: |
+    - Đảng viên được miễn sinh hoạt vi phạm kỷ luật thì thực hiện kỷ luật hay xóa tên đảng viên đó?
+
+- intent: cau_12:_khi_chuyen_sinh_hoat_dang,_dang_vien_phai_tu_mang_ho_so_tu_dang_uy_co_so_len_cap_uy_cap_tren_truc_tiep_de_lam_thu_tuc_chuyen_sinh_hoat_dang_hay_dang_uy_co_so_mang_ho_so_len_cap_uy_cap_tren_truc_tiep_de_lam_thu_tuc_chuyen_sinh_hoat_dang,_sau_do_moi_giao_cho_dang_vien_bao_cao_cap_uy_noi_chuyen_den?
+  examples: |
+    - Khi chuyển sinh hoạt đảng, đảng viên phải tự mang hồ sơ từ Đảng ủy cơ sở lên Cấp ủy cấp trên trực tiếp để làm thủ tục chuyển sinh hoạt đảng hay đảng ủy cơ sở mang hồ sơ lên cấp ủy cấp trên trực tiếp để làm thủ tục chuyển sinh hoạt đảng, sau đó mới giao cho đảng viên báo cáo cấp ủy nơi chuyển đến?
+
+- intent: cau_13:_thoi_han_khieu_nai_ky_luat_dang_cua_dang_vien_tinh_tu_ngay_nao_den_ngay_nao?
+  examples: |
+    - Thời hạn khiếu nại kỷ luật đảng của đảng viên tính từ ngày nào đến ngày nào?
+
+- intent: cau_14:_noi_dung_quan_ly_can_bo_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Nội dung quản lý cán bộ theo Quy định của Trung ương?
+
+- intent: cau_15:_trach_nhiem_quan_ly_va_quyet_dinh_doi_voi_can_bo_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Trách nhiệm quản lý và quyết định đối với cán bộ theo Quy định của Trung ương?
+
+- intent: cau_16:_trach_nhiem_va_quyen_han_cua_bo_chinh_tri_ve_phan_cap_quan_ly_can_bo_va_bo_nhiem,_gioi_thieu_can_bo_ung_cu?
+  examples: |
+    - Trách nhiệm và quyền hạn của Bộ Chính trị về phân cấp quản lý cán bộ và bổ nhiệm, giới thiệu cán bộ ứng cử?
+
+- intent: cau_17:_trach_nhiem_va_quyen_han_cua_ban_bi_thu_ve_phan_cap_quan_ly_can_bo_va_bo_nhiem,_gioi_thieu_can_bo_ung_cu?
+  examples: |
+    - Trách nhiệm và quyền hạn của Ban Bí thư về phân cấp quản lý cán bộ và bổ nhiệm, giới thiệu cán bộ ứng cử?
+
+- intent: cau_18:_trach_nhiem_va_quyen_han_cua_ban_chap_hanh_dang_bo_tinh,_thanh_pho_ve_phan_cap_quan_ly_can_bo_va_bo_nhiem,_gioi_thieu_can_bo_ung_cu?
+  examples: |
+    - Trách nhiệm và quyền hạn của Ban chấp hành đảng bộ tỉnh, thành phố về phân cấp quản lý cán bộ và bổ nhiệm, giới thiệu cán bộ ứng cử?
+
+- intent: cau_19:_trach_nhiem_va_quyen_han_cua_ban_thuong_vu_tinh_uy,_thanh_uy_ve_phan_cap_quan_ly_can_bo_va_bo_nhiem,_gioi_thieu_can_bo_ung_cu?
+  examples: |
+    - Trách nhiệm và quyền hạn của Ban Thường vụ tỉnh ủy, thành ủy về phân cấp quản lý cán bộ và bổ nhiệm, giới thiệu cán bộ ứng cử?
+
+- intent: cau_20:_trach_nhiem_va_quyen_han_cua_ban_to_chuc_trung_uong_ve_phan_cap_quan_ly_can_bo_va_bo_nhiem,_gioi_thieu_can_bo_ung_cu?
+  examples: |
+    - Trách nhiệm và quyền hạn của Ban Tổ chức Trung ương về phân cấp quản lý cán bộ và bổ nhiệm, giới thiệu cán bộ ứng cử?
+
+- intent: cau_21:_nguyen_tac_bo_nhiem,_gioi_thieu_can_bo_ung_cu_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Nguyên tắc bổ nhiệm, giới thiệu cán bộ ứng cử theo Quy định của Trung ương?
+
+- intent: cau_22:_trach_nhiem_va_tham_quyen_bo_nhiem,_gioi_thieu_can_bo_ung_cu_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Trách nhiệm và thẩm quyền bổ nhiệm, giới thiệu cán bộ ứng cử theo Quy định của Trung ương?
+
+- intent: cau_23:_tieu_chuan,_dieu_kien_bo_nhiem,_gioi_thieu_can_bo_ung_cu_chuc_vu_cao_hon_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Tiêu chuẩn, điều kiện bổ nhiệm, giới thiệu cán bộ ứng cử chức vụ cao hơn theo Quy định của Trung ương?
+
+- intent: cau_24:_thoi_han_giu_chuc_vu_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Thời hạn giữ chức vụ theo Quy định của Trung ương?
+
+- intent: cau_25:_nguyen_tac_bo_nhiem_lai,_gioi_thieu_tai_cu_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Nguyên tắc bổ nhiệm lại, giới thiệu tái cử theo Quy định của Trung ương?
+
+- intent: cau_26:_dieu_kien_xem_xet_bo_nhiem_lai,_gioi_thieu_tai_cu_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Điều kiện xem xét bổ nhiệm lại, giới thiệu tái cử theo Quy định của Trung ương?
+
+- intent: cau_27:_tham_quyen_quyet_dinh_bo_nhiem_lai,_gioi_thieu_tai_cu_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Thẩm quyền quyết định bổ nhiệm lại, giới thiệu tái cử theo Quy định của Trung ương?
+
+- intent: cau_28:_quy_trinh,_thu_tuc_bo_nhiem_lai,_gioi_thieu_tai_cu_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Quy trình, thủ tục bổ nhiệm lại, giới thiệu tái cử theo Quy định của Trung ương?
+
+- intent: cau_15:_muc_dich,_yeu_cau_cua_dieu_dong_va_biet_phai_can_bo_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Mục đích, yêu cầu của điều động và biệt phái cán bộ theo Quy định của Trung ương?
+
+- intent: cau_16:_doi_tuong,_pham_vi_va_tham_quyen_quyet_dinh_dieu_dong_va_biet_phai_can_bo_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Đối tượng, phạm vi và thẩm quyền quyết định điều động và biệt phái cán bộ theo Quy định của Trung ương?
+
+- intent: cau_17:_quy_trinh_dieu_dong_can_bo_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Quy trình điều động cán bộ theo Quy định của Trung ương?
+
+- intent: cau_18:_quy_trinh_biet_phai_can_bo_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Quy trình biệt phái cán bộ theo Quy định của Trung ương?
+
+- intent: cau_19._trach_nhiem_thi_hanh_khi_co_quyet_dinh_dieu_dong_va_biet_phai_can_bo_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Trách nhiệm thi hành khi có quyết định điều động và biệt phái cán bộ theo Quy định của Trung ương?
+
+- intent: cau_20._che_do_chinh_sach_cho_can_bo_dieu_dong_va_biet_phai_can_bo_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Chế độ chính sách cho cán bộ điều động và biệt phái cán bộ theo Quy định của Trung ương?
+
+- intent: cau_21._cac_chuc_danh_can_bo_o_cac_co_quan_trung_uong_do_bo_chinh_tri_quyet_dinh_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Các chức danh cán bộ ở các cơ quan Trung ương do Bộ Chính trị quyết định theo Quy định của Trung ương?
+
+- intent: cau_22._cac_chuc_danh_can_bo_o_tinh,_thanh_pho_va_dang_uy_khoi_truc_thuoc_trung_uong_do_bo_chinh_tri_quyet_dinh_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Các chức danh cán bộ ở tỉnh, thành phố và đảng uỷ khối trực thuộc Trung ương do Bộ Chính trị quyết định theo Quy định của Trung ương?
+
+- intent: cau_23._cac_chuc_danh_can_bo_o_quan_doi,_cong_an_do_bo_chinh_tri_quyet_dinh_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Các chức danh cán bộ ở Quân đội, Công an do Bộ Chính trị quyết định theo Quy định của Trung ương?
+
+- intent: cau_24._cac_chuc_danh_can_bo_o_cac_co_quan_trung_uong_do_bo_chinh_tri_quyet_dinh_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Các chức danh cán bộ ở các cơ quan Trung ương do Bộ Chính trị quyết định theo Quy định của Trung ương?
+
+- intent: cau_25._cac_chuc_danh_can_bo_o_tinh,_thanh_pho_va_dang_uy_khoi_truc_thuoc_trung_uong_do_bo_chinh_tri_quyet_dinh_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Các chức danh cán bộ ở tỉnh, thành phố và đảng uỷ khối trực thuộc Trung ương do Bộ Chính trị quyết định theo Quy định của Trung ương?
+
+- intent: cau_26._cac_chuc_danh_can_bo_o_quan_doi,_cong_an_do_bo_chinh_tri_quyet_dinh_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Các chức danh cán bộ ở Quân đội, Công an do Bộ Chính trị quyết định theo Quy định của Trung ương?
+
+- intent: cau_27._cac_chuc_danh_can_bo_o_cac_co_quan_trung_uong_phai_lay_y_kien_tham_dinh_cua_cac_ban,_co_quan_cua_trung_uong_dang_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Các chức danh cán bộ ở các cơ quan trung ương phải lấy ý kiến thẩm định của các ban, cơ quan của Trung ương Đảng theo Quy định của Trung ương?
+
+- intent: cau_28._danh_muc_ho_so_nhan_su_bo_nhiem,_gioi_thieu_can_bo_ung_cu_theo_quy_dinh_cua_trung_uong?
+  examples: |
+    - Danh mục hồ sơ nhân sự bổ nhiệm, giới thiệu cán bộ ứng cử theo Quy định của Trung ương?
+

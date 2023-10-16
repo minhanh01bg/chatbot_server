@@ -31,13 +31,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "daphne",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
     "rest_framework",
+    "rest_framework.authtoken",
     "amend_data",
     "drf_spectacular",
     "drf_yasg",
@@ -52,8 +55,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
-
+CORS_ORIGIN_ALLOW_ALL = True
 ROOT_URLCONF = 'chatbot_server.urls'
 
 TEMPLATES = [
@@ -72,8 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'chatbot_server.wsgi.application'
-
+# WSGI_APPLICATION = 'chatbot_server.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -138,13 +141,18 @@ REST_FRAMEWORK = {
 
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
     ),
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     "DATETIME_INPUT_FORMATS": ['%d/%m/%Y %H:%M:%S.%f'],
     'DEFAULT_PARSER_CLASSES': (
         'rest_framework.parsers.JSONParser',
         'rest_framework.parsers.MultiPartParser'
-    )
+    ),
+    'DEFAULT_PERMISSION_CLASSES':(
+                # 'rest_framework.permissions.IsAuthenticated',     
+    ),
 }
 
 SWAGGER_SETTINGS = {
@@ -155,7 +163,28 @@ SWAGGER_SETTINGS = {
         'Token': {
             'type': 'apiKey',
             'name': 'Authorization',
-            'in': 'header'
-        }
+            'in': 'header',
+            
+        },
     }
 }
+
+
+WSGI_APPLICATION = 'chatbot_server.wsgi.application'
+ASGI_APPLICATION = 'chatbot_server.asgi.application'
+
+# CHANNEL_LAYERS = {
+#     "default": {
+#         "BACKEND": "channels_redis.core.RedisChannelLayer",
+#         "CONFIG": {
+#             "hosts": [("127.0.0.1", 6379)],
+#         },
+#     },
+# }
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer"
+    }
+}
+
+TRAINING_IN_PROGRESS = False

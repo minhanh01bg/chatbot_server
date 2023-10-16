@@ -1,16 +1,26 @@
-"""
-ASGI config for chatbot_server project.
-
-It exposes the ASGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/4.2/howto/deployment/asgi/
-"""
-
 import os
 
+from channels.auth import AuthMiddlewareStack
+from channels.routing import ProtocolTypeRouter, URLRouter
+from channels.security.websocket import AllowedHostsOriginValidator
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'chatbot_server.settings')
+from amend_data.routing import websocket_urlpatterns
+from channels.routing import ChannelNameRouter
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "chatbot_server.settings")
+django_asgi_app = get_asgi_application()
 
-application = get_asgi_application()
+import amend_data.routing
+from amend_data import consumers
+application = ProtocolTypeRouter(
+    {
+        "http": django_asgi_app,
+        "websocket": AllowedHostsOriginValidator(
+            AuthMiddlewareStack(URLRouter(websocket_urlpatterns))
+        ),
+        "channel": ChannelNameRouter({
+            "response_person": consumers.ChatConsumer.as_asgi(),
+            # "thumbnails-delete": consumers.DeleteConsumer.as_asgi(),
+        }),
+    }
+)

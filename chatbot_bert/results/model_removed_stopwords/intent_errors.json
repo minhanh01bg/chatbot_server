@@ -1,0 +1,506 @@
+[
+  {
+    "text": "và gửi đến địa chỉ nào vậy không",
+    "intent": "7203e6e76c_dia_chi_co_so",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.6169856786727905
+    }
+  },
+  {
+    "text": "thầy cô cho em hỏi địa chỉ tiếp nhận hồ sơ xét tuyển của trường mình là km đường nguyễn trãi quận hà đông hà nội phải không",
+    "intent": "7203e6e76c_dia_chi_co_so",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.9692983031272888
+    }
+  },
+  {
+    "text": "chỗ này thì lại có mã ngành khác nữa nè admin",
+    "intent": "cae1859a0f_ma_truong",
+    "intent_prediction": {
+      "name": "beb2625046_ma_nganh",
+      "confidence": 0.4510965645313263
+    }
+  },
+  {
+    "text": "chỉ tiêu và phương thức tuyển sinh năm của trường thế nào",
+    "intent": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "7f3573628d_phuong_thuc_xet_tuyen",
+      "confidence": 0.9959337115287781
+    }
+  },
+  {
+    "text": "điểm khi sàng lọc mà thiếu chỉ tiêu thì có lấy điểm thấp hơn không",
+    "intent": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "e706bcf777_diem_trung_tuyen",
+      "confidence": 0.8200342655181885
+    }
+  },
+  {
+    "text": "anh chị cho tôi hỏi yêu cầu về hồ sơ xét tuyển đại học năm tôi thấy các ngành đều có hạn nộp là nhưng không tìm thấy mục yêu cầu về hồ sơ",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.6930267810821533
+    }
+  },
+  {
+    "text": "vd chỉ tiêu ngành là chỉ tiêu cho a chỉ tiêu cho a em cảm ơn",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+      "confidence": 0.8121963143348694
+    }
+  },
+  {
+    "text": "admin ơi em trúng tuyển vào ngành marketing lịch nhập học là vào nhưng em muốn lên đký ký túc xá luôn vì sợ hết phòng được không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "d0334d005b_ky_tuc_xa",
+      "confidence": 0.8089373707771301
+    }
+  },
+  {
+    "text": "cho em hỏi ngành công nghệ thông tin xét thi khối d không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "859bf11d41_to_hop_xet_tuyen",
+      "confidence": 0.934659481048584
+    }
+  },
+  {
+    "text": "trường cho em hỏi là hiện tại trường mình có ngành nào xét skhối d chưa",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "859bf11d41_to_hop_xet_tuyen",
+      "confidence": 0.9998012185096741
+    }
+  },
+  {
+    "text": "em định hỏi là ngành này trường có xét khối d không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "859bf11d41_to_hop_xet_tuyen",
+      "confidence": 0.9287577867507935
+    }
+  },
+  {
+    "text": "nay cơ sở phía nam chỉ lấy chỉ tiêu cho ngành marketing thôi đúng không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+      "confidence": 0.9641497731208801
+    }
+  },
+  {
+    "text": "được miễn học phí năm thứ không không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.9997448325157166
+    }
+  },
+  {
+    "text": "học sinh hệ chuyên ví dụ môn văn thì không thể xét bất cứ ngành nào hết còn phương thức xét chứng chỉ ngoại ngữ thì có thể dùng bằng b tiếng trung được không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "beb2625046_ma_nganh",
+      "confidence": 0.30213481187820435
+    }
+  },
+  {
+    "text": "em có được làm hồ sơ theo phương thức đối tượng vào ngành công nghệ thông tin không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "6ddd3e71fe_co_hoi_viec_lam",
+      "confidence": 0.8024963736534119
+    }
+  },
+  {
+    "text": "cô cho em biết số lượng các bao nhiêu đăng ký ngành công nghệ thông tin học bạ trường mình hiện đánh giá là bao nhiêu được không cô",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9719448089599609
+    }
+  },
+  {
+    "text": "em nghe các anh chị đi trước nói trường có vài ngành hệ dân lập học phí cao",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.9985581040382385
+    }
+  },
+  {
+    "text": "à chỉ xét theo kết quả trung học phổ thông quốc gia thôi đúng không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.4950825273990631
+    }
+  },
+  {
+    "text": "em đỗ tốt nghiệp năm bây giờ nhà trường còn nhận hồ sơ xét tuyển kết hợp không",
+    "intent": "bd6953a44f_ho_so_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ngày thứ trường có nhận hồ sơ xét tuyển kết hợp không",
+    "intent": "bd6953a44f_ho_so_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.9792914986610413
+    }
+  },
+  {
+    "text": "bố em có dấy quyết định hưởng trợ cấp nghề nghiệp hàng tháng theo em được biết thì được giảm nửa học phí có đúng không",
+    "intent": "9f5304f61a_hoc_phi",
+    "intent_prediction": {
+      "name": "6ddd3e71fe_co_hoi_viec_lam",
+      "confidence": 0.8257140517234802
+    }
+  },
+  {
+    "text": "cho mình hỏi học phí ngành kỹ thuật điện tử viễn thông năm học là bao nhiêu với",
+    "intent": "9f5304f61a_hoc_phi",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9999209642410278
+    }
+  },
+  {
+    "text": "thí sinh cần thực hiện đăng ký nguyện vọng trên hệ thống tuyển sinh của bộ gd đt với các thông tin như đã đủ điều kiện trúng tuyển mà học viện đã thông báo ngành công nghệ thông tin mã phương thức xét tuyển là mã tổ hợp là q thời gian thực hiện đăng ký nguyện vọng trên hệ thống tuyển sinh của bộ gd đt từ h đến hết h",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "7f3573628d_phuong_thuc_xet_tuyen",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cho em hỏi là ngành đó học ra sao xét khối nào và cơ hội việc làm",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "6ddd3e71fe_co_hoi_viec_lam",
+      "confidence": 0.8570655584335327
+    }
+  },
+  {
+    "text": "em thấy trường có xét khối d toán văn anh nên em thắc mắc tại sao không cho xét kết hợp môn văn bởi em muốn đăng ký vào ngành maketing",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cho em hỏi nếu em phương thức xét tuyển kết quả thi trung học phổ thông nếu em đạt trên đ có được học bổng không",
+    "intent": "0659f57af2_hoc_bong",
+    "intent_prediction": {
+      "name": "7f3573628d_phuong_thuc_xet_tuyen",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cho em hỏi là nếu chỉ dùng phương thức xét tuyển kết hợp học bạ thi em có được xét học bổng của trường nếu điểm thi trung học phổ thông trên đ không",
+    "intent": "0659f57af2_hoc_bong",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "hiện tại bên em đang tổ chức chương trình trao học bổng cho bạn sinh viên năm năm khối ngành kinh tế nhằm hỗ trợ cho các bạn sinh viên có mong muốn làm việc tại ngân hàng các bạn sinh viên nghèo vượt khó có cơ hội được học tập và có được việc làm tại ngân hàng và đây là chương trình hoàn toàn miễn phí nên bên em muốn được hợp tác cùng quý trường tổ chức không biết là em có thể liên hệ được với ai bên phía nhà trường để đưa chương trình tới các bạn sinh viên được vậy",
+    "intent": "0659f57af2_hoc_bong",
+    "intent_prediction": {
+      "name": "6ddd3e71fe_co_hoi_viec_lam",
+      "confidence": 0.6408739686012268
+    }
+  },
+  {
+    "text": "cơ hội việc làm sao admin",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999884366989136
+    }
+  },
+  {
+    "text": "sinh viên có cơ hội nhận học bổng du học ở đâu không trường có liên kết đầu ra việc làm với công ty nào không",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9998036026954651
+    }
+  },
+  {
+    "text": "khả năng có việc làm sau khi tốt nghệp có cao không",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9943631887435913
+    }
+  },
+  {
+    "text": "chào ạ cho em hỏi ngày mấy trường sẽ xét học bạ vậy à",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "2a22c6cd88_xet_tuyen_hoc_ba",
+      "confidence": 0.9903596639633179
+    }
+  },
+  {
+    "text": "em chào các thầy cô em có đăng ký xét tuyển kết hợp của trường mình",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em xin chào thầy cô em ntin này mong thầy cô giúp đỡ em một vào vấn đề liên quan đến việc làm hồ sợ nhập học",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "6ddd3e71fe_co_hoi_viec_lam",
+      "confidence": 0.8904293179512024
+    }
+  },
+  {
+    "text": "em chào thầy cô em đang làm hồ sơ xét tuyển năm nay",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.9862698912620544
+    }
+  },
+  {
+    "text": "em chào các thầy cô em muốn hỏi là hiện tại em có xét tuyển theo pt xét kết hợp và hiện tại em đã xác nhận nhập học rồi",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "chào admin em có thắc mắc về cách để xét tuyển vào trường bằng học bạ trung học phổ thông admin có thể giải đáp giúp em được không",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "2a22c6cd88_xet_tuyen_hoc_ba",
+      "confidence": 0.9961177110671997
+    }
+  },
+  {
+    "text": "em hiểu rồi do em đọc thiếu là quản trị nhân lực cảm ơn anh chị nhé",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9779857397079468
+    }
+  },
+  {
+    "text": "cho tôi hỏi con tôi xét tuyển phương thức pt xét tuyển kết hợp giải tỉnh và pt xét tuyển đánh giá năng lực thì hồ sơ có phải gửi bộ hay chỉ cần bộ",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.6912205815315247
+    }
+  },
+  {
+    "text": "em đkí cả phương thức dgnl và xét tuyển kết hợp nữa ạ",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "xét tuyển kết hợp và xét tuyển bằng dgnl thì phải nộp hồ sơ bản cứng ạ",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.999975323677063
+    }
+  },
+  {
+    "text": "cho em hỏi với ạ em đăng kí cả phương thức là xét tuyển kết hợp và dgnl thì khi nộp bản cứng là dùng chung hồ sơ đúng không ạ và cần mấy bản học bạ",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.5782608389854431
+    }
+  },
+  {
+    "text": "xin hỏi quý trường thí sinh đăng ký dự tuyển có thể đăng ký trực tuyến cả hình thức xét tuyển kết hợp ielts và học bạ và hình thức điểm thi đánh giá năng lực của đhqg được không ah thời gian kết thúc đăng ký là thời điểm nào ah do con mới thi dgnl và phải cuối tháng mới có điểm đánh giá năng lực rất mong nhà trường quan tâm giải đáp",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.9802143573760986
+    }
+  },
+  {
+    "text": "trong đề án có nói những bạn xét tuyển kết hợp mới được học bổng đâu",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.8403087258338928
+    }
+  },
+  {
+    "text": "em hỏi chút ạ em có trúng tuyển vào khoa công nghệ thông tin của trường theo phương thức là xét tuyển kết hợp và theo kết quả đánh giá năng lực cùng đỗ rồi nên em đăng kí nguyện vọng theo kết quả đánh giá năng lực lên nv theo hồ sơ kết hợp nv giờ em mới biết là nếu xét theo phương thức xét tuyển kết hợp thì được học bổng",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999374151229858
+    }
+  },
+  {
+    "text": "em đủ đăng ký xét tuyển vào trường theo phương thức xét tuyển kết hợp nhưng điểm thi em được thì khi vào trường em có nhận được học bổng không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999898672103882
+    }
+  },
+  {
+    "text": "tại sao phải đi in phiếu dkxt theo phương thức xét tuyển kết hợp trong khi đi xét tuyển bằng dgnl",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nếu dùng phương thức xét tuyển kết hợp mà điểm thi tổ hợp điểm vẫn được học bổng của năm nhất phải không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.6198321580886841
+    }
+  },
+  {
+    "text": "em có một thắc mắc là trong phần hồ sơ xét tuyển kết hợp có yêu cầu thế này",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.942613959312439
+    }
+  },
+  {
+    "text": "xin chào cán bộ và giáo viên nhà trường tôi là phụ huynh đang có con em có nguyện vọng xét tuyển vào trường ta được biết nhà trường đang có xuất học bổng cho các thí sinh có điểm thi trung học phổ thông cao trên điểm con em gia đình tôi đang xét tuyển theo phương thức kết hợp với số điểm là và khi xét tuyển kết hợp nhà trường có quan tâm đến điểm thi trung học phổ thông hay không đồng thời có điểm thi trung học phổ thông là vậy nhà trường cho tôi hỏi là nên xét tuyển theo phương thức nào sẽ có lợi thế hơn và có cơ hội cao được học bổng hơn rất mong cán bộ và thầy cô trong trường giải đáp thắc mắc tôi xin trân trọng cảm ơn",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "chính sách học bổng em đọc được trong chỗ tuyển sinh có áp dụng cho những người xét tuyển kết hợp không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9519100189208984
+    }
+  },
+  {
+    "text": "em đỗ vào trường theo hình thức xét tuyển kết hợp nhưng trong kì thu vừa rồi em đạt được d nên đủ tiêu chuẩn để đạt được học bổng của trường",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.6298569440841675
+    }
+  },
+  {
+    "text": "con của tôi đã trúng tuyển vào khoa công nghệ thông tin theo phg thức xét tuyển kết hợp giờ thi tốt nghiệp cháu được chưa cộng ưu tiên nếu cộng ưu tiên thì cháu được vậy cháu có được học bổng miễn hoc phí năm đầu không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.4867865741252899
+    }
+  },
+  {
+    "text": "nếu em làm hồ sơ nhập học bằng phương thức xét tuyển kết hợp thì em còn được học bổng không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.5841720700263977
+    }
+  },
+  {
+    "text": "với phương thức xét tuyển kết hợp con gái tôi đã đủ điều kiện vào ngành cntt điểm thi khối a toán lý anh được điểm không tính điểm ưu tiên thì có được miễn học phí năm thứ không không",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.6269551515579224
+    }
+  },
+  {
+    "text": "em xét tuyển kết hợp đã đỗ ngành công nghệ thông tin rồi ạ điểm thi của em khoảng cộng thêm điểm cộng nữa là liệu có được học bổng năm đầu không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.7527083158493042
+    }
+  },
+  {
+    "text": "em có thắc mắc về nộp hồ sơ xét tuyển kết hợp ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.888680100440979
+    }
+  },
+  {
+    "text": "thầy cô cho em hỏi em xét tuyển kết hợp xong thì gửi lệ phí thế nào ạ em cảm ơn",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.7737667560577393
+    }
+  },
+  {
+    "text": "là giờ néu em đỗ theo phương thức xét tuyển á nhưng em được trên thì có được học bổng không vì giờ em mới tìm hiểu trường",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.4901188015937805
+    }
+  },
+  {
+    "text": "em trúng tuyển vào học viện bằng phương thức xét tuyển điểm thi trung học phổ thông và được trên đ thì phải làm những thủ tục gì để được nhận học bổng",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999960660934448
+    }
+  },
+  {
+    "text": "em có đăng ký xét trực tuyến trên web của trường nhưng ấn vào phương thức xét tuyển thẳng lại không được là sao",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.9999997615814209
+    }
+  },
+  {
+    "text": "tuy nhiên em ấy muốn đăng ký nguyện vọng là ngành công nghệtt vậy em muốn hỏi là nếu trong trường hợp tới lúc đó em ấy không trúng tuyển ngành công nghệ thông tin nguyện vọng thì có thể vẫn xét trúng tuyển ngành công nghệ đa phương tiện không phải nguyện vọng theo phương thức xét tuyển sớm này không hay bắt buộc phải đăng ký công nghệ đa phương tiện là nguyện vọng",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em có thích anh không",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999884366989136
+    }
+  }
+]

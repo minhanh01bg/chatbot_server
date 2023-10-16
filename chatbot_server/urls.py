@@ -44,6 +44,7 @@ schema_view = get_schema_view(
 route = routers.DefaultRouter()
 
 urlpatterns = [
+    path('accounts/', include('django.contrib.auth.urls')),
     path('admin/', admin.site.urls),
     path('api/',include('amend_data.urls')),
     re_path(r'^swagger(?P<format>\.json|\.yaml)$',
@@ -52,4 +53,5 @@ urlpatterns = [
                                                 cache_timeout=0), name='schema-swagger-ui'),
     re_path(r'^redoc/$', schema_view.with_ui('redoc',
                                                 cache_timeout=0), name='schema-redoc'),
-]
+] 
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

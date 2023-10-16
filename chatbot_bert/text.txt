@@ -1,0 +1,2137 @@
+Sau khi khởi tạo thành công project, bạn sẽ nhìn thấy trong thư mục mấy cái dạng như:
+
+actions.py: Nơi bạn sẽ code tất cả mọi hành động tùy chỉnh mà bạn muốn bot làm
+config.yml: Nơi bạn cấu hình các thông tin liên quan tới mô hình NLU và Core, cách mà chúng hoạt động.
+credentials.yml: Thông tin chi tiết về cách kết nối chatbot với các dịch vụ như Facebook, Slack, Telegram,...
+data/nlu.md: Dữ liệu huấn luyện cho NLU, bao gồm các câu được gán nhãn intent và entities theo định dạng cho trước.
+data/stories.md: Dữ liệu huấn luyện cho Rasa core, là các kịch bản mà bạn muốn bot làm theo.
+domain.yml: Đây coi như phần khai báo tất cả mọi thứ mà chatbot của bạn sử dụng, bao gồm các intent, entities, actions,...
+endpoints.yml: Các endpoints mà bạn muốn chatbot trả ra
+models/: Nơi lưu trữ các model bạn đã huấn luyện
+
+em vào ngành công nghệ thông tin thì bao giờ mình chọn chuyên ngành
+là ngành công nghệ thông tin của học viện
+ban tuyển sinh cho hỏi cháu đỗ vào khoa công nghệ thông tin của trường đã gửi giấy kết quả thi tn bản gốc theo chuyển fat nhanh
+khoa công nghệ thông tin thì được giửi giấy chưa
+năm nhất khoa công nghệ thông tin ngành công nghệ máy tính thì sẽ được học ở cơ sở nào
+ngành công nghệ thôngtin em thấy o điểm râts cao nếu muốn đạu ngành công nghệ thông tin thì mỗi môn phải trên bao nhiêu
+khi em nhập học vào ngành công nghệ thông tin thì được miễn học phí năm đầu
+em tra trên hust miền bắc là đỗ công nghệ thông tin
+là trong trường học em đỗ vào công nghệ thông tin của trường rồi nhưng lại để nguyện vọng dưới thì xử lí thế nào
+chuyen ngành công nghệ thông tin của trường mình năm nay bao nhiêu điềm thì đậu vậy
+là đối với ngành công nghệ thông tin kĩ thuật điện tử viễn thông thì tiêu chí thứ tự nguyện vọng là như nào với cả đấy là tiêu chí phụ hay chính
+trường có thể cho em xin từ vấn về tuyển sinh đại học từ xa ngành công nghệ thông tin không
+bản thân em muốn học công nghệ thông tin em thấy các trường khác thì chia hẳn ra là công nghệ thông tin với khoa học mt còn trường mình thì cho 4 chuyên ngành vào cùng công nghệ thông tin
+cho em hỏi danh sách thí sinh trúng tuyển ngành công nghệ thông tin năm nay với
+anh chị cho em hỏi đơn đăng ký công nghệ thông tin chất lương cao phí có chuyển koản được không
+vậy thì đây là em vào trường bằng kết quả thi trung học phổ thông và đỗ công nghệ thông tin đúng không
+em có nguyện vọng vào ngành công nghệ thông tin thì có được lựa chọn không
+cho em hỏi nếu học công nghệ thông tin ở trường mình cần chuẩn bị những gì năm nhất phải học những môn nào
+với khoa công nghệ thông tin đã có thông tin về học phí và thủ tục hồ sơ nhập học chưa
+trường còn đợt đăng ký học đại học từ xa ngành công nghệ thông tin không
+công nghệ thông tin xét những môn nào
+vào ngành công nghệ thông tin
+khoa công nghệ thông tin đào tạo những khối gì
+em muốn nghe tư vấn về ngành công nghệ thông tin trường mình được không
+năm nya tầm 26 27 có hi vọng chui vào công nghệ thông tin không
+bên ngành công nghệ thông tin có đào tạo sinh viên định hướng thị trường nhật bản không
+cho em hỏi điểm trúng tuyển công nghệ thông tin bên mình năm nay bnhiu
+cho em hỏi chút em em đỗ điện tử viễn thông trường mình thì có được học văn bằng 2 công nghệ thông tin không và điều kiện như thế nào
+ngành công nghệ thông tin năm nay trường mình lấy bao nhiêu điểm
+năm nay cháu nhà tôi kết quả thi tn được 27 điểm liệu có đỗ vào trường theo ngành công nghệ thông tin không
+em muốn thi vào công nghệ thông tin của trường mình mà điểm em mấp mé lắm
+kiểu như công nghệ thông tin thì phải xếp ở nguyện vọng 3 trở lên mới được ý
+ngành công nghệ thông tin phải học bao nhiêu tín chỉ
+cô cho em biết điểm sàn ngành công nghệ thông tin với điện tử viễn thông vơiz
+ngành công nghệ thông tin xét kết hợp ý
+cô có thể cho em biết điểm sàn xét kết hợp của trường mình ngành công nghệ thông tin là bao nhiêu không
+admin cho mình hỏi mình tốt nghiệp cao đẳng sư phạm toán tin mình đã học đại học vừa học vừa làm sư phạm toán thì có đủ điều kiện đăng ký học cao học công nghệ thông tin của trường không
+nếu cháu thi được 27 điểm khối a00 có được tuyển thẳng vào ngành công nghệ thông tin của trường không
+em muốn hỏi ngưỡng điểm đỗ vào ngành công nghệ thông tin của trường là gì vì khi em đi tư vấn trực tiếp thì được trả lời chắc chắn đỗ nhưng bg nhà trường lại báo trượt mà cũng không biết mình được bao nhiêu điểm và điểm đỗ là bao nhiêu
+vâng tiện cho em hỏi lun là điểm chuẩn ngành công nghệ thông tin là bnhiu vậy
+là em đã được nhà trường thông báo đỗ vào ngành công nghệ thông tin của trường và trường yêu cầu nhập học trên web
+không ý em là em muốn đợi nó hạ điểm để đăng ký công nghệ thông tin hệ đại trà ý
+khoa công nghệ thông tin khi đăng ki xét tuyền ki thi quôc gia
+em đã nhấn nút đồng ý xác nhận nhập học 1 ngành của học viện nhưng em vẫn muốn đăng ký tiếp bằng điểm thi trung học phổ thông vào ngành công nghệ thông tin của học viện mà em yêu thích hơn có được không a
+ngành công nghệ thông tin trường mình đăng ký nguyện vọng hình như phải để nguyện vọng 3 đúng không
+ngành công nghệ thông tin năm nay lấy bao nhiêu điểm vậy em
+đăng ký khoa công nghệ thông tin có thể để nguyện vọng 4 được không em xin cám ơn
+admin cho mình hỏi là liệu năm nay ngành công nghệ thông tin có xét riêng khối không
+có là hiện em đang muốn học văn bằng bằng 2 công nghệ thông tin
+anh chị có thể tư vấn ngành khác ngoài công nghệ thông tin có được không
+xin chào mình đang quan tâm đến khoa công nghệ thông tin trường bưu chính cơ sở hà nội
+em được 27 65 cả ưu tiên em đăng ký ngành công nghệ thông tin liệu khả năng có đỗ được không ai
+em 24 15 điểm chuẩn 24 1 công nghệ thông tin
+em có nguyện vọng đăng ký vào ngành công nghệ thông tin của trường liệu ngành này có tiêu chí gì về thứ tự nguyện vọng không
+tôi có con chọn nguyện vọng 1 vào khoa công nghệ thông tin khối a01 của học viện công nghệ bưu chính viễn thông hiện tại cháu đã biết điểm thi 03 môn toán tiếng anh và lý với tổng điểm 3 môn thi là 27
+thi chất lương cao công nghệ thông tin có khó khăn lắm không bạn
+nay mình muốn thi vào khối a1 ngành công nghệ thông tin
+thế điểm chuẩn của học viện đối với ngành công nghệ thông tin năm nay liệu có chiều hướng như thế nào
+cho em hỏi là em đậu công nghệ thông tin cơ sở phía nam thì có được chuyển về cơ sở phía bắc không
+là gửi bản xác nhận chính vào công nghệ thông tin của trường mình và được tuyển thẳng luôn
+cho em hỏi trong các chuyên ngành công nghệ thông tin thì chuyên ngành nào ra trường dễ xin việc nhất
+nếu như nhiều bạn đỗ công nghệ thông tin mà không học thì em có được xét vào diện chờ không
+đợt này trường xét ngành công nghệ thông tin bao nhiêu chỉ tiêu không
+5điểmcháu muốn chuyển sang khoa công nghệ thông tin có được không
+là năm này ngành công nghệ thông tin có giới hạn nguyện vọng 3 không
+em thấy điểm trúng tuyển khoa công nghệ thông tin của trường mình 2 năm trước đều kèm theo thứ tự nguyện vọng đăng ký
+em đăng ký học công nghệ thông tin
+ví dụ như năm ngoái công nghệ thông tin thứ tự nguyện vọng phải từ thứ 3 trở lên
+cho em hỏi em muốn học đại học từ xa ngành công nghệ thông tin thì như thế nào
+ngành công nghệ thông tin đa phương tiện là gì khung chương trình hoc như thế nào
+cho em hỏi ngành công nghệ thông tin bên mình có bắt buộc phải để ở nguyện vọng 3 trở lên không hay đặt ở những nguyện vọng sau cũng được
+xin chào cho em hỏi chỉ tiêu tuyển sinh ngành công nghệ thông tin năm 2021 của trường là bao nhiêu
+mình muốn hỏi hệ vừa học vừa làm công nghệ thông tin chi phí học hết bao nhiêu tiền vậy
+tôi muốn biết năm nay trường ts mức điểm sàn cho ngành công nghệ thông tin là bao nhiêu và học phí của ngành này như thế nào
+admin ơi năm nay trường mình mở thêm công nghệ thông tin clc theo tt23 phải không
+em muốn đăng ký học ngành công nghệ thông tin hệ cao đẳng của trường
+em chọn công nghệ thông tin thì có phải xóa ki
+không ý em là con em muốn đăng ký vào công nghệ thông tin như năm ngoái của trường là nguyện vọng phải nhỏ hơn hoặc bằng 3
+phụ huynh muốn hỏi là điểm chuẩn của khoa công nghệ thông tin là bao nhiêu a
+em tốt nghiệp trung cấp trường bưu chính viễn thông công nghệ thông tin iii
+giờ em muốn học thêm ngành công nghệ thông tin tại học viện thì phương thức ứng tuyển như nào
+nếu em đỗ tuyển thẳng của công nghệ thông tin thì vẫn phải xếp nguyện vọng 1
+cho em hỏi giải lý cấp tỉnh có được xét vào ngành công nghệ thông tin không
+cho em hỏi học phí và điểm chuẩn dựa vào kết quả tốt nghiệp trung học phổ thông ngành công nghệ thông tin của trường thế nào
+em thấy công nghệ thông tin trường mình là 26d trở lên
+cháu muốn đăng ký tuyển sinh vào khoa công nghệ thông tin của trường mình
+em muốn đăng ký ngành công nghệ thông tin thì thể lệ như thế nào ạ
+nhà trường cho tôi hỏi ngành công nghệ thông tin của trường đào tạo hệ kỹ sư hay cử nhân học trong mấy năm
+cho em học phí ngành công nghệ thông tin của trường mình được không
+chứng chỉ ielst 3 thi tốt nghiệp trung học phổ thông cho cùng một ngành công nghệ thông tin có được không
+đi ẻm chuẩn của trường ngành công nghệ thông tin
+em muốn đăng ký ngành công nghệ thông tin theo phương thức kết hợp điểm 3 năm trung học phổ thông và chứng chỉ quốc tế ielt 6
+admin có thể giới thiệu về ngành công nghệ thông tin của trường không
+em thấy video của trường có nói trong ngành công nghệ thông tin ấy có khoa học máy tính với khpm có đúng không
+nay có cách nào giusp em dky thêm ngành công nghệ thông tin không anh
+và muốn học công nghệ thông tin lập trình thì em có thể học bên mình không
+em tốt nghiệp kỹ sư tại hutech muốn đăng ký học cao học tại trường cho em hỏi trường tuyển sinh cao học ngành công nghệ thông tin vào thời gian naopf
+thì có chắc chắn là em được học công nghệ thông tin không
+em lựa chọn khối điểm cho ngành công nghệ thông tin của trường
+em học công nghệ thông tin thì mỗi năm học phí như nào
+thế học công nghệ thông tin có bao nhiêu tín
+anh chị ơi cho em hỏi chút công nghệ thông tin yêu cầu thứ tự nguyện vọng lớn hơn hoặc bằng 3 đúng không
+công nghệ thông tin của trường năm nay bao nhiêu là đỗ
+điểm công nghệ thông tin có cao hơn năm ngoái không
+cho em hỏi ví dụ như em muốn để nguyện vọng là công nghệ thông tin với kỹ thuật điện tử viễn thông của trường mình thì bắt buộc phải ở nguyện vọng 1 và nguyện vọng 2
+cho em hỏi năm nay công nghệ thông tin của bưu chính viễn thông có yêu cầu nguyện vọng phải 2 hay 3 không aa
+cho em hỏi học viện cơ sở miền nam còn đang tuyển sinh đại học công nghệ thông tin từ xa không
+cho tôi hỏi tuyển sinh hình thức vừa làm vừa học ngành công nghệ thông tin bằng trung cấp nghề về quản trị máy tính có đủ điều kiện để học không
+trường mình có đào tạo hệ vừa học vừa làm cho ngành công nghệ thông tin không
+cho em hỏi là nếu theo học ngành công nghệ thông tin của trường thì học phí 1 năm là bao nhiêu
+admin em thấy ngành công nghệ thông tin ghi thứ tự nguyện vọng 1
+bởi vì điểm em cảm thấy là mình không có khả năng đỗ công nghệ thông tin hệ thường của trường mình
+em thấy bộ giáo dục đào tạo có thông tư chuyển trường vậy em có thể chuyển trường từ học viện bưu chính viến thông ngành công nghệ thông tin sang ngành toán tin bách khoa được không em đủ điểm đỗ cả 2 ngành
+mình muốn hỏi điểm sat trúng tuyển vào ngành công nghệ thông tin của trường năm 2021 mà
+và thời gian học của ngành công công nghệ thông tin là bao nhiêu tháng
+học viện cho em hỏi em đang là sinh viên năm 4 khoa công nghệ thông tin của học viện mình giờ em muốn học thêm văn bằng 2 marketing của học viện mình được không
+admin cho em xin thông tin về hệ vừa học vừa làm chuyên ngành công nghệ thông tin của trường được không
+em để stt 1 là công nghệ thông tin
+còn nhận hồ sơ hệ tại chức ngành công nghệ thông tin không
+em muốn tìm hiểu hệ đào tạo từ xa ngành công nghệ thông tin của đại học mình
+thế giải học sinh giỏi tỉnh hóa có xét được vào ngành công nghệ thông tin của trường không
+vậy ngành công nghệ thông tin học bao nhiêu tín chỉ all quá trình học
+mà đăng ký học công nghệ thông tin
+admin cho em biết điểm trúng tuyển ngành công nghệ thông tin những năm trước với
+cho em xin thông tin về ngành công nghệ thông tin được không
+em thưa thầy thầy cho em hỏi trường mình bao giờ tuyển sinh sau đại học ngành công nghệ thông tin
+ielts muốn thi công nghệ thông tin khối a1 toán lý anh vậy có được miễn thi môn tiếng anh không
+công nghệ thông tin đa phương tiện
+hiện tại em đang là sinh viên năm 4 đại học kinh tế quốc dân hiện em đang quan tâm đến ngành công nghệ thông tin trong hệ đào tạo vừa học vừa làm của trường
+chuyên đào tạo công nghệ thông tin đúng không
+là ngành công nghệ thông tin của trường có bao nhiêu chuyên ngành vậy
+trang ơi cho em hỏi công nghệ thông tin ở trường mình có ngành lập trình viên không
+và ngành công nghệ thông tin
+bên mình đang có học từ xa văn bằng 2 công nghệ thông tin hả chị
+ngành công nghệ thông tin là 1 năm bao nhiêu học kỳ vậy
+mình muốn nhận tư vấn về chương trình tuyển sinh năm nay của nhà trường với khoa công nghệ thông tin
+hôm qua mình có vào thử đăng ký công nghệ thông tin thì lại thấy thông báo hạn đến 1
+cho em hỏi trường mình năm nay có tuyển sinh ngành công nghệ thông tin đại học la trobe không
+em học cao đẳng công nghệ thông tin sao lâu có giấy nhâph không vậy admin
+tiền học 1 năm khoa công nghệ thông tin hết bao nhiêu
+em được 22 6 điểm và để công nghệ thông tin ở nguyện vọng 2 thì có đỗ không
+kiểm tra dùm em sbd 40021593 có đậu được ngành công nghệ thông tin trường mình không
+giơ nghanh công nghệ thông tin da gui ho so chua vậy
+em nghe nói nhiều về chất lượng đào tạo công nghệ thông tin trường mình rồi
+nguyện vọng công nghệ thông tin cơ sở phía nam
+cho em hỏi khoa công nghệ thông tin trường mình có lấy nguyện vọng 2 không
+công nghệ thông tin của trường mình năm nay lấy tầm bao nhiêu
+năm ngoái công nghệ thông tin khối a1 trường lấy bao nhiêu vậy
+là em muôn học thêm ngành công nghệ thông tin hệ vừa làm vừa học
+ngành công nghệ thông tin của trường mình khi mình ra trường có cần bằng toeic không
+cho em hỏi là em muốn đăng ký thi công nghệ thông tin của trường và em bắt buộc phải để ở nguyện vọng 1
+hôm trước em nộp đơn tuyển thẳng ngành công nghệ thông tin và đã trúng tuyển nhưng bây giờ em muốn chuyển sang điện tử viễn thông được không
+thứ tự nguyện vọng năm nay của ngành công nghệ thông tin vẫn bằng 1
+khoa công nghệ thông tin nha
+do đó nếu em có nguyện vọng được chuyển sang nhóm ngành công nghệ thông tin ở học viện thì em phải chuẩn bị thủ tục như thế nào
+cho em hỏi ngành công nghệ thông tin của trường mình có tuyển khối điểm không
+với hình thức tuyên sinh của năm ngoái học sinh được 27đ có đăng ký khoa công nghệ thông tin nhưng lại để ở nguyện vọng số 2 thì liệu có đỗ không
+muốn vào công nghệ thông tin
+ở cái ngành công nghệ thông tin của trường có chỗ thứ tự nguyện vọng 1 đó có nghĩa là sao
+làm ơn cho hỏi sắp tới trường có tuyển sinh hệ đại học từ ngành công nghệ thông tin không
+em muốn theo học ngành công nghệ thông tin ở trường mình cơ sở phía bắc
+không vào được học viện thì em vào công nghiệp học công nghệ thông tin
+công nghệ thông tin học viện công nghệ bưu chính viễn thông
+em đăng ký nguyện vọng đại học công nghệ công nghệ thông tin
+vậy khi học công nghệ thông tin có khó khăn không em ngu pascal
+thế em thi được 23.5 cả cộng có cơ hội đậu công nghệ thông tin không admin
+ngành công nghệ thông tin của trường đào tạo trực tiếp bằng tiếng anh admin
+nhưng đặt công nghệ thông tin trường mình là ở nguyện vọng 2 vậy với mức điểm này có đậu vào trường không
+đối với ngành công nghệ thông tin với antt thì 1 năm mình học bao nhiêu tín chỉ vậy
+cho em hỏi năm nay công nghệ thông tin của trường chỉ lấy nguyện vọng 1 đúng không
+điểm bây giờ em muốn vào ngành công nghệ thông tin của trường thì cần làm gì
+cho mình hỏi dự kiến điểm chuẩn khoa công nghệ thông tin năm nay là bao nhiêu
+chào là trường ngoài thế mạnh về đào tạo công nghệ thông tin thì đào tạo về kế toán hoặc marketing có tốt không
+em sẽ cố vào trường công nghệ thông tin bưu chính
+là trường bưu chính viện thông khoa công nghệ thông tin ý
+tức là muốn đậu vào công nghệ thông tin của trường thì phải để thứ tự nguyện vọng là nguyện vọng 1 mới được hay để thứ bao nhiêu cũng được miễn là điểm của mình cao đủ vào khoa công nghệ thông tin của trường là được
+cho em hỏi là năm ngoái thì ngành công nghệ thông tin và công nghệ điện tử viển thông lấy bao nhiêu điểm
+có thể em học ngành công nghệ thông tin tại trường không
+trường có tuyển sinh ngành công nghệ thông tin mà nguyện vọng 2 nguyện vọng 3 ko
+năm nay công nghệ thông tin của trường có yêu cầu bắt buộc là nguyện vọng 1 không
+thế em được khoảng 25 5 thì có bao nhiêu phần trăm đậu công nghệ thông tin
+cho em hỏi ngành công nghệ thông tin có yêu cầu tiêu chí phụ là đăng ký nguyện vọng 1 không
+vậy nếu theo học công nghệ thông tin thì học phí một năm khoảng bao nhiêu
+trường mình năm ngoái ngành công nghệ thông tin lấy 22 điểm sau đó thiếu chỉ tiêu chỉ lấy 21đ đúng không
+nhưng nguyện vọng 1 của em là công nghệ thông tin nên tra cứu chỉ hiển thị kết quả nguyện vọng 1 thôi đúng không
+cho em hỏi là theo như phổ điểm năm nay thì ngành công nghệ thông tin trường mình khoảng bao nhiêu điểm thì chắc chắn đỗ
+admin có thể áng chừng điểm chuẩn công nghệ thông tin không
+em trúng tuyển ngành công nghệ thông tin thì bây giờ cần làm những giấy tờ gì để nhập học
+admin ơi cái công nghệ thông tin của trường mình có ưu tiên nguyện vọng 1 không
+cho em hỏi công nghệ thông tin với điện tử viễn thông 1 năm học bao nhiêu tín
+nhưng để công nghệ thông tin ở nv5 vậy có đỗ không
+nếu 24 5 điểm liệu có đỗ công nghệ thông tin không
+nhưng 4 nguyện vọng đầu em đều thiếu điểm vậy thì có cơ hội đậu ngành công nghệ thông tin tại trường không
+tại em thích công nghệ thông tin trường mình 3
+em đang có hướng vào khoa công nghệ thông tin của trường
+điểm chuẩn công nghệ thông tin của trường năm nay khoảng bao nhiêu
+công nghệ thông tin an
+cho em hỏi ngành công nghệ thông tin có xét thêm không
+cho em hỏi là ngành công nghệ thông tin năm 2018 xét nguyện vọng 1
+admin có thể cho em biết tổng số nguyện vọng nộp vào ngành công nghệ thông tin của trường tính đến tháng 5 không
+em dang ky nguyện vọng 1 công nghệ thông tin vao day
+nếu như giả sử mình để ngành công nghệ thông tin ở nguyện vọng 1 hay nguyện vọng 3 có khác gì nhau không
+cho em hỏi hồ sơ sinh viên có 3 ô để điền mã ngành mà em học công nghệ thông tin mã ngành có 7 số thì em điền như nào
+ngành công nghệ thông tin định hướng thi trường nhật bản thì bao nhiêu tín chỉ vậy chị
+năm nay khoa công nghệ thông tin của trường lấy chỉ tiêu nhiều hơn năm ngoái đúng không
+cho em hỏi là công nghệ thông tin thì học ở trường chỗ trần phú hay nguyễn trãi
+học phí của một năm học ngành công nghệ thông tin là bao nhiêu
+nhưng trong tra cứu nhập học thì điểm trúng tuyển của em là 24 còn của bạn em cũng ngành công nghệ thông tin là 25
+admin ơi em thi được 24 3 điểm không biết liệu có đỗ công nghệ thông tin không
+cho em hỏi khi trúng tuyển vào công nghệ thông tin của học viện thì việc phân về học từng chuyên ngành như chuyên ngành công nghệ phần mềm hay chuyên ngành kỹ thuật máy tính hay chuyên ngành khoa học máy tính
+cho em hỏi ngành công nghệ thông tin trong hệ cao đẳng lấy những tổ hợp môn nào vậy
+th1 nếu nguyện vọng 1 công nghệ thông tin bach khoa nguyện vọng 2 cttt bưu chính thí sinh được 23.điểm bưu chính lấy 22 thì có đỗ bưu chính không
+trong ngàh công nghệ thông tin trường đào tạo có design web không
+em học ban điểm và trong mảng công nghệ thông tin chỉ có công nghệ đa phương tiẹn thôi
+cho em hỏi công nghệ thông tin là mình phải học giỏi thực sự thì mới dễ xin việc phải không
+anh cbo em hỏi năm nay tường mình ngành công nghệ thông tin điểm dao động tầm bao nhiêu không
+à mà em không biết là học phí một năm của ngành công nghệ thông tin là bao nhiều tiền
+em nghe nói con gái học công nghệ thông tin vắt lắm trang cho em xin ý kiến
+bao giờ có đợt tuyển sinh hệ liên thông khoa công nghệ thông tin cơ sở tại hà nội
+tôi muôn xem danh sách trung tuyển vao lơp chat luong cao khoa công nghệ thông tin năm 2018
+học phí của công nghệ thông tin cả truyền thông đa phương tiện là bao nhiêu
+vậy cho em hỏi chỉ tiêu công nghệ thông tin của trường là bao nhiêu
+vậy nếu em thi đỗ vào ngành công nghệ thông tin ở trường thì em có được chọn ngành như khoa học máy tính không
+hay là đỗ vào công nghệ thông tin là được học hết các chuyên ngành như công nghệ phần mềm khoa học máy tính
+học ngành công nghệ thông tin cần có yếu tố nào
+qua tìm hiểu trên mạng thì ngành này vừa cần học về công nghệ thông tin vừa cần học về kinh doanh
+ví dụ như năm ngoái khoa công nghệ thông tin tuyển 650 sinh viên thì điểm chuẩn 22 điểm là cho tất cả các thí sinh này
+năm này ngành công nghệ thông tin phải nguyên vọng 1 không
+cho em hỏi là em thì ngành cộng nghệ đa phương tiện hoặc công nghệ thông tin thì em phải để ở nguyện vọng 1
+em muốn bên kĩ thuật phần mềm mà chỉ thấy trường mình chỉ có công nghệ thông tin
+ngành tự động hóa của trường những năm trước là nằm trong ngành công nghệ thông tin
+ngành công nghệ thông tin thừa bao nhiêu hồ sơ
+em đăng ký nguyện vọng 1 ngành công nghệ thông tin của trường mình và được 25
+khoa công nghệ thông tin trường mình dự năm nay lấy bao nhiêu điểm vậy admin
+ngành công nghệ thông tin năm nay 2019 tuyển sinh chỉ lấy mỗi nguyện vọng 1 thôi hay nguyện vọng 2 3
+ví dụ công nghệ thông tin với điện tử viễn thông là như nhau
+cho mình biết điểm nhận hồ sơ tuyển sinh vào ngành công nghệ thông tin năm nay của trường ta là bao nhiêu hả ban
+admin nghĩ năm nay điểm chuẩn của trường ngành công nghệ thông tin là bao nhiêu
+chương trình đào tạo ngành công nghệ thông tin của trường mình thì môn ta phải đạt điểm như thế nào mới ra được trường
+học phí 1 năm của trường mình khi học ngành công nghệ thông tin là bao nhiêu
+sau khi vào công nghệ thông tin của trường
+công nghệ thông tin của trường đào tạo về gì vậy
+chào admin em muốn đăng ký tư vấn về các ngành công nghệ thông tin của trường mình đăng ký không
+năm nay có bao nhiêu hồ sơ nộp vào ngành công nghệ thông tin ở trường vậy
+nên em muốn hỏi admin là công nghệ thông tin của trường mình năm nay lấy khoảng mấy vậy
+ngành công nghệ thông tin của trường mình tổng bao nhiêu tín chỉ
+công nghệ thông tin thuộc nhóm ngành kĩ thuật
+các ngành liên quan đến công nghệ thông tin đó
+admin ơi nội dung học của ngành công nghệ thông tin là những gì
+khoa công nghệ thông tin của trường mình em có thể để nguyện vọng của mình ở nguyện vọng 2 được không
+cho em hỏi la nếu em đăng ký khoa công nghệ thông tin của trường mình ấy
+cho em hỏi năm 2018 khu vực phía bắc ngành công nghệ thông tin có tuyển sinh đợt 2 không
+cho em hỏi trường mình có tuyển sinh hệ cao đăng ngành công nghệ thông tin không ạ nếu có hồ sơ đăng ký như thế nào
+ví dụ như là ngành công nghệ thông tin có yêu cầu phải đăng ký nguyện vọng 1 mới xét ấy
+cho em hỏi với ngành công nghệ thông tin học phí là bao nhiêu 1 năm
+năm nay liệu mức điểm chuẩn ngành công nghệ thông tin sẽ tăng lên tầm bao nhiêu đi ẻm
+em thi được 21 điểm thì có nên đăng ký nguyện vọng 1 vào khoa công nghệ thông tin của trường không
+cho em hỏi trường mình có điểm chuẩn dự kiến khoa công nghệ thông tin chưa
+nguyện vọng 1 của em là công nghệ thông tin đại học quốc gia
+em thi 26 6 sao lại không trúng tuyển công nghệ thông tin vậy
+điểm là được xét vào ngành công nghệ thông tin
+cho em hỏi điểm sàn ngành công nghệ thông tin lấy bao nhiêu
+em đủ điểm vào ngành công nghệ thông tin cơ sở hồ chí minh nhưng em lại xếp nguyện vọng 3 mà nguyện vọng 2 em đỗ rồi
+em thấy ngành công nghệ thông tin trường mình năm trước 20
+em đăng ký trường nguyện vọng 3 công nghệ thông tin em được 25 9
+em duoc 25 1 điểm lieu có đỗ công nghệ thông tin không
+em 24d dau công nghệ thông tin không admin em dang lo qua
+điểm đậu công nghệ thông tin không admin ở thành phố hồ chí minh
+em tạch công nghệ thông tin của trường minh nhưng may vẫn đăng ký đttt
+sao giấy nhập học của công nghệ thông tin giờ ngày vẫn chưa về
+cơ hội đỗ vào ngành công nghệ thông tin của trường là bao nhiêu phần trăm
+công nghệ thông tin năm nay trường lấy nhiêu
+năm trước khoa công nghệ thông tin lấy 20đ phải không
+chả là em đang phân vân giữa công nghệ thông tin của bưu chính và kĩ thuật quân sự hệ dân sự admin
+admin ơi 25 điểm đã ở ngưỡng an toàn vào công nghệ thông tin chưa
+ví dụ nếu em được 24đ để nguyện vọng 1 vào công nghệ thông tin chẳng hạn mà khoa đó lấy 23.một thí sinh khác được 25đ cũng vào khao đó nhưng để nguyện vọng 2 thì em có được ưu tiên không hay bình đẳng
+mình dky công nghệ thông tin
+admin có thể tư vấn cho em là trường nào còn hệ cao đẳng chính quy về đào tạo công nghệ thông tin không
+công nghệ thông tin thich nhug diem hoi cao a
+em là 2k er và đang có ý định học công nghệ thông tin ở ptit
+công nghệ thông tin hiện đang là 1 ngành hot nhưng em nghĩ nếu không phù hợp thì sẽ không thành công đc
+một người không có đam mê về công nghệ cũng không hiểu biết về máy tính lắm có thể theo đuổi ngành công nghệ thông tin được không admin
+em tính rthi công nghệ thông tin mà chọn trường khó quá
+em đăng ký công nghệ thông tin của trường
+tiếc quá điểm công nghệ thông tin ở bưu chính viến thông tính cả 1 diểm ut chắc không đủ mất
+thế anh cho mình hỏi khoa học máy tính công nghệ thông tin với kthành phốm nó khác nhau như thế nào
+nhiều bạn đăng ký vào công nghệ thông tin không
+chi phí học công nghệ thông tin ở học viện một năm là khoảng bao nhiêu
+cho em hoi diem chuan công nghệ thông tin nam ngoai bao nhiêu a
+theo y kien ca nhan cua admin thi 24 5 có hoi vao công nghệ thông tin có cao không
+có hoi công nghệ thông tin có chu may nghanh diem thap em không muon vao
+5 lieu em có có hoi vao công nghệ thông tin không a
+admin cho hỏi học phí 1 năm năm thứ nhất tại trường khoa công nghệ thông tin là bao nhiêu
+điểm chuẩn của ngành công nghệ thông tin
+về kiến thức công nghệ thông tin
+mình muốn hỏi chỉ tiêu tuyển sinh ngành công nghệ thông tin năm nay của trường là bao nhiêu ạ
+em thấy thì chỉ chuyên về công nghệ thông tin về truyền thông
+em được 24 95đ thì có được làm tròn lên 25đ và có trúng tuyển ngành công nghệ thông tin không
+hệ vừa học vừa làm ngành công nghệ thông tin em đăng ký tổ hợp môn khối anh được phải không admin
+admin công nghệ thông tin em hơn năm ngoái 1đ thì năm nay 90 là tạch admin nhỉ
+admin cho hỏi khoa công nghệ thông tin của trường năm nay lấy khoảng bao nhiêu
+thì ngành công nghệ thông tin có được học ctrinh như các bạn chính gốc công nghệ thông tin không
+vậy liệu có đỗ được ngành công nghệ thông tin hay kĩ thuật điện tử truyền thông không
+chỗ điền mã ngành trong lý lịch sinh viên có 1 tẹo thì điền công nghệ thông tin kiểu gì
+sao trong giấy ghi là sáng 22 mà admin sao trang lại đăng là chiều 21 em học công nghệ thông tin
+cho em hỏi hệ vừa học vừa làm ngành công nghệ thông tin chi nhánh thành phố hồ chí minh còn chỉ tiêu không
+cong 1 diem vung em có do công nghệ thông tin không ạ thay diem chuan 25 cho khu vực 3 em hoi lo
+vậy thấy cái ảnh ghi sáng là công nghệ thông tin chiều là công nghệ thông tin mà
+em thấy hình như ngành công nghệ thông tin chiều nhận học sinh mà nhỉ
+ngành công nghệ thông tin bao nhiêu thế
+ngành công nghệ thông tin là đào tạo chuyên về cái gì vậy
+ma cho em hoi hoc về công nghệ thông tin thi có đòi hoi nhiêu ve t a o ngay năm đầu không
+hệ cao đẳng công nghệ thông tin trường tuyển sinh như thế nào
+em học khoa công nghệ thông tin thì học phí ghi trong giấy gọi nhập học ấy là đã được giảm chưa
+cháu nó học công nghệ thông tin ở chi nhánh miền nam
+theo anh chị thì điểm chuẩn ngành công nghệ thông tin năm nay khoảng bao nhiêu
+admin ơi cho rồi hỏi là ngành công nghệ thông tin nộp hồ sơ sáng hay chiều
+admin ơi em khối cả cộng được 24 75 thì có khả năng vào được công nghệ thông tin của trường không
+em được 25 4 em thi công nghệ thông tin
+mình đăng ký công nghệ thông tin có phải để nguyện vọng dưới 3 không
+giả sử em thi công nghệ thông tin điểm năm ngoái là 26 65 mà em dể nguyện vọng 1 hay 3 thì không được
+cho em hỏi là năm nay trường có còn hình thức thứ tự nguyện vọng bắt buộc không ví dụ công nghệ thông tin thứ tự nguyện vọng 3
+bên mình cho em hỏi là học phí ngành công nghệ thông tin trong 4 năm là baonhieeu
+với lại em được giải 3 môn tin học thì liệu có cơ hội vào ngành công nghệ thông tin không
+học công nghệ thông tin thì cần bao nhiêu tín
+em học công nghệ thông tin thì 1 năm mất bao nhiêu
+em thấy ngành công nghệ thông tin ghi là nguyện vọng 1 lấy 26 65 điểm
+học ngành công nghệ thông tin chính quy bao nhiêu năm được cấp bằng gì
+trường mình có khóa học lấy bằng cử nhân công nghệ thông tin từ xa đúng không
+chào admin em đã tốt nghiệp đại học và muốn học thêm văn bằng 2 ngành công nghệ thông tin trường mình em đang ở thành phố
+theo như em đọc được trên web thì ngành công nghệ thông tin của trường cơ sở phía nam lấy 25 chỉ tiêu cho phương thức kết hợp vậy cụ thể thì từng đối tượng sẽ lấy bao nhiêu chỉ tiêu
+mà ví dụ có 200 bạn đăng ký vào công nghệ thông tin theo xét kết hợp thì sao
+liên quan đến âm nhạc với công nghệ thông tin ý anh chị
+tại em thấy công nghệ thông tin chỉ lấy ban điểm
+trường mình có ngành công nghệ thông tin chứ
+cho em xin thông tin văn bằng 2 ngành công nghệ thông tin trường mình được không
+anh chị cho tôi hỏi trường ta năm nay có nhận hồ sơ liên thông từ cao đẳng lên đại học ngành công nghệ thông tin không
+em muốn hỏi con số 24 07 của khoa công nghệ thông tin khu vực bvh là như nào
+mới được vào khoa công nghệ thông tin em nhỉ
+em muốn thi công nghệ thông tin
+admin có thể cho em hỏi là em đang muốn đăng ký 2 nguyện vọng của trường mình là ngành công nghệ thông tin và công nghệ kĩ thuật điện điện tử có được không
+hiện tại em đang là học sinh trung cấp ngành công nghệ thông tin chuyên ngành quản trị mạng máy tính theo em tìm hiểu em và được biết tuyển sinh 2020 này học viện có tuyển từ trung cấp nên em xin được mạng phép hỏi và muốn được tư vấn thêm
+cho em hỏi là ngành công nghệ thông tin của trường thì nguyện vọng 1 là bắt buộc hay là tiêu chí phụ
+minh tinh se hoc công nghệ thông tin o day
+vì em thấy công nghệ thông tin ở bwuu chính chỉ lấy nguyện vọng 1 đúng không
+là ngành công nghệ thông tin của bưu chính có bắt buộc phải để ở nguyện vọng 1 không
+cho em hỏi ngành công nghệ thông tin có xét nguyện vọng 2 không
+cho em hỏi em muốn thi vào ngành công nghệ thông tin của trường mình thì thứ tự nguyện vọng phải xếp như thế nào
+nhưng em nghe nói vào công nghệ thông tin phải có chút kiến thức của pascal phải không
+vâng em đang có nguyên vọng vô công nghệ thông tin
+năm nay trường có bao nhiêu hồ sơ thi vài ngành công nghệ thông tin
+em đăng ký ngành công nghệ thông tin admin ơi
+năm nay học viện dự kiến điểm chuẩn khoa công nghệ thông tin tăng bao nhiêu
+ngành công nghệ thông tin năm nay lấy bao nhiêu chỉ tiêu
+cho em hỏi là trường năm ngoái phải nguyện vọng 1 mới vào được công nghệ thông tin đúng không
+nếu bạn đăng ký công nghệ thông tin có ổn không em
+năm nay em thi được 25 điệm đăng ký vào công nghệ thông tin trường mình liệu có đỗ không vì em thấy mấy bạn kia điểm cao lắm
+cho mình hỏi là ngành công nghệ thông tin năm nay của trường lấy 24 07
+là ví dụ như năm ngoái ngành công nghệ thông tin của trường bắt buộc phải nguyện vọng 1 năm nay có cần như thế không
+điểm sán công nghệ thông tin là bao nhiêu
+em muốn học ngành công nghệ thông tin của trường mình nhưng điểm thi dưới 20đ
+chị muốn tham khảo và khoa công nghệ thông tin
+và công nghệ thông tin có yêu cầu gì về điểm tiếng anh không
+nếu cấp 3 không biết viết lập trình thì có học được ngành công nghệ thông tin không
+theo admin thì ngành công nghệ thông tin của trường nếu chăm chỉ học tập thì có dễ xin việc không
+xin quý thầy cô cho biết phương thức đăng kia nguyện vọng ngành công nghệ thông tin cháu đạt 26 5 điểm soi đáp án của bộ gd
+sao ở đây trường vẫn bắt công nghệ thông tin để nguyện vọng 1
+học viện đào tạo ngành công nghệ thông tin trong bao năm và em có thể tốt nghiệp sớm nhờ đăng ký nhiều tín chỉ không
+trần đình trường sbd 30008021 ngành công nghệ thông tin
+cho em hỏi là năm nay em thi thptqg em tìm hiểu thi khoa công nghệ thông tin của trường có ghi ở đó là nguyện vọng 1 vậy tức là em phải đặt khoa công nghệ thông tin của trường mình lên nguyện vọng 1
+công nghệ thông tin của trường có nhiều con gái học không
+cho em hỏi sinh viên ngành công nghệ thông tin ngày mai mấy giờ tập trung ở trên trường
+chỗ tiêu chí phụ của ngành công nghệ thông tin nguyện vọng 1 là như thế nào
+cho em hỏi là sau khi mình đỗ vào khoa công nghệ thông tin thì có phải thi phân lớp không
+dự kiến ngành công nghệ thông tin của trường có tăng nhiều không
+cộng cả vùng thì đỗ công nghệ thông tin
+ví dụ như ngành công nghệ thông tin hay công nghệghe đa phương tiện nó có ghi thứ tự nguyện vọng 1 là sao vậy
+em muốn hỏi nếu em muốn đăng ký khoa công nghệ thông tin thì có bắt buộc phải đặt la nguyện vọng 1 không
+năm nay có nhiều người thi công nghệ thông tin không
+em hiện đang là sinh viên năm 3 đại học ngoại thương có quan tâm về việc học ngành công nghệ thông tin của trường mong thầy cô giải đáp
+admin ơi cho mình hỏi khối ngành điện tử viễn thông và công nghệ thông tin trường mình thường điểm đầu vào là trong khoảng nào
+khoa công nghệ thông tin lấy những khối nào vậy
+em nên học liên thông đại học công nghệ thông tin hay học đại học văn bằng 2 công nghệ thông tin
+ngành công nghệ thông tin thì có phải bắt buộc đặt nguyện vọng 1 không
+thông tin tuyển sinh khoa công nghệ thông tin năm nay như thế nào
+khoa công nghệ thông tin lấy 24đ thì đỗ khoa truyền thông đa phương tiện 22đ thì đỗ thì ban đầu em đăng ký vào khoa công nghệ thông tin và đăng ký nguyện vọng khoa truyền thông đa phương tiện thì là vẫn được đỗ vào trường và học khoa đa phương tiện đúng không
+cho em hỏi có được để ngành công nghệ thông tin trường mình ở nguyện vọng 2 hoặc 3 không
+em được biết là khoa công nghệ thông tin của trường là có thứ tự nguyện vọng là 1
+ví dụ em để nguyện vọng 1 là công nghệ thông tin đại học bách khoa nguyện vọng 2 em để nguyện vọng bưu chính viễn thông được không
+cho em hỏi ngành công nghệ thông tin năm nay nhiều học sinh đăng ký không
+có đào tạo ngành công nghệ thông tin không
+thì em nộp hồ sơ vào ngành công nghệ thông tin được không
+chuyên ngành công nghệ thông tin
+em nghe nói ngành công nghệ thông tin chỉ lấy nguyện vọng 1
+có thể cho em biế mức học phí hiện tại của công nghệ thông tin là bao nhiêu một tín chỉ không
+trường có tuyển ngành công nghệ thông tin khối a1 không
+trường năm ngoái lấy bao nhiêu điểm thee khoa công nghệ thông tin
+chào admin mình là nhân sự của garena vietnam hiện tại garena đang có nhu cầu hợp tác với các trường đại học cao đẳng cho các chương trình thực tập cho sinh viên năm 3 năm 4 và một số job cho fresher cho lĩnh vực công nghệ thông tin thiết kế dựng phim
+em chào thầy cô em hiện đang là sinh viên năm 1 trường đại học tôn đức thắng ở thành phố hồ chí minh học khoa công nghệ thông tin ngành khoa học máy tính em đang có dự định chuyển về trường mình vì nhà em ở khu vực phía bắc thuận tiện cho việc đi lại
+nhà trường cho em xin danh sách sinh viên ngành công nghệ thông tin được không
+cho phép em hỏi một chút là trường mình có đào tạo văn bằng 2 ngành công nghệ thông tin không
+em định thi vào ngành công nghệ thông tin của trường ổn không admin
+cho em hỏi ban công nghệ thông tin của trường có thi tuyển sinh đầu vào không
+cho em hỏi khoa công nghệ thông tin có đợt tuyển sinh lần 2 không
+em là d18 của trường học công nghệ thông tin em muốn nghỉ 1 tg thì có được đi học tiếp không
+ví dụ như công nghệ thông tin
+mình muốn đăng ký học thạc sỹ công nghệ thông tin
+em hiện đã tốt nghiệp và có bằng đại học em muốn học từ xa ngành công nghệ thông tin trường mình thì cần phải chuẩn bị những giấy tờ gì
+mình có em trai đã trúng tuyển khoa công nghệ thông tin của học viện bưu chính viễn thông
+vậy có đỗ công nghệ thông tin không
+vậy nếu em điểm cao hơn thì nguyện vọng ngành công nghệ thông tin đặt thứ mấy cũng được
+điều kiện của ngành công nghệ thông tin là thứ tự nguyện vọng 1 thì điều kiện này chỉ áp dụng khi điểm thi bằng điểm chuẩn
+điểm đỗ công nghệ thông tin là 26 65 em được 26 7 nhưng em để nguyện vọng ở nguyện vọng 4 thì có đỗ không
+à nếu trường hợp em đăng ký 2 nguyện vọng công nghệ thông tin và truyền thông đa phương tiện liền nhau thì không đỗ công nghệ thông tin thì có đỗ truyền thông đa phương tiện không vì đều có thứ tự nguyện vọng là 1
+em thấy khoa công nghệ thông tin của trường m có yêu cầu là nguyện vọng 1
+là trường mình cơ sở phía bắc ngành công nghệ thông tin có nhận nguyện vọng 2 không
+chờ em hỏi trường mjk mấy năm dầu ngành công nghệ thông tin với antt học chung với nhau
+điểm thì xác suất đậu công nghệ thông tin là bao nhiêu
+em đậu ngành công nghệ thông tin rồi admin hướng dẫn em làm hồ sơ nhậo học với
+ngành công nghệ thông tin em xếp ở nguyện vọng 1 thì ngành công nghệ kỹ thuật điện điện tử xếp ở nguyện vọng 2 có được không
+em muốn đăng ký nguyện vọng vào công nghệ thông tin của trường
+quý trường cho hỏi năm nay khoa công nghệ thông tin có lấy nguyện vọng 2 không
+điểm sàn ngành công nghệ thông tin năm nay bao nhiêu phía bắc
+tôi không tìm thấy thông tin nên muốn hỏi ngành công nghệ thông tin không chia chuyên ngành hẹp hơn
+cho em hỏi d01 năm nay có thi công nghệ thông tin của trường được không
+hiện tại bưu chính miền bắc đã có chỉ tiêu ngành công nghệ thông tin năm này chưa
+mà hệ từ xa thì học xong vẫn có bằng đại học công nghệ thông tin hay sao admin
+em hỏi là em học ngành công nghệ thông tin thì chuyển vào chị bộ đảng nào
+em muốn thi lên công nghệ thông tin của trường mình thì có được không
+em xem điểm trường mình thì em thấy năm 2019 có ghi là thứ tự nguyện vọng ngành công nghệ thông tin phải đặt là 1 vậy năm nay mình có áp dụng không
+trường mình tuyển sinh từ 20 điểm trở lên thì ngành công nghệ thông tin cũng 20 điểm
+sao em nghe thấy bảo là khi thí sinh đăng ký ngành công nghệ thông tin thì yêu câu của trường bưu chính viễn thông là phải đứa lên nguyện vọng 1 có đúng không
+mình hỏi thông tin về lớp tài năng công nghệ thông tin của trường
+cho em hỏi là điểm sàn công nghệ thông tin của trường mình là 24
+em mới xem là điểm sàn của ngành công nghệ thông tin là 24
+cho em hỏi ngành công nghệ thông tin mã ngành 7480201 của trường có yêu cầu phải đặt nguyện vọng 1 không
+điểm sàn của trường ngành công nghệ thông tin là bao nhiêu
+học viện có thể cho em hỏi là hiện tại trường có chương trình học nào phù hợp với đối tượng như em muốn học văn bằng 2 về công nghệ thông tin cụ thể là ngành kỹ thuật phần mềm software engineering không
+ngành công nghệ thông tin trường mình có bắt buộc phải để nguyện vọng 1 không
+em được 26đ tròn có đỗ khoa công nghệ thông tin không
+ngành công nghệ thông tin có bắt yêu cầu nguyện vọng 1 không
+điểm sàn ngành công nghệ thông tin là bao nhiêu
+con mình 23.1 điểm muốn nộp hồ sơ vào ngành công nghệ thông tin thì có đật ko mình gọi số đt hotline để llạc nhưng không nghe máy
+ba nhiêu điểm là vào được ngành công nghệ thông tin
+hay vẫn chờ xem ngàh công nghệ thông tin của học viện đủ nguyện vọng 1 chưa
+ví dụ ngành công nghệ thông tin trường mình lấy 25d mà em được 25
+cho em hỏi tầm điểm năm nay thì điểm để vào công nghệ thông tin bao nhiêu là an toàn
+cho em hỏi là ngành công nghệ thông tin của trường xét ở những nguyện vọng sau không
+ngành công nghệ thông tin năm ngoái yêu cầu nguyện vọng 1 thì năm nay có như vậy không
+năm nay trường có đặt tiêu chí phụ về thứ tự nguyện vọng không năm ngoái em có thấy ngành công nghệ thông tin có tiêu chí phụ là nguyện vọng 1 không biết năm nay thế nào
+năm nay trường có đặt tiêu chí phụ về thứ tự nguyện vọng không năm ngoái em có thấy ngành công nghệ thông tin có tiêu chí phụ là nguyện vọng 2 không biết năm nay thế nào
+điểm chuẩn công nghệ thông tin của trường năm nay dự là bao nhiêu nhỉ admin
+cho em hỏi là em đăng ký nguyện vọng 1 là công nghệ thông tin đại học công nghệ thì nguyện vọng 2 có được đăng ký công nghệ thông tin của trường mình không
+trong khoa công nghệ thông tin thì trường có y về ai không
+05 điểm em rất muốn học công nghệ thông tin của trường nhưng thôi em tạch rồi
+ngành công nghệ thông tin của trường có yêu cầu phải để nguyện vọng cao nhất là nguyện vọng 1 không
+cho em hỏi khi mình đăng ký vào ngành công nghệ thông tin của trường thì bắt buộc phải để nguyện vọng 1 thì mới trúng tuyê rồi
+ngành công nghệ thông tin điểm bao nhiêu
+em muốn hỏi điểm chuẩn khoa công nghệ thông tin trường mình năm 2020 là bao nhiêu
+cho em hỏi là em muốn thi ngành công nghệ thông tin của trường thì phải đặt nguyện vọng này lên đầu không
+cho em hỏi là trường mình các ngành có điều kiện đề ra vd như là ngành công nghệ thông tin sẽ phải đặt ở nguyện vọng 1
+ai thi bưu chính cho em hỏi là các ngành công nghệ thông tin và điện tử viễn thông có bắt buộc phải đặt ở nguyện vọng 1 không
+em đăng ký công nghệ thông tin ở nguyện vọng 3 thì có trúng tuyển không
+em có nộp nv5 ngành công nghệ thông tin của trường mình
+vậy em thi công nghệ thông tin vẫn dùng điểm trung học phổ thông xét
+cao đẳng bưu chính viễn thông ngành công nghệ thông tin
+ngành công nghệ thông tin năm nay lấy bao nhieu điểm vạya
+liệu ngành công nghệ thông tin điểm chuẩn có thể tăng khoảng mấy điểm
+năm nay em có dự định đăng ký nguyện vọng công nghệ thông tin của trường mình
+cho em hỏi trường năm nay tuyển sinh còn theo hình thức phải đặt nguyện vọng theo ghi chú ví dụ như công nghệ thông tin phải nguyện vọng 1 mới được hay vân vân
+admin có thể cho em biết công nghệ thông tin trường mình năm nay lấy khoảng bao điểm được không
+cái năm 2019 í ngành công nghệ thông tin nó bảo ấy nguyện vọng 1 năm nay nó cũng ấy vậy
+ngành công nghệ thông tin trường mình bắt buộc phải để ở nguyện vọng 1 hay cái thứ tự nguyện vọng đấy chỉ là để xét tiêu chí phụ khi mình vừa đủ điểm sàn
+cơ sở vật chất về ngành công nghệ thông tin như nào
+em muốn hỏi học văn bằng 2 công nghệ thông tin
+ví dụ nguyện vọng 1 đăg kí công nghệ thông tin
+điểm công nghệ thông tin năm ngoái của trường mình là
+em đang là sinh viên mà muốn học trực tuyến ngành công nghệ thông tin của trường mình thì những học phần như triết hay pháp luật đại cương có được miễn không
+ngành công nghệ thông tin thường là bn
+ví dụ em đăng ký nguyện vọng 1 là khoa công nghệ thông tin của đại học gtvt nhưng không đỗ thì nguyện vọng 2 là học viện bưu chính viến thông có đỗ không
+công nghệ thông tin và công nghệ thông tin dự kiến năm này khoảng bao nhiêu điểm thầy cô
+cho em hỏi năm nhất công nghệ thông tin phía nam thành phố
+cho em hỏi em đã có bằng cao đẳng rồi muốn liên thông lên ngành công nghệ thông tin
+chuyên hóa có được xét vào ngành công nghệ thông tin của trường không
+vậy ngành công nghệ thông tin bên trường đào tạo bao nhiêu năm vậy
+ngành công nghệ thông tin bên mình đào tạo khối nào vậy
+em muốn chuyển khoa từ kỹ thuật tự động hóa sang công nghệ thông tin thì có được không
+cho em hỏi khi học kĩ thuật điện tử sau này mình có thể học thêm chứng chỉ của công nghệ thông tin được không
+cho em hỏi là năm 2021 em có thi kì thi trung học phổ thông quốc gia và đạt đủ điểm chuẩn của ngành công nghệ thông tin cơ sở phía nam là 25 9 điểm nhưng em đã không đăng ký học trường mà chọn học 1 trường khác hiện tại em có mong muốn được học ở trường mình thì cho em hỏi có cách nào để em có thể chuyển qua trường học không
+cho em hỏi giờ em được cộng lại điểm đủ đỗ công nghệ thông tin mà chưa thấy gửi mail thì có đặt được nguyện vọng 1 không
+cho em hỏi đã có thông báo gửi mail về là trúng tuyển ngành công nghệ thông tin thì phải nộp học phí trước trường mới gửi giấy báo về đúng không
+em đậu ngành công nghệ thông tin khu vực phía nam
+em định đăng ký ngành công nghệ thông tin cửa trường mình bằng điểm thi trung học phổ thông thì em đặt nó ở nguyện vọng 2 được không
+kiểu học công nghệ đa ptien xong đăng ký học công nghệ thông tin ý á
+ngành công nghệ thông tin thì tầm bao nhiều là đỗ
+cho em hỏi là ngành điện tử viễn thông với công nghệ thông tin ở trường mình có lấy khối d01 không
+cho tôi hỏi hubt có đào tạo văn bằng 2 ngành công nghệ thông tin ko
+em đã học xong năm nhất của trường đại học quốc tế swinburne về khoa công nghệ thông tin
+xin tư vấn về việc học văn bằng 2 khoa công nghệ thông tin
+cho em hỏi thông tin về đào tạo liên thông trực tuyến ngành công nghệ thông tin
+tuy nhiên khi đăng ký trên cổng thông tin của bộ giáo dục cháu để nguyện vọng 1 là ngành công nghệ thông tin theo phương thức xét điểm tốt nghiệp trung học phổ thông quốc gia và nguyện vọng cháu đã trung tuyển là nguyện vọng 2
+em sinh viên tự do bao giờ muốn đăng ký vào ngành công nghệ thông tin hệ vừa học vừa làm như nào hẹ vừa học vừa làm
+anh có thể tư vấn em về ngành công nghệ thông tin hệ quốc tế được không
+bây giờ em muốn đăng ký học cử nhân ngành công nghệ thông tin hình thức từ xa ở ptit
+là bên ngành công nghệ thông tin của trường mình
+trúng tuyển vào đại học hệ chính quy năm 2022 ở các ngành kỹ thuật như điện tử viễn thông kỹ thuật điện điện tử công nghệtt công nghệ thông tin kỹ thuật điều khiển tự động hóa công nghệ inernet vạn vật có trình độ ielts 6
+anh chị cho em hỏi là việc đặt thứ tự nguyện vọng trong ngành công nghệ thông tin của trường mình và các ngành khác có tiêu chí phụ là nguyện vọng 1 hoặc nhỏ hơn bằng thì nhất định phải đặt thứ tự nguyện vọng như thế
+em xin hỏi là tại sao trường lại tách khoa học máy tính ra khỏi các định hướng trong ngành công nghệ thông tin làm 1 ngành riêng vậy
+cho em hỏi là một lớp học công nghệ thông tin hệ đại trà thường có bao nhiêu sinh viên một lớp
+cho em hỏi là chỉ tiêu ngành công nghệ thông tin của trường năm 2021 và năm 2022 là bao nhiêu sinh viên
+em muốn hỏi về học đại học văn bằng 2 ngành công nghệ thông tin trường mình
+ngành công nghệ thông tin thì tầm bao nhiêu mới đỗ được
+cho mình hoie giải tỉnh môn nào thì được xét kết hợp công nghệ thông tin
+cho mình hỏi năm 2021 học sinh giỏi cấp tỉnh đạt từ giải mấy thì được tuyển thẳng vào ngành công nghệ thông tin
+em muốn đặt nguyện vọng 1 vào công nghệ thông tin
+em chào các thầy cô em có câu hỏi là em có giải ba học sinh giỏi tin học cấp tỉnh thì có thể nộp hồ sơ để xet tuyển vào ngành công nghệ thông tin của trường được không
+vì tìm hiểu được biết năm trước trường mình ngành công nghệ thông tin bắt buộc đặt nguyện vọng 1
+em ấy có đăng ký nguyện vọng vào ngành công nghệ thông tin và makerting ở trường mình bị thiếu 0 05 nữa mới trúng tuyển vậy cho em hỏi em có thể xin xét chuyển ngành khác trong trường được không
+em muốn đăng ký học ngành công nghệ thông tin hệ từ xa cần chuẩn bị những gì
+trường ơi mình được 22 95 có vào được ngành công nghệ thông tin không
+nhưng vậy là không thể có cả nguyện vọng công nghệ thông tin và công nghệ đpt cùng 1 lúc
+admin ơi năm nay trường mình lấy công nghệ thông tin 24
+cho em hỏi hiện trường đang có tuyển thạc sĩ chuyên ngành liên quan đến công nghệ thông tin không
+năm nay trường lấy điểm chuẩn là bao nhiêu điểm mới vào công nghệ thông tin
+con trai tôi có nộp hồ sơ vào ngành công nghệ thông tin hệ vừa học vừa làm
+anh ơi hôm nay là nhập học cho svien khoa công nghệ thông tin anh
+nhưng lúc xếp nguyện vọng em muốn thử sức với các trường khác thì em đặt ở nguyện vọng 1 2 còn nguyện vọng công nghệ thông tin của học viện mình em đặt ở nguyện vọng 3 hoặc 4
+thầy cô cho em hỏi hiện giờ bên trường còn hạn nộp hồ sơ đăng ký học thạc sĩ ngành công nghệ thông tin không
+hiện tại trường có đào tạo ngành công nghệ thông tin cho khối c không
+cho em hỏi ngành công nghệ thông tin năm nay đạt điểm chuẩn tầm 27 là được và có cần tiêu chí phụ là gì không
+trường ơi ngành mới khoa học máy tính và ngành công nghệ thông tin khác nhau như nào vậy anh
+là dự đoán công nghệ thông tin có giảm điểm không
+em đang tìm hiểu về chương trình đào tạo từ xa ngành công nghệ thông tin ở học viện
+cho em hỏi em học công nghệ thông tin hôm nhập học em đến buổi chiều anh chị bảo muộn rồi nên giấy di chuyển nghĩa vụ quân sự để hôm khác nộp
+mình muốn học ngành công nghệ thông tin hiện đang đi làm thì thời gian phương thức học và học phí như thế nào
+là em xét nguyện vọng công nghệ thông tin
+trang cho em hỏi ví dụ như em đỗ công nghệ thông tin theo phương thức kết hợp em đặt nguyện vọng 1 đến lúc bộ lọc ảo
+và em có để đặt nguyện vọng vào ngành công nghệ thông tin clc thẳng luôn không
+điều kiện đủ đê tham gia học công nghệ thông tin là gì
+là em muốn theo học ngành công nghệ thông tin tại trường mình ý nhưg em đã học xog cấp 3 lâu rồi
+giờ em muốn xét thẳng vào ngành công nghệ thông tin có được không
+sinh viên năm nhất của khoa công nghệ thông tin sẽ học ở điểm trường khu vực nào cầu giấy hay hà đông
+trường cho em hỏi là ngành công nghệ thông tin ở phía nam thì học ở đâu vậy
+và thêm điểm tb chung của 3 môn của 3 năm như năm nay 27 97 là đỗ khoa công nghệ thông tin ạ
+em thấy trường mình yêu cầu ngành công nghệ thông tin là phải đặt ở nguyện vọng 1
+ngành công nghệ thông tin với sj
+em vẫn được xét tới nguyện vọng trúng tuyển kết hợp ngành công nghệ thông tin như bình thường
+em muốn hỏi là trong danh sách nguyện vọng tới trên hệ thống của bộ em có thể đặt nguyện vọng trúng tuyển kết hợp ngành công nghệ thông tin ở sau các nguyện vọng a b
+còn hạn đến tháng 10 2023 đã đăng ký công nghệ thông tin clc
+còn hạn đến tháng 10 2023 và muốn đăng ký công nghệ thông tin clc
+em muốn đăng ký ngành công nghệ thông tin thì phải đăng ký nguyện vọng mấy trở nên
+năm nay ngành công nghệ thông tin của trường có tiêu chí phụ là nguyện vọng mấy
+cho em hỏi là nếu em đăng ký 1 ngành có điểm thấp mà điểm em có thể đỗ công nghệ thông tin thì năm sau em có thể chuyển ngành không
+em tốt nghiệp trung cấp công nghệ thông tin em xin học liên thông ngành công nghệ da phương tiện được không anh
+cho mình hỏi hiện tại có trường có tuyển sinh hệ lien thong đại học tu xa nghanh công nghệ thông tin không anh
+lớp công nghệ thông tin có bạn gái không
+vậy cho em hỏi năm ngoái ngành công nghệ thông tin khối a00 lấy bao điểm vậy
+là em có thể chuyển ngàng được không cụ thể là từ khoa học máy tính chuyển sang công nghệ thông tin
+ngành công nghệ thông tin trường mình yêu cầu thứ tự nguyện vọng là nguyện vọng 1 vậy nếu em để nguyện vọng 1 thì có được xét không đ¥²
+admin ơi em trúng tuyển trường khoa công nghệ thông tin thì khi xếp nguyện vọng có bắt buộc phải để công nghệ thông tin nguyện vọng 1 không và em có thể để công nghệ thông tin nguyện vọng 2 không
+em chào thầy cô bạn đã gửi hiện em đã học xong cao học chuyên ngành toán học do nhu cầu công việc em muốn học học cao học công nghệ thông tin thì có được không
+xin cho em hỏi khóa học văn bằng 2 ngành công nghệ thông tin hoặc khoa học dữ liệu của trường em muốn học online em ở đà nẵng
+để đỗ vào ngành công nghệ thông tin của trường bằng phương thức điểm thi trung học phổ thông thì phải đăng ký là nguyện vọng 1 phải không
+cơ sở phía nam không tuyển sinh ngành công nghệ thông tin nữa
+không đúng chuyên ngành công nghệ thông tin
+tiêu trí phụ khoa công nghệ thông tin năm 2022
+trên trang có ghi là chỉ tiêu pt kết hợp ngành công nghệ thông tin là 125
+thế khoa công nghệ thông tin mình năm nay điểm sàn là bao nhiêu
+em trúng tuyển ngành công nghệ thông tin với thương mại điện tử rồi thì em được chọn giữa 2 ngành không
+ví dụ như giải tỉnh vật lí có vào được công nghệ thông tin không
+cho tôi hỏi học công nghệ thông tin vừa học vừa làm bao nhiêu tiền 1 năm
+tôi có con năm nay muốn vào học ngành công nghệ thông tin của trường mình
+vừa mấy phút trước em vào thì thấy chúc mừng bạn trúng tuyển nguyện vọng 2 công nghệ thông tin
+trường mình năm nay có bắt đặt công nghệ thông tin ở nguyện vọng 1 không
+em có nguyện vọng đăng ký đào tạo từ xa công nghệ thông tin
+ngành công nghệ thông tin thì ví dụ em chưa thông thạo máy tính cho lắm thì vào học có theo kịp được các bạn không
+ban công nghệ thông tin năm nay 1 4 bắt đầu nhận hồ sơ đúng không
+em tìm hiểu là học phí công nghệ thông tin thường là 655k 1 tín
+xin học viện cho tôi hỏi con tôi 24 5 điểm có hy vọng trúng tuyển ngành khoa học máy tính hay công nghệ thông tin không
+cho mình hỏi trong tổng quan của trường bưu chính viễn thông không thấy đề cập tới chuyên ngành kỹ thuật phần mềm của công nghệ thông tin vậy
+cho mình hỏi khoa công nghệ thông tin có thể thi môn nào
+là theo như em biết là mã ngành của các trường đều như nhau ví dụ công nghệ thông tin 7480201 mà em thấy 1 số trường còn có 1 chữ sau mã nữa như 7480201p trường bên mình có không
+em là tsv sắp vào trường cho em hỏi trường ở miền nam có 2 cơ sở vậy công nghệ thông tin học ở cơ sở nào hay phải chạy cơ sở liên tục
+75đ nguyện vọng học công nghệ thông tin của trường có đậu không
+mình có tham khảo khoa công nghệ thông tin của trường
+em đã có bằng cao đẳng em muốn liên thông ngành công nghệ thông tin cô tư vấn em với
+em muốn hỏi là bây giờ em đã đậu được ngành công nghệ thông tin của trường rồi mà em lại muốn để trường mình ở nguyện vọng 2 nếu em rớt nguyện vọng 1 thì có chắc chắn 100 là em vẫn đậu được nguyện vọng 2 không với lại ở miền nam thì mình học ở cơ sở nào vậy
+nhà trường cho em xin danh sách chương trình đào tạo chi tiết ngành công nghệ thông tin của trường được không
+liệu học công nghệ thông tin có vất vả lắm không
+với cho em hỏi 27 4 có khả năng là đỗ công nghệ thông tin không
+với lại học phí công nghệ thông tin 1 năm là bao nhiêu
+thì khoa công nghệ thông tin lấy bao nhiêu anh và em nộp hồ sơ thé nào anh
+nguyên vong là công nghệ thông tin của trường
+em muốn hỏi tiêu chí phụ của công nghệ thông tin của trường bat để nguyện vọng 1
+trường mình có còn tuyển sinh hệ vừa học vừa làm ngành công nghệ thông tin không
+mình thi aoo được 27 6 mình đăng ký vào công nghệ thông tin của trường thì khả năng đỗ cao không bạn
+công nghệ thông tin mà thấp điểm hơn trường mình xíu trong ngành admin tư vấn giúp em một trường nữa với
+cho em hỏi em thấy ngành công nghệ thông tin có phần ghi chú thứ tự nguyện vọng bằng 1 tức là bắt buộc phải để nguyện vọng 1 trong tất cả nguyện vọng của em mong trang trẻ lời đ¥¹
+em có một câu hỏi là ngành công nghệ thông tin trường mình có kết hợp với nước ngoại không điển hình là nước nhật
+em đã đỗ ngàng công nghệ thông tin của trường thì khi xếp nguyện vọng trên hệ thống thì có phải đặt lên nguyện vọng 1 không
+ngành công nghệ thông tin trường mình có kết hợp với nước ngoại không điển hình là nước nhật
+em tưởng là khoa công nghệ thông tin là gồm tất cả các chuyên ngành
+và cao hơn điểm chuẩn của ngành công nghệ thông tin trường giao thông vận tải
+muốn tìm hiểu về nhà trường và đăng ký cho con theo học công nghệ thông tin tại trường
+đăng ký nguyện vọng 2 ngành công nghệ thông tin của trường được không
+em được 27 25 điểm có khả năng vào được công nghệ thông tin không
+em đã tốt nghiệp cao đẳng công nghệ thông tin và muốn liên thông tại trường
+điểm thì có nên đặt vào công nghệ thông tin hay kĩ thuật điện tử viễn thông không
+thi trung học phổ thông quốc gia đỗ công nghệ thông tin thì được chọn 1 trong 2 để học không
+cho em hỏi học phí trường bình ngành công nghệ thông tin học viện là bao nhiêu
+25 có cơ hội vào ngành công nghệ thông tin không
+25 công nghệ thông tin nguyện vọng 2
+cho em hỏi ngành công nghệ thông tin có lấy khối d07 không
+ngành công nghệ thông tin có tuyển sinh khối d07 không
+khoa công nghệ thông tin có đào tạo khối d07 không
+cho em hỏi ngành công nghệ thông tin xét thi khối d7 không
+trường mình có ngành công nghệ thông tin là chỉ xét nguyện vọng 1 thôi
+em thấy trường xét ngành công nghệ thông tin chỉ nguyện vọng 1
+em thấy nhiều bạn nói ngành công nghệ thông tin trường mình chỉ xét ở nguyện vọng 1 thôi
+vi em nghe 1 số bạn bảo trường chỉ nhận các bạn xếp công nghệ thông tin nguyện vọng 1
+em đăng ký ngành công nghệ thông tin ở cơ sở phía nam lấy 22đ vậy mà sao đến giờ em vẫn chưa nhận được thông báo hay email trúng tuyển vậy
+công nghệ thông tin điểm cao hơn
+ngành công nghệ thông tin chất lg cao
+ngành công nghệ thông tin chất luọng cao
+điểm chuẩn công nghệ thông tin năm 2021
+điểm chuẩn năm 2021 khoa công nghệ thông tin
+năm 2021 ngành công nghệ thông tin thuộc nguyện vọng mấy
+ví dụ ngành công nghệ thông tin năm 2021 thứ tự nguyện vọng 1
+xin cho tôi hỏi cháu nhà tôi đỗ khoa công nghệ thông tin của trường năm 2022 là con thương binh được hưởng miễn học phí
+tiêu chí phụ khi tuyển sinh theo hình thức thi trung học phổ thông là nguyện vọng 3 ngành công nghệ thông tin là như thế nào vậy
+em có được làm hồ sơ theo phương thức 3 đối tượng 3 vào ngành công nghệ thông tin không
+em học công nghệ thông tin thì tuần lễ công dân bắt đầu từ chiều mai hay sáng mai
+đậu được công nghệ thông tin năm ngoái lấy 23
+năm nay liệu công nghệ thông tin lấy 23
+công nghệ thông tin 23.2 nguyện vọng 1
+em được 23.55 điểm và đăng ký công nghệ thông tin anh
+công nghệ thông tin có bắt buộc dặt nguyện vọng 1 không
+làm cách nào để xem số bộ hồ sơ đã đăng ký vào ngành công nghệ thông tin bưu chính
+năm nay số người đăng ký đầu vào ngành công nghệ thông tin là bao nhiêu
+ngành công nghệ thông tin năm nay tuyển bao nhiêu người anh
+khối anh em đăng ký công nghệ thông tin đại học quốc gia nguyện vọng 4
+năm nay cơ sở phía nam có bao nhiêu thí sinh đăng ký ngành công nghệ thông tin
+cô có thể cho em biết số lượng thí sinh đăng ký công nghệ thông tin trường mình hiện đag là bao nhiêu không
+vào khoa công nghệ thông tin nguyện vọng mấy
+trường mình xét công nghệ thông tin ở nguyện vọng mấy vậy
+ngành công nghệ thông tin lấy từ nguyện vọng bao nhiêu trở lại
+công nghệ thông tin nhận nguyện vọng mấy vậy
+năm nay ngành công nghệ thông tin bên trường mình thì được đặt từ nguyện vọng mấy trở xuống vậy
+không ý em là ví dụ bay giờ em đăng ký công nghệ thông tin thì có yêu cầu nguyện vọng ý phải xếp thứ tự nguyện vọng nguyện vọng mấy không
+công nghệ thông tin của bưu chính có bắt buộc đặt thứ tự nguyện vọng là bao nhiêu không
+cho em hỏi là năm nay ngành công nghệ thông tin thì thứ tự nguyện vọng bắt buộc phải để là bao nhiêu
+ngành công nghệ thông tin xét theo nguyện vọng 1 có bắt buộc phải để nguyện vọng 1 không
+ngành công nghệ thông tin bắt buộc phải để nguyện vọng 1
+ngành công nghệ thông tin bắt buộc phải để nguyện vọng 1 đúng không
+công nghệ thông tin của trường bắt buộc phải để nguyện vọng 1 hay đó chỉ là tiêu chí phụ thôi
+đối với ngành công nghệ thông tin cũng 34 tín chỉ
+ngành công nghệ thông tin của trường mình là bắt buộc phải để nguyện vọng 1
+với ngành công nghệ thông tin năm nay phải đặt nguyện vọng 1 mới vào được
+ngành công nghệ thông tin của trường là phải bắt buộc xét ở nguyện vọng 1 cơ
+ngành công nghệ thông tin của trường mình bắt buộc phải xếp vào nguyện vọng 1
+mọi năm ngành công nghệ thông tin đều xét nguyện vọng 1
+cho em hỏi là cái hạn nộp hồ sơ 1 4 2022 cho ngành công nghệ thông tin công bố trên web tuyển sinh của trường là như thế nào
+em thấy trên trang tuyển sinh của trường ghi là hạn nộp hồ sơ cho ngành công nghệ thông tin là 1 4 2022 vậy bây giờ không thể xét theo phương thức kết hợp nữa mà chỉ xét theo kết quả trung học phổ thông quốc gia thôi đúng không
+em đã vào xem thông tin tuyển sinh 2022 thì thấy ngành công nghệ thông tin thời hạn nộp hồ sơ là ngày 1 4 2022 vậy có phải là đã hết thời hạn nộp hồ sơ không có còn đợt nào nữa không
+xin hỏi thầy cô thông tin tuyển sinh của ngành công nghệ thông tin có hạn nộp hồ sơ bắt đầu từ 1 4 2022 phải không
+như ngành công nghệ thông tin thì em thấy hạn nộp tháng 4 2022 là sao vậy em chưa hiểu rõ
+tôi quan tâm đến 20 chỉ tiêu của chương trình liên kết quốc tế 2 2 bằng cử nhân công nghệ thông tin của đại học la trobe
+admin ơi hôm 21 công nghệ thông tin nhập học buổi sáng hay chiều đấy
+admin ơi ngành công nghệ thông tin có ghi hạn nộp hồ sơ là 1 4 nhưng mà phần nộp hồ sơ em thấy vẫn chưa nộp được
+tôi thấy hạn nộp hòi sơ ngành công nghệ thông tin là 1
+ngành công nghệ thông tin hạn nộp đến 01 4 thế thì hết hạn nộp hồ sơ rồi
+sáng 27 8 là đến nhập học ngành công nghệ thông tin
+như năm ngoái công nghệ thông tin 3
+và đăng ký ngành công nghệ thông tin và ở nguyện vọng 3
+công nghệ thông tin nếu đặt nguyện vọng 3 được không
+ngành công nghệ thông tin có được phép để ở nguyện vọng 3 không
+nguyện vọng 3 là công nghệ thông tin
+em trai em muốn đăng ký khoa công nghệ thông tin chị hướng dẫn giúp em cách thức nộp hồ sơ
+cho em hỏi em 17d xét công nghệ thông tin có hy vọng vô trường không admin
+cho em hỏi năm nay 18 điểm có đỗ được ngành công nghệ thông tin không
+cho em hỏi năm nay em mún nộp vào công nghệ thông tin của trường với số điểm 18 điểm có được không
+em muốn nhờ trang tư vấn giúp em về các trường đại học đào tạo công nghệ thông tin hoặc công nghệ ô tô ở hà nội phù hợp với mức điểm cua em năm nay em đăng ký 17 7 điểm
+điểm em là 18 điểm mà ngành công nghệ thông tin lấy 16 điểm vậy là em đậu rồi chứ
+em được 27 25 điểm khối a1 cộng cả điểm vùng rồi liệu có đỗ được ngành công nghệ thông tin của trường không
+cho em hỏi năm 2019 em thấy điểm chuẩn vào ngành công nghệ thông tin của học viện mình là 24 1 với thứ tự nguyện vọng là 1 vậy nếu giả sử năm 2019 thi đạt được 26 điểm và đặt nguyện vọng 3 thì có đỗ được vào ngành công nghệ thông tin không
+cho em hỏi ví dụ ngành công nghệ thông tin lấy 25 điểm và nguyện vọng 2 mà em được 26 điểm và khi lấy đến em trường vẫn đang còn thiếu chỉ tiêu nhưng em để nguyện vọng của mình ở nguyện vọng 3 thì có được không
+hiện tại đã trải qua kì thi trung học phổ thông quốc gia và hiện tại em đang có nguyện vọng vào ngnagf công nghệ thông tin của trường mình mà hiện tịa mức điểm cua rem dừng lại ở mức 24 85 thì có cơ hội với mức diểm của năm 2020 không
+thầy cô cho em hỏi điểm chuẩn của trường năm 2020 khoa công nghệ thông tin là 26 65 tiêu chí phụ thứ tự nguyện vọng bé hơn hoặc bằng 3
+công nghệ thông tin đủ 19 mới vào được hả admin
+cho em hỏi bây giờ em được 19 65đ có khả năg đậu công nghệ thông tin không
+cho em hỏi ngành công nghệ thông tin lịch nhập học có thay đổi không
+vậy mã lớp mã sinh viên đã cấp cho em có thay đổi theo ngành công nghệ thông tin hay không
+cho em hỏi các ngành công nghệ thông tin với marketing trường mình có đổi không
+công nghệ thông tin khối a1 đỗ không admin
+cho em hỏi là điểm thi khối a01 của em là 25 0125 điểm toán x2 đã cộng điểm ưu tiên khu vực không có điểm dân tộc thì có cơ hội trúng tuyển vào ngành công nghệ thông tin của trường mình không
+mức điểm áp dụng cho học sinh phổ thông khu vực 3 là sao em ở khu vực 2 được cộng 0 75 điểm cả cộng là 24 15 thì có đỗ khoa công nghệ thông tin không mong admin giải thích giúp
+em thấy ngành công nghệ thông tin của trường ghi điểm chuẩn nguyện vọng 1 là 22 năm 2018
+vậy 22 điểm nguyện vọng 1 cho ngành công nghệ thông tin em sẽ có nhiều cơ hội trúng tuyển không
+em thấy trên mạng có tin công nghệ thông tin năm nay 22 điểm có thật không em được 22 6 mà hoang mang quá
+có phải là ví dụ công nghệ thông tin lấy 22 điểm thì chỉ có những bạn 22 điểm mới cần để ý tới stt nguyện vọng đúng không
+em thi được có mỗi 23.65 mà ngành công nghệ thông tin năm ngoái lấy 22 điểm
+em được 22 điểm và em đăng ký ngành công nghệ thông tin của trường nguyện vọng 2 của em là khoa công nghệ thông tin nhưng em không thấy có tên mình trong danh sách trúng tuyển
+tầm 22 điểm có thể đậu công nghệ thông tin cơ sở phía nam không
+cho tôi hỏi cháu được 22 điểm có trúng tuyển vào ngành công nghệ thông tin không
+năm ngoái em thấy ngành công nghệ thông tin học viện mình lấy 22 mà năm này em thì có mỗi 23.thì liệu có trúng tuyển vào học viện không
+em được 25 điểm chưa cộng điểm ưu tiên nhưng em để nguyện vọng 3 có đỗ công nghệ thông tin không
+khu vực 2 vậy có đỗ công nghệ thông tin 25 điểm khu vực 3 hay không
+3 có thể đỗ công nghệ thông tin không admin
+em được 25 1 đăng ký công nghệ thông tin nguyện vọng 3 thì có đỗ không
+liệu có khả năng điểm chuẩn công nghệ thông tin trên 25 không chị
+điểm số của em là 25 5 thì đã đạt điểm đậu ngành công nghệ thông tin
+tại vì mình thấy năm trước điểm chuẩn công nghệ thông tin trường mình là 25đ cao nhất trong các ngành
+theo như em tra trên mạng thì điểm chuẩn ngành công nghệ thông tin năm 2017 của trường là 25 điểm
+và tiêu chí phụ cho thí sinh 25 điểm đăng ký công nghệ thông tin ở nguyện vọng 1
+em học công nghệ thông tin em được 25
+em 25 đăng ký công nghệ thông tin nguyện vọng 2 nên phải từ bỏ admin ơi
+25 điểm công nghệ thông tin
+25d đăng ký công nghệ thông tin
+đăng ký công nghệ thông tin 25
+em đăng ký 25 điểm công nghệ thông tin á chị
+thế em để công nghệ thông tin nguyện vọng 2 em được 25
+em thi trung học phổ thông qg được 22 điểm thì có bao nhiêu đỗ được ngành công nghệ thông tin
+với điểm thi ptth 2022 khối a00 con tôi có thể trúng tuyển vào khoa công nghệ thông tin của trường không
+xin lỗi với điểm thi khối a00 27 8 bao gồm cả 0.5 điểm ưu tiên con tôi có thể trúng tuyển vào khoa công nghệ thông tin năm 2022 của trường không
+con tôi thi 26 5 điểm liệu có đỗ khoa công nghệ thông tin
+vd ngành công nghệ thông tin lấy điểm chuẩn 26 điểm thì ưu tiên những bạn 27 điểm nguyện vọng 2 trước hay những bạn 26 điểm nguyện vọng 1 trước
+em 26 điểm đăng ký vào ngành công nghệ thông tin giờ ngành đó lấy 26
+em được 26 45 dự định vào công nghệ thông tin
+ví dụ ngành công nghệ thông tin năm 2019 lấy điểm trúng tuyển là 26
+giảm 50 không phí của ngành công nghệ thông tin hay cả khoa hả anh
+admin ơi em học công nghệ thông tin thì năm đầu sẽ đóng học phí theo mức giảm 50 luôn
+cho em hỏi em đặt ngành công nghệ thông tin ở nguyện vọng 4 thì có được xét không
+cho em hỏi là với điểm thi là 20 thì em có cơ hội đậu vào công nghệ thông tin của trường không vì em thấy điểm năm nay có thể tăng nhiều so với năm ngoái ấy
+cho em hỏi 20 điểm có cơ hội đậu ngành công nghệ thông tin của trường không
+xin chào qua kì thi trung học phổ thông vừa rồi em tính mình được khoảng 20 85 có khả năng đậu được ngành công nghệ thông tin của trường không
+ngành công nghệ thông tin em được khối điểm 21đ có được không
+em được 26đ nhưng là nguyện vọng 2 có đỗ công nghệ thông tin không
+em được 25 25 cả cộng để vào công nghệ thông tin là nguyện vọng 2 thì có đỗ không
+không thì cho em hỏi 25đ đỗ công nghệ thông tin không thôi
+chào em đăng ký ngành công nghệ thông tin ở nguyện vọng 2 em được 25đ như vậy là em đỗ hay trượt
+thế ví dụ của admin là sao vd ngành công nghệ thông tin năm 2017 thí sinh được 25d phải đăng ký ở nguyện vọng 1 mới đỗ
+admin cho hỏi năm nay tầm 24 điểm có vào được công nghệ thông tin bưu chính không
+khoảng 24 điểm có vào được trường mình khoa công nghệ thông tin không
+năm 2019 í ngành công nghệ thông tin nó ghi là 24 1 là điểm tối thiểu để vào phải không
+cho em hỏi 24 3 có đủ đỗ công nghệ thông tin cơ sở phía bắc không
+em được 24 điểm có nên nộp công nghệ thông tin không
+điểm thi trung học phổ thông của em 24 vậy có khả năng đậu công nghệ thông tin không
+em 24 điểm ka có thể đỗ công nghệ thông tin trường không
+năm 2021 con tôi đăng ký nguyện vọng 1 là học viện công nghệ bưu chính viễn thông ngành công nghệ thông tin cháu thi tổ hợp toán lý anh tổng điểm bao gồm cả điểm cộng ưu tiên khu vực iii dân tộc thiểu số là 27 3 điểm
+dự kiến năm nay con tôi được 27 điểm vậy con tôi có đủ đăng ký để đăng ký vào khoa công nghệ thông tin của học viện mình không
+27 điểm năm nay vào được ngành công nghệ thông tin không
+à trường cho em hỏi là năm nay 27 điểm liệu có đỗ công nghệ thông tin không
+con chú được 27 điểm có đỗ công nghệ thông tin không
+còn công nghệ thông tin trường lấy 24 1
+mình xem điểm chuẩn khoa công nghệ thông tin là 24 1 thứ tự nguyện vọng 1
+ví dụ là công nghệ thông tin lấy 24
+mức tính điểm theo khu vưc của công nghệ thông tin là 24 1
+ngành công nghệ thông tin năm nay là 24
+thầy cô cho em hỏi là em 23đ em đăng ký công nghệ thông tin của trường nhưng em để ở nguyện vọng 2 thì có đỗ không
+năm nay nếu được 21 điểm liệu có đậu được vào khoa công nghệ thông tin của trường không
+vậy 21đ đủ khả năng vào công nghệ thông tin trường mình không
+công nghệ thông tin năm nay có cao đến 27 không admin
+cháu được 27 05 điểm đã đăng ký vào khoa công nghệ thông tin của trường rồi
+vì công nghệ thông tin đợt 1 xét là 27
+giả sử công nghệ thông tin lấy 27
+mà trường điểm đầu vào công nghệ thông tin 29
+điểm trần 27 là đỗ cả công nghệ thông tin
+vậy 27 điểm không cộng chắc chắn đỗ công nghệ thông tin
+em để công nghệ thông tin nguyện vọng 1 và đủ 27 điểm trần và các điều kiện khác
+em thấy ở các báo ghi là điểm ngưỡng của công nghệ thông tin miền bắc là 27 44
+điểm chuẩn công nghệ thông tin của trường 27đ
+cái theo sbd là 27 điểm em đỗ công nghệ thông tin
+điểm công nghệ thông tin là 27
+em xét nguyện vọng 1 là công nghệ thông tin năm nay là 27
+liệu 22 5 có đỗ được công nghệ thông tin không hic
+cho em hỏi năm nay em được 21 7 khối anh liệu đỗ được ngành công nghệ thông tin được không
+anh nghĩ năm nay 21 75 có đỗ công nghệ thông tin không
+nhưng để ngành công nghệ thông tin ở nguyện vọng 2 thì có đỗ không
+nganh công nghệ thông tin khu vực phia nam có mở văn bằng 2 không
+đăng ký công nghệ thông tin nguyện vọng 2 thì có đậu không
+admin ơi em để công nghệ thông tin nguyện vọng 2 thì có đỗ không
+năm nay có bao nhiêu hồ sơ đã nộp vào ngành công nghệ thông tin vậy
+admin có thể cho em biết trường mình năm ngoái bao nhiêu bạn đăng ký ngành công nghệ thông tin được không
+vâng em khối a1 thi công nghệ thông tin được 25 45 chắc đỗ admin nhỉ
+điểm trúng tuyển công nghệ thông tin 26 90 thứ tự nguyện vọng bằng 1 thứ tự nguyện vọng 1 là sao
+26 75 liệu đỗ được ngành công nghệ thông tin không
+admin ơi hồ sơ 27 55 điểm liệu có đỗ ngành công nghệ thông tin không
+con nhà em được 24 8đ cháu đăng ký ngành công nghệ thông tin không biết có cơ hội vào không
+xin chào admin em được 24 75đ và nộp 2 ngành trường mình là công nghệ thông tin và công nghệ truyền thông cho em hỏi khả năng đỗ được vào trường là khoảng bao nhiêu
+chào thầy cô em được 24 25 em có nên đăng ký vào ngành công nghệ thông tin của trường không
+kết quả thi trung học phổ thông quốc gia của em không được như mong muốn là 25đ kể cả điểm vùng thì có cơ hội vào được ngành công nghệ thông tin của trường không
+em thấy trong điểm chuẩn của trường năm 2019 nhóm ngành công nghệ thông tin có ghi chỗ thứ tự nguyện vọng 1 là sao
+em muốn hỏi là năm ngoái điểm chuẩn ngành công nghệ thông tin của trường là 26
+em thi được 26 05 có cơ hội vào khoa công nghệ thông tin của trường không
+em đạt 26 05 khối a00 có thể vào khoa công nghệ thông tin của trường không
+em được 26 85 đã cộng điểm vùng 0 25 mà ngành công nghệ thông tin là 26 65 như thế thì em có đỗ hay không
+cháu nhà tôi thi khối anh năm nay được 26 40 liệu có cơ hội đăng ký vào khoa công nghệ thông tin trường học viện công nghệ bc viên thông
+em được 26 3 cả cộng là 26 85 thì em có đỗ khoa công nghệ thông tin của trường không
+năm nay nếu em được 26 65 liệu đỗ được công nghệ thông tin không
+cám ơn bạn con mình đạt 26 75 liệu có đủ vào công nghệ thông tin không nhỉ
+bạn ý dc26 3 điểm chưa cộng điểm vùng và diem học sinh giỏi tỉnh vậy bạn y có được vào khoa công nghệ thông tin của trường ko
+em được 26 điểm thì có khả năng đỗ được khoa công nghệ thông tin của nhà trường không
+5d khu vực 1 thì với số điểm 26 em có đỗ ngành công nghệ thông tin của trường mình không
+nếu em được 26 điểm thì nguyện vọng 2 của em là công nghệ thông tin của học viện là đỗ luôn
+em đạt 26 điểm đăng ký ngành công nghệ thông tin bây giờ em muốn đổi có được không
+sao em 26 điểm mà không đậu công nghệ thông tin vậy admin
+vậy em mình đạt 25 2 điểm nhưng khoa công nghệ thông tin của trường mình là nguyện vọng 2
+admin ơi em thi được 25 25d đăng ký công nghệ thông tin ở miền nam em đủ điểm trúng tuyển nhưng nguyện vọng 2 của em là kinh tế và đã đậu công nghệ thông tin nguyện vọng 3 vậy bây giờ em không học kt mà nộp đơn vào trường thì có được nhận không admin
+vâng vì năm nay em được 25đ khối a00 nên không tự tin đăng ký vào ngành công nghệ thông tin của trường
+thi tốt nghiệp trung học phổ thông vừa rồi em đạt số điểm là 26 điểm và em ở khu vực 1 được cộng thêm 0 75 là tổng điểm em là 26 75 điểm em tính thi vào khoa công nghệ thông tin của trường thì có bao nhiêu đỗ
+em có đăng ký khoa công nghệ thông tin của trường điểm trung bình năm nay sẽ là bao nhiêu em được 26 4
+với cả ngưỡng điểm xét tuyên của trường 2021 tức là em phải hơn 27 41 mới được đặt vào công nghệ thông tin cụ thể em được 27 2
+với tổng điểm 25 khối anh của em thì có thể đỗ được ngành công nghệ thông tin của trường không
+em tầm 25 có thể đỗ được công nghệ thông tin của trường không
+em có đứa em năm nay thì khối a00 được 25 điểm thì có cơ hội nào dành cho em học công nghệ thông tin không
+với số điểm 25 15 có thể vào được ngành nào liên quan đến công nghệ thông tin máy tính của trường trong năm nay không
+em được 25 15 và em đặt vào công nghệ thông tin của trường thì có cần xét tiêu chí phụ không
+với điểm là 25 25 cả cộng liệu có thể đỗ đăng ký công nghệ thông tin trường mình không
+tại sao của em lại hiển thị là 28 43 điểm và trúng tuyển mã ngành 7320104 trong khi em đăng ký công nghệ thông tin và em được 27 điểm cả ưu tiên tổ hợp a00 vậy
+em muốn gửi hồ sơ để tuyển thẳng vào ngành công nghệ thông tin của trường em 27 điểm
+điểm thi trung học phổ thông của em là 27 1 đủ điểm và em tra trên hust miền bắc là đã đỗ công nghệ thông tin trường mình
+công nghệ thông tin đại học quốc gia 27 admin
+cho em hỏi em thi được 23.95 khối a1 và em thuộc khu vực 2 nông thôn thì đã đủ đỗ công nghệ thông tin chưa
+em thi khối anh được 22 25 điểm như thế liệu em có đủ điểm học ngành công nghệ thông tin không
+em 22 35 điểm liệu có đỗ được ngành công nghệ thông tin của trường không
+em được 22 75 thì liệu có đỗ học viện không ngành công nghệ thông tin
+xin phép thầy cô cho hỏi con tôi 24x6 điểm liệu có cơ hội vào khoa công nghệ thông tin được không
+em được 23.5 liệu có đỗ được ngành công nghệ thông tin của trường không
+em thi trung học phổ thông được 23.6 điểm vậy có thể vào khoa công nghệ thông tin của trường được không
+cho em hỏi thêm là em thi được 22 55 liệu có vào được công nghệ thông tin của trường không
+em thi đạt được 24x6 điểm năm nay thì có đủ điểm đỗ ngành công nghệ thông tin trường mình không
+admin ơi em được 24 5 điểm khả năng em đậu vào khoa công nghệ thông tin của trường có cao không
+em được 22 8 điểm có đậu khoa công nghệ thông tin không
+hay chỉ tiêu 660 của công nghệ thông tin là vẫn chưa trừ chương trình kết hợp
+vậy là chỉ tiêu công nghệ thông tin thay đổi từ 590 xuống 470
+chào admin admin cho em hỏi là với mức điểm khoảng 23.thì em có nên đăng ký ngành công nghệ thông tin của trường không
+bên trường mình có tiêu chí phụ gì về ngành công nghệ thông tin không
+công nghệ thông tin trường mình có tăng tới 2đ không admin
+khoa công nghệ thông tin cần có các tiêu chí phụ gì không
+sao bây giờ đưa ra chỉ tiêu có 210 chỉ tiêu của công nghệ thông tin vậy
+công nghệ thông tin có chỉ tiêu phụ không
+ngành công nghệ thông tin có cần tiêu chí phụ môn toán không
+vậy về phần tiêu chí phụ của ngành công nghệ thông tin thì sao em chưa lắm rõ về tiêu chí phụ
+hiện tại đã đủ chỉ tiêu nganh công nghệ thông tin chưa
+tại em thấy các ngành về công nghệ thông tin ở hn nhiều hơn thành phố hồ chí minh với lại chỉ tiêu ở thành phố hồ chí minh lấy ít hơn hn
+thì em thấy thắc mắc là chỉ tiêu của trường khá nhiều so với các trường khác ví dụ ngành công nghệ thông tin là 700
+tại em thấy ngành công nghệ thông tin có chỉ tiêu theo pt kết hợp 115 sinh viên
+theo như em thấy trong đề án của năm ngoái thì trường có ghi tổng chỉ tiêu cho ngành công nghệ thông tin là khoảng 665 và 115 chỉ tiêu trong đó là dành cho xét kết hợp
+kiểu như là công nghệ thông tin phải đký ở nguyện vọng 1 hoặc nguyện vọng 2 ấy
+em muốn hịc công nghệ thông tin mà tiếng anh không tốt lắm anh nạ
+em là phụ huynh học sinh có con năm nay thi vào đại học em muốn cho con đăng ký vào ngành công nghệ thông tin của trường nhưng năm trước em thấy trường có thứ tự nguyện vọng cho các ngành
+tôi có con năm nay sẽ thi đh con có nguyện vọng vào khoa công nghệ thông tin của học viện
+sao hồ sơ của em đạt 28 37 nhưng sao lại không đậu vào công nghệ thông tin của trường vậy
+điểm khối a1 thì năm nay có cơ hội đỗ công nghệ thông tin không
+khối a1 em có cơ hội đỗ vào ngành công nghệ thông tin không
+khả năng điểm của em khối a1 như thế này liệu tỉ lệ đỗ vào trường ngành công nghệ thông tin có cao không
+bây giờ em muốn học lại với ngành công nghệ thông tin theo chương trình đttx thì em có được miễn giảm một số môn học ngày xưa em đã học không
+vây thì ngành công nghệ thông tin có cơ hội đỗ không
+cho em hỏi em đỗ một xuất công nghệ thông tin của trường từ trường dự bị thì hôm nay em mới được giấy tuyển sinh từ trường em thấy lên web đăng ký trực tuyến thì thấy nó hiện như này
+em đã đỗ khoa công nghệ thông tin của trường và đã xác nhận nhập học
+em đã đỗ ngành công nghệ thông tin của trường nhưng em không hiểu về việc xác nhận nhập học lắm
+em đỗ công nghệ thông tin trường bảo phải xác nhận nhập học
+em đỗ công nghệ thông tin trường mình thì sau khi gửi giấy xác nhận kết quả thi trung học phổ thông có được lấy giấy báo nhập học luôn không
+cho em hỏi trang có điểm thi những bạn đăng ký khóa công nghệ thông tin trường mình đươc không
+ngành công nghệ thông tin đại trà ở thành phố hồ chí minh học ở cơ sở nào vậy
+trong đó có ngành công nghệ thông tin học viện bưu chính viến thông cơ sở 2 thành phố hồ chí minh
+vậy admin có pt nganh công nghệ thông tin hay ky thuat phan mem lay khoang bao nhiu diem không
+tai em thay công nghệ thông tin dag phat trien nen muon thu
+khoa công nghệ thông tin y bằng tiếng anh hay việt hả page
+trường y công nghệ thông tin bằng ngôn ngữ lập trình nào vậy
+ví dụ như ngành công nghệ thông tin yêu cầu điểm tb môn 5 học kỳ trên 8 phải không
+sinh viên công nghệ thông tin học ở cơ sở hà đông hay ở cầu giấy
+ngành công nghệ thông tin của trường em có thể để thứ tự nguyện vọng thấp nhất là bao nhiêu
+thế sao ngành công nghệ thông tin tại cơ sở ptithồ chí minh lại dưới ngưỡng điểm đầu vào
+năm 1 em đăng ký ngành công nghệ đpt sau năm 1 sang năm 2 em có được đăng ký thêm ngành công nghệ thông tin không
+thầy ơi công nghệ thông tin 2021 có cần đăng ký nguyện vọng 1 không
+cho mình xin thông tin về điểm tuyển năm 2021 ngành công nghệ thông tin
+cho mình hỏi thông tin tuyển sinh hệ cao đẳng công nghệ thông tin 2021 với
+tôi muốn hỏi thông tin tuyển sinh ngành công nghệ thông tin năm 2021
+điểm chuẩn vào ngành công nghệ thông tin 2020 kế hoach tuyển sinh ngành này 2021 cơ sở đào tạo nganh này tại đâu ở hanoi xin cảm ơn
+em muốn hỏi học phí cho sinh viên tuyển sinh năm 2021 đối với ngành công nghệ thông tin như thế nào chị
+cho em hỏi ngành công nghệ thông tin thì đào tạo từ 2021 đến năm bao nhiêu với ngày ra trường dự kiến là gì vì em đang làm bảng khai thông tin chương trình cho vay học sinhsv
+em muốn hỏi là chỉ tiêu ngành công nghệ thông tin của trường năm 2021 với năm 2022 là bao nhiêu
+cho mình hỏi năm 2021 khoa công nghệ thông tin có điểm chuẩn là bao nhiêu
+admin cho hỏi điểm sat trúng tuyển ngành công nghệ thông tin năm 2021 là bao nhiêu
+điểm sàn 2021 ngành công nghệ thông tin là bao nhiêu
+dụ báo điểm chuẩn vào ngành công nghệ thông tin năm 2021 khoảng bao nhiêu điểm
+ngành công nghệ thông tin lấy bao nhiêu điểm của năm 2021
+anh chị cho em hỏi điễm trúng tuyển ngành công nghệ thông tin năm 2021 là bao nhieu
+ngành công nghệ thông tin năm 2021 nhà trường tuyển sinh số lượng bao nhiêu
+tôi không thấy điểm chuẩn của năm 2020 ngành công nghệ thông tin clc nên mới hỏi
+ma ngành công nghệ thông tin có nhiêu con gai theo hoc trong truong không
+tôi có con trai năm 2022 đang có ý định học công nghệ thông tin ở trường
+admin ơi em trúng công nghệ thông tin của trường sắp tới trường thi khảo sát chất lượng tiếng anh ạ
+đã tổng hồ sơ đặt ngàng công nghệ thông tin của trường chưa
+điểm xét chứng chỉ sat cho ngành công nghệ thông tin năm ngoái được không
+là ngành công nghệ thông tin trường mình xét nhiều tổ hợp vậy điểm chuẩn của các tổ hợp có khác nhau không
+có điểm ngành công nghệ thông tin chưa vậy
+admin ơi điểm chuẩn ngành công nghệ thông tin và công nghệ thông tin clc năm 2021 có chênh lệch không
+admin có thể dự báo cho em điểm chuẩn của ngành công nghệ thông tin được không
+là ngành công nghệ thông tin của trường mình xét điểm những tổ hợp nào
+đã có thông tin gì về điểm ngành công nghệ thông tin chưa admin ơi
+à admin ơi em có xem điểm thi ngàng công nghệ thông tin các năm vừa rồi ấy
+nhưng ý em là giờ em trúng tuyển công nghệ thông tin rồi nhưng em muốn chọn thương mại được không
+bây giờ thay đổi nguyện vọng thì dùng mã ngành d480201 hay 52480201 cho ngành công nghệ thông tin
+em sợ con không đủ điểm vào khoa công nghệ thông tin cho em hỏi con em có chứng chỉ ielts 6
+em đăng ký công nghệ thông tin nguyện vọng 5 cũng được
+em đăng ký ngành công nghệ thông tin mà nguyện vọng 6
+em 23.2 ngành công nghệ thông tin nguyện vọng 6
+tuyển thẳng vào công nghệ thông tin theo ielts 6
+và ielts 6 5 thì có nên nộp vào ngành công nghệ thông tin của trường không hay nên nộp ngành khác cho an toàn
+em được 26 7 và đăng ký ngành công nghệ thông tin ở nguyện vọng 5 thì có cơ hội đậu không
+5ielts muốn vào khoa công nghệ thông tin thì được ưu tiên gì
+nv6 công nghệ thông tin bach khoia da nag
+admin ơi em ngành công nghệ thông tin nộp hồ sơ hôm qua ấy em đã đi n mới nộp tiền và lấy thời khóa biểu thôi ấy
+cho em hỏi ngành công nghệ thông tin của trường mai sau ra trường cơ hội tìm việc như thế nào sẽ được thực tập tại đâu và học phí trường như thế nào
+cho em hỏi em học ngành công nghệ thông tin có phải đi học quân sự không
+ngành công nghệ thông tin khi ra trường có dễ xin việc không và làm nghề giif ạ
+cho em hỏi là nếu em học ngành công nghệ thông tin thì em phải học quân sự ở đâu
+nếu em may mắn đỗ thì học công nghệ thông tin tại trường em sẽ được học những gì và cơ hội việc làm sau này thế nào
+nếu em may mắn đỗ thì học công nghệ thông tin ở trường em sẽ được học những gì
+điểm có đủ điểm vào khoa công nghệ thông tin của trưởng mình không điều kiện nào thì được ở ký túc xá của trường
+admin ơi cho em học sinh là em đăng ký vào công nghệ thông tin có cần phải để ở nguyện vọng 1 không
+em chỉ đăng ký nguyện vọng là công nghệ thông tin thôi
+chào admin em thuộc khóa 2003 vừa mới nhận được kết quả đỗ ngành công nghệ thông tin của trường
+cho em hỏi năm 2022 chỉ tiêu ngàn công nghệ thông tin miền nam lấy bao nhiêu người vậy
+ngành công nghệ thông tin chỉ tiêu năm 2023 là bao nhiêu
+muốn hỏi chỉ tiêu ngành công nghệ thông tin năm 2022 là bao nhiêu thí sinh
+năm 2022 ngành công nghệ thông tin bao nhiêu điểm
+điểm chuẩn năm 2022 khoa công nghệ thông tin là bao nhiêu
+ngành công nghệ thông tin năm 2022 lấy bao nhiêu điểm
+admin ơi em đậu ngàn công nghệ thông tin trường mình cơ sở phía nam là khi học là em sẽ học ở cơ sở nào ở thành phố hồ chí minh
+nếu học ngành công nghệ thông tin ở bưu chính viến thông cơ sở thành phố hồ chí minh thì mình sẽ được học ở cở sở nào vậy
+cho em hỏi ngành công nghệ thông tin của trường ở thành phố hồ chí minh thì học tại cơ sở nào
+trường ơi cho em ngành công nghệ thông tin ở hồ chí minh học ở cơ sở nào 2
+admin ơi admin nhắm thủ ngành công nghệ thông tin lấy khaongr bao nhiêu
+học phí ngành công nghệ thông tin hệ chất lương cao là bao nhiêu một năm
+admin cho hỏi khoa công nghệ thông tin trường mình năm nay lấy bao nhiêu chỉ tiêu
+năm 2017 trường mình lấy bao nhiêu chỉ tiêu ngành công nghệ thông tin thế
+trường mình lấy bao nhiêu chỉ tiêu khối a1 khoa công nghệ thông tin vậy admin
+ngành công nghệ thông tin của trường lấy chỉ tiêu rất nhiều nên nếu học thì có phải chia lớp không
+admin ơi ban đầu admin nói phía nam không đào tạo công nghệ thông tin chỉ đào tạo antt mà
+admin dự đoán ngành công nghệ thông tin tầm bn
+hệ cd của công nghệ thông tin í admin
+là đôc công nghệ thông tin rồi nghỉ admin
+công nghệ thông tin admin không
+thì con gái thì nên học công nghệ thông tin hay công nghệ thông tin
+điểm chuẩn của ngành công nghệ thông tin có tăng nhiều không
+cho em hỏi ngành công nghệ thông tin năm nay lấy n hiều chỉ tiêu hơn năm ngoái không
+năm nay ngành công nghệ thông tin có chất lương cao không
+năm nay ngành công nghệ thông tin tăng nhiều không
+cho em hỏi là sau khi em thấy điểm của mình cao hơn điểm chuẩn rồi nhưng không để ngành công nghệ thông tin ở nguyện vọng 1 thì có đỗ không
+thầy cô cho em hỏi là biết điểm chuẩn của ngành công nghệ thông tin rồi em có số điểm cao hơn thì có được coi là đỗ không
+năm nay em đỗ công nghệ thông tin rồi thì em có phải chuẩn bị tất cả hồ sơ không
+cho em hỏi là liệu điểm chuẩn ngành công nghệ thông tin năm nay có tăng quá 0
+admin ơi bên trường mình có đào tạo thạc sĩ công nghệ thông tin vừa học vừa làm ko
+là chương trình đào tạo ngành công nghệ thông tin của viện kinh tế bưu điện có gì khác so với học viện không
+cho em hỏi với ngành công nghệ thông tin thì chỉ tiêu bao nhiêu bạn với phương thức là bài thi đánh giá tư duy
+nếu đỗ ngành công nghệ thông tin thì em có được học 1 lúc 2 ngành được không
+làm sao để học được cả 2 ngành công nghệ thông tin và công nghệ thông tin cũng như là lấy 2 bằng
+sau đó năm 2 em có được học song ngành với công nghệ thông tin không
+cho em hỏi học phí ngành công nghệ thông tin
+cho em hỏi học phí của công nghệ thông tin trường trường với
+em muốn biết về học phí ngành công nghệ thông tin
+thầy cô cho em hỏi học phí 1 kỳ của trường là vao nhieu đối với ngành công nghệ thông tin
+admin cho em biết về học phí của ngành công nghệ thông tin
+admin cho em cho em biết thêm thông tin về học bổng bán phần và học phí 1 năm với ngành công nghệ thông tin với
+cho em hỏi học phí ngành công nghệ thông tin sj
+tôi muốn hỏi về học phí của ngành công nghệ thông tin
+cho em hỏi học phí ngành công nghệ thông tin của trường như thế nào
+admin cho thêm về học phí của khoa công nghệ thông tin được không
+cho em hỏi học phí ngành công nghệ thông tin trường mình với
+về học phí của trường mình đối với ngành công nghệ thông tin với
+em muốn admin tư vấn về việc học và ngành công nghệ thông tin ở đay
+là giá tiền của một tín chỉ của ngành công nghệ thông tin ở cơ sở thành phố hồ chí minh là bao nhiêu cho khóa năm 2018 này
+là em 25 điểm nhưng em đặt công nghệ thông tin bưu chính ở nguyện vọng 3
+em có đọc được công văn 5444 của bộ gd đt cho phép sinh viên được chuyển sang khối ngành công nghệ thông tin ở trường khác
+năm nay ngành công nghệ thông tin dự đoán điểm chuẩn cở bao nhiêu vậy admin
+năm nay ngành công nghệ thông tin lấy tầm bao nhiêu điểm
+ngành công nghệ thông tin có dễ vào không năm nay dự kiến lấy bao nhiêu điểm
+chào admin em có thể hỏi ngành công nghệ thông tin dự kiến năm nay lấy bao nhiêu điểm
+là tầm bao nhiêu điểm là chắc chắn đậu công nghệ thông tin trường vậy
+cháu thích học ngành công nghệ thông tin nhưng cháu không đủ điểm mà chỉ đủ điểm một ngành khác
+và nếu như em được giải nhì thành phố hà nội môn toán điểm trung bình các môn toán lí anh tầm 8 5 thì có khả năng đỗ khoa công nghệ thông tin của trường không
+cho minh điểm chuẩn học viện bưu chính viễn thông năm 2017 ngành công nghệ thông tin thì xem ở chỗ nào nhỉ
+admin ơi lịch học trường mình năm đầu thế nào ngành công nghệ thông tin ý
+mọi năm sinh viên trường mình bắt đầu học là vào mùng mấy tháng mấy và khoa công nghệ thông tin thì giáo trình có thường xuyên được update không
+tại em muốn theo học công nghệ thông tin mà hơi hụt điểm xíu
+rồi không biết tiếng anh thì có học được ngành công nghệ thông tin không
+vi dụ minh học ngành marketing hki 1 ma thấy không hợp thì chuyên sang ngành công nghệ thông tin được không
+mà mã ngàh công nghệ thông tin của em kó 8 số thì làm s adm
+cho em hỏi là học phí ngành công nghệ thông tin hệ đại trà trường mình là bao nhiêu vậy
+cho em hỏi là một lớp học công nghệ thông tin hệ đại trà có bao nhiêu sinh viên một lớp
+8 liệu có đỗ công nghệ thông tin không
+học ngành công nghệ thông tin ở trường mình là mấy năm
+năm học bẹn công nghệ thông tin là bao nhiu admin
+tổng học phí cả năm của công nghệ thông tin là bao nhiêu
+trường mình học công nghệ thông tin mấy năm
+trường đào tạo ngành công nghệ thông tin trong mấy năm
+em học ngành công nghệ thông tin thì đầu năm phải đóng bao nhiêu tiền
+học phí ngành công nghệ thông tin của trường 1 năm là bao nhiêu vậy
+học ngành công nghệ thông tin bảo nhiêu điểm vậy
+học phí trường mình bao nhiu đối với ngành công nghệ thông tin vậy
+học phí ngành công nghệ thông tin thì bao nhiêu ạ
+học phí ngành công nghệ thông tin là bao nhiêu
+học phí đối với ngành công nghệ thông tin là bao nhiêu
+học phí ngành công nghệ thông tin của trường hiện nay là bao nhiêu
+học phí của khoa công nghệ thông tin là bao nhiêu vậy
+học phí một năm của trường ngành công nghệ thông tin là bao nhiêu
+học phí đào tạo ngành công nghệ thông tin là bao nhiêu 1 tín chỉ
+học phí 1 năm với các khoản cần phải đóg cho ngành công nghệ thông tin là bao nhiu vậy admin
+học hí ngành công nghệ thông tin của trường là bao nhiêu 1 năm
+học phí ngành công nghệ thông tin là bao nhiêu 1 năm vậy
+học phí ngành công nghệ thông tin và công nghệ thông tin và công nghệ tài chính là bao nhiêu tiền 1 năm học
+học phí cho 1 năm học ngành công nghệ thông tin là bao nhiêu
+em học nhành công nghệ thông tin chuyên ngành công nghệ phần mềm thì mức học phí là bao nhiêu tiền một năm
+học phí khoa công nghệ thông tin thì tầm bao nhiêu vậy
+học viện đã đủ chỉ tiêu khoa công nghệ thông tin chưa
+là học phí 1 năm cho ngành công nghệ thông tin là bao nhiêu
+thời gian tập an ninh với sinh viện năm nhất công nghệ thông tin
+là học phí của trường với ngành công nghệ thông tin là bao nhiêu
+thêm trường mình là công lập hay dân lập vậy mức học phí là bao nhiêu cho ngành công nghệ thông tin hệ đại trà
+cho em hỏi học phí ngành công nghệ thông tin của trường là bao nhiêu
+cho mình hỏi học phí của ngành công nghệ thông tin là bao nhiêu
+cho em hỏi học phí ngành công nghệ thông tin là bao nhiêu
+cho em hỏi học phí ngành công nghệ thông tin và ttdpt bao nhiêu một năm
+em hỏi học phí ngành công nghệ thông tin cơ sở hà nội là bao nhiêu
+cho em hỏi học phí dự kiến ngành công nghệ thông tin của trường là bao nhiêu
+cho em hỏi đối với ngành công nghệ thông tin thì học phí sẽ rơi tầm bao nhiêu vậy
+vậy cho em hỏi là học phí trường trường khoa công nghệ thông tin năm ngoái là bao nhiêu vậy
+cho em hỏi là học phí ngành công nghệ thông tin khi đi đắng ký nhập học là nhiêu vậy
+công nghệ thông tin là bao gồm bao nhiêu tính chỉ vậy 1 năm 2 kì chia ra phải không
+ngành công nghệ thông tin 1 tháng mình học mấy tín chỉ
+ngành công nghệ thông tin có tất cả bao nhiêu tín chỉ vậy
+ngành công nghệ thông tin bao nhiêu tín chỉ vậh
+cho mình hỏi về hệ đào tạo từ xa công nghệ thông tin sẽ gồm các chuyên ngành nào
+admin cho em xin khung chương trình đào tạo cử nhân công nghệ thông tin từ xa trường
+về khung chương trình ngành công nghệ thông tin của hệ đào tạo từ xa với
+admin cho mình hỏi thêm thời gian học tuần cdanh sáchv cho tân sinh viên ngành công nghệ thông tin với
+admin có file khung chương trình đào tạo ngành công nghệ thông tin từ xa thì gửi cho em luôn với
+admin cho em xin mức học phí công nghệ thông tin
+em muốn khung chương trình học năm ngoái của ngành công nghệ thông tin để tham khảo mong thầy cô gửi cho em file thông này
+admin cho em xin khung chương trình học của ngành công nghệ thông tin được không
+admin ơi em sắp tới học khoa công nghệ thông tin admin cho em xin thời khóa biểu học của khoa công nghệ thông tin được không
+admin cho mình hỏi về thông tin chương trình đào tạo từ xa ngành công nghệ thông tin được không
+adm cho em hỏi trường mình có nhóm group công nghệ thông tin không
+trong cái ảnh đó có nói là khi sinh viên vào tự chọn chuyên ngành là khi đó mới phân thành từng lớp chuyên ngành khác nhau về công nghệ thông tin hay sao
+cho em hỏi là chương trình vừa học vừa làm ngành công nghệ thông tin sẽ được học ở cơ sở nào của trường và sinh viên có thể đăng ký nhiều môn học trong 1 kì để ra trường sớm không
+cho em hỏi ngành công nghệ thông tin 1 năm bao nhiêu tín chỉ
+em muốn hỏi ngành công nghệ thông tin thì học bao nhiêu tín chỉ
+học công nghệ thông tin thì mỗi năm có bao nhiêu tín chỉ và mỗi tín chỉ bao nhiêu tiền
+cho em hỏi ngành công nghệ thông tin của trường một năm tầm bao nhiêu tín chỉ
+cho em hỏi là số tín chỉ của ngành công nghệ thông tin là bao nhiêu
+cho em hỏi ngành công nghệ thông tin năm nay có bao nhiêu hồ sơ rồi
+cho em hỏi ngành công nghệ thông tin ở đây là bao nhiêu điểm
+cho em hỏi công nghệ thông tin lấy bao nhiêu điểm
+cho em hỏi năm nay công nghệ thông tin sẽ lấy trong khung điểm bao nhiêu
+cho em hỏi điểm chuẩn vào công nghệ thông tin là bao nhiêu
+thưa thầy cô cho em hỏi năm nay công nghệ thông tin của trường lấy bao nhiêu phần trăm trung học phổ thông
+cho em hỏi là khoa công nghệ thông tin lấy bao nhiêu điểm
+trang cho em hỏi ngưỡng điểm công nghệ thông tin là bao nhiêu
+cho mình hỏi ngành công nghệ thông tin là bao nhiêu điểm
+cho em hỏi ngành công nghệ thông tin năm nay lấy khoảng bao nhiêu
+cho em hỏi công nghệ thông tin năm nay khoảng bao nhiêu điểm
+liệu công nghệ thông tin năm nay sẽ lấy khoảng bao nhiêu
+cho em hỏi công nghệ thông tin năm nay trường lấy khoảng bao nhiêu điểm
+cho em hỏi thêm với năm nay dự kiến diem chuan khoa công nghệ thông tin tăng khoảng bao nhiêu so với năm ngoái
+cho em hỏi là công nghệ thông tin khu vực miên nam nay bao nhiêu điểm
+anh chị cho em hỏi điểm chuẩn lớp tài năng công nghệ thông tin bưu chính lấy bao nhiêu điểm
+trường có đào tạo văn bằng 2 ngành công nghệ thông tin không
+tức là ngành công nghệ thông tin không tuyển những học sinh để ngành công nghệ thông tin ở nguyện vọng 2
+trường có đào tạo văn bằng 2 công nghệ thông tin không
+cho tôi hỏi học viện có tuyển sinh văn bằng 2 vlvh chuyên ngành công nghệ thông tin ko
+trường có đào tạo văn bằng 2 ngành công nghệ thông tin ko
+xong lấy điểm từ cao xuống thấp để ra điểm chuẩn công nghệ thông tin được không
+chào là ngành công nghệ thông tin của trường mình sau khi học có phân ngành vào năm 3 hay năm 2 không
+cho em hỏi là em đỗ khối ngành công nghệ thông tin trường mình rồi thì năm thứ 2 có được chuyển ngành công nghệ thông tin khác được không
+cho em hỏi là nếu năm đầu em cố gắng học tốt một trong hai ngành đó thì sang năm sau em có thể chuyển sang ngành công nghệ thông tin học tiếp được không
+nếu cháu có số điểm như vậy mà không vào ddcj khoan công nghệ thông tin thì cháu có ddcj chuyển xuống nguyện vọng với khoa liền kề không
+mình muốn không công nghệ thông tin ở trường này thì mình thi khối điểm được không
+là trong những ngành công nghệ thông tin truyền thông đa phương tiện thì có ngành nào bắt buộc là nguyện vọng 1 hay 2 không
+nếu em nhấn xác nhận nhập học thì có vấn đề gì không tại nếu đỗ công nghệ thông tin thì em mới có nguyện vọng vào trường mình
+cho em hỏi là nếu mình đỗ ngành công nghệ thông tin thì chuyên ngành mình chọn kiểu gì tại em thấy có rất nhiều chuyên ngành để lựa chọn
+nếu mình đậu vào công nghệ thông tin sau khi vào trường có thể chọn học chuyên ngành nào cũng được
+vô trong khoa công nghệ thông tin là làm sao để chọn chuyên ngành
+khi đỗ vào ngành công nghệ thông tin rồi thì chọn chuyên ngành như thế nào
+cho em hỏi khii đỗ ngành công nghệ thông tin thì khi vào trường mình phải chọn luôn 1 chuyên ngành trong ngành ý
+nhưng mà em không biết là trường mình lấy theo tổ hợp nào với ngành công nghệ thông tin
+cô ơi học công nghệ thông tin vô trường có được tự chọn chuyên ngành hay nhà trường sắp xếp
+anh ơi cho em hỏi học công nghệ thông tin ở trường mình thì thi ta cần chuẩn đầu ra bao nhiêu
+cho mình hỏi điểm chuẩn ngành công nghệ thông tin của trường năm nay là bao nhiêu
+admin cho mình hỏi khoa công nghệ thông tin trường mình có hệ đóng tiền không và điểm chuẩn 2017 2018 là bao nhiêu
+em muốn hỏi điểm chuẩn vào khoa công nghệ thông tin của trường năm nay dự đoán bao nhiêu
+thầy cô ơi dự đoán điểm chuẩn ngành công nghệ thông tin của trường năm nay là bao nhiêu
+vậy cho em hỏi trường mình đang dự kiến điểm chuẩn quả ngành công nghệ thông tin là bao nhiêu
+đố trường biết năm nay khoa công nghệ thông tin của trường lấy điểm chuẩn là bao nhiêu
+điểm đỗ vào học viện ngành công nghệ thông tin là bao nhiêu
+điểm chuẩn ngành công nghệ thông tin của trường năm nay khoảng bao nhiêu
+điểm tiêu chuẩn cho ngành công nghệ thông tin của trường mình năm nay là bao nhiêu
+thì liệu khả năng đỗ công nghệ thông tin là bao nhiêu
+thì khả băng em đỗ ngành công nghệ thông tin của trường mình là bao nhiêu vậy
+năm nay công nghệ thông tin điểm chuẩn là bao nhiêu
+năm nay công nghệ thông tin khoảng bao nhiêu thì dỗ bạn nhỉ
+điểm chuẩn ngành công nghệ thông tin là bao nhiêu
+công nghệ thông tin thì bao nhiêu
+điểm chuẩn ngành công nghệ thông tin năm trước là bao nhiêu
+bao nhiêu em đkis ngành công nghệ thông tin
+công nghệ thông tin tầm bao nhiêu
+khoảng bao nhiêu điểm thì đăng ký ngành công nghệ thông tin được
+điểm tỉ lệ đó công nghệ thông tin là bao nhiêu
+với cả các ngành công nghệ thông tin điểm sat các năm là bao nhiều
+thứ tự ưu tiên của ngành công nghệ thông tin là bao nhiêu
+anh chị ơi là học sinh 2003 năm nay thi vào trường mình cho em hỏi là các ngành như công nghệ thông tin điện tử viễn thông thì có xét điểm khối d7 là toán anh không
+em năm 2 công nghệ thông tin rồi
+năm nay trường mình dự tính lấy điểm chuẩn ngành công nghệ thông tin bao nhiêu điểm
+năm nay ngành công nghệ thông tin và công nghệ thông tin dự kiến xét điểm chuẩn điểm thi trung học phổ thông là bao nhiêu
+trường mình năm nay lấy điểm chuẩn ngành khoa công nghệ thông tin là bao nhiêu điểm hả admin
+xin hỏi về điểm chuẩn ngành công nghệ thông tin với môn toán thì có nhân hệ số 2 không
+cho em hỏi với khối ngành công nghệ thông tin khối toán lí hóa vậy môn toán trường mình có nhân hệ số 2 không
+bạn ơi cho mình hỏi muốn đăng ký vào ngành công nghệ thông tin của trường mình thi có cần điều kiện điểm toán phải từ bao nhiêu điểm trở lên không
+hôm trước em có xem livestream của trường có tăng chỉ tiêu xét điểm trung học phổ thông của ngành công nghệ thông tin lên 590
+chào em cho chị hỏi muốn học ngành công nghệ thông tin là bao nhiêu điểm thi tnpt cơ sở thành phố hồ chí minh
+xin nhà trường cho hỏi thêm là chuyên ngành công nghệ thông tin năm nay đạt bao nhiêu điểm thì đỗ
+cho em hỏi trường mình ngành công nghệ thông tin bao nhiêu điểm đỗ
+con tôi là học sinh giỏi và có thành tích là học sinh giỏi cấp tỉnh môn tin học có đủ điều kiện tuyển thẳng vào trương khoa công nghệ thông tin không
+em xin hỏi thêm là bằng cấp sau khi tốt nghiệp đại học từ xa ngành công nghệ thông tin là kỹ sư hay cử nhân
+học công nghệ thông tin ra trường có bằng cử nhân hay kĩ sư
+trường mình có tuyển sinh văn bằng 2 công nghệ thông tin không
+mình đang quan tâm đến chương trình đào tạo của trường hệ văn bằng 2 ngành công nghệ thông tin
+thưa thầy cô thầy cô cho em hỏi học viện bưu chính viễn thông hà nội hiện nay có quy chế tuyển sinh văn bằng hai ngành công nghệ thông tin không
+hiện đang tìm hiểu về vấn đề đào tạo văn bằng 2 ngành công nghệ thông tin của trường
+làm ơn cho hỏi sắp tới trường có tuyển sinh hệ vừa học vừa làm hoặc văn bằng 2 ngành công nghệ thông tin không
+cho em hỏi bên trường mình có đào tạo văn bằng 2 ngành công nghệ thông tin không
+trường mình ở hà nội có tuyển sinh văn bằng 2 kỹ sư công nghệ thông tin không
+ngành công nghệ thông tin của trường mình có văn bằng hai đào tạo từ xa không
+trường có tuyển sinh văn bằng 2 về công nghệ thông tin không
+bên mình đào tạo văn bằng 2 ngành công nghệ thông tin thế nào em đọc tin có thấy mình đào tạo hệ gdtx
+cho em hỏi là trường mìn giờ có đào tạo văn bằng 2 chính quy ngành công nghệ thông tin không
+cho mình hỏi trường cáo hệ vừa học vừa làm văn bằng 1 ngành công nghệ thông tin không
+bên mình có tuyển văn bằng 2 trực tiếp tại trường ngành công nghệ thông tin không
+trường có tổ chức học văn bằng 2 ngành công nghệ thông tin không
+thì có được học văn bằng 2 công nghệ thông tin song song luôn không
+giờ mình muốn học văn bằng 2 hoặc hệ đào tạo từ xa chuyên ngành công nghệ thông tin có được không
+trường có tuyển sinh học văn bằng 2 công nghệ thông tin không
+cho em hỏi trường mình có đăng ký văn bằng 2 công nghệ thông tin không
+cho em hỏi là trường năm nay có tuyển sinh học văn bằng 2 ngành công nghệ thông tin không
+hi admin cho mình hỏi là mình đang có dự định học văn bằng 2 vừa học vừa làm khoa công nghệ thông tin của trường
+cho mình hỏi là trường mình có đào tạo văn bằng 2 công nghệ thông tin không
+về học văn bằng 2 ngành công nghệ thông tin với
+à cho em hỏi thế em học văn bằng 2 ngành công nghệ thông tin thì được chứ chị
+cho em hỏi về học văn bằng 2 ngành công nghệ thông tin
+trường cho em hỏi em muốn học văn bằng 2 ngành công nghệ thông tin thì khung chương trình với học phí như thế nào
+em muốn học văn bằng 2 khoa công nghệ thông tin của trường thì học phí là bao nhiêu
+admin ơi cho mình hỏi mình muốn học văn bằng 2 khoa công nghệ thông tin thì bao giờ có đợt tuyển sinh
+mình muốn đăng ký học văn bằng 2 ngành công nghệ thông tin của trường
+bạn ơi cho mình xin thông tin học văn bằng 2 ngành công nghệ thông tin năm 2021 nhé
+mình muốn học văn bằng 2 ngành công nghệ thông tin thì đăng ký như thế nào
+xin cho hỏi mình muốn học văn bằng 2 ngành công nghệ thông tin vui lòng cho mình xin thông tin nhé
+em muốn đăng ký học văn bằng 2 ngành công nghệ thông tin trường mình thì cần những điều kiện gì
+em là sinh viên trường nội vụ vừa mới ra trường em có nguyện vọng học thêm văn bằng 2 công nghệ thông tin tại trường mình
+điểm đầu vào trường khoa công nghệ thông tin điểm cao nhất là bao nhiêu
+ngành công nghệ thông tin thi khoảng bao nhiêu điểm
+ngành công nghệ thông tin năm nay dao đông khoảng bao nhiêu điểm
+hệ đại học khoa công nghệ thông tin lấy điểm chuẩn là bao nhiêu vậy
+điểm chuẩn khao công nghệ thông tin trường bưu chính năm nay bao nhiêu ai
+ngành công nghệ thông tin dự kiến trường mình lấy bao nhiêu điểm
+ngành công nghệ thông tin điểm sàn của trường mình là bao nhiêu
+vậy công nghệ thông tin của trường thuộc top mấy ở việt nam
+ngành công nghệ thông tin năm nay trường lấy bao nhiu điểm vậy
+năm nay khoa công nghệ thông tin của bưu chính lấy bao điểm
+khoa công nghệ thông tin của trường năm nay lấy tầm bao nhiêu điểm
+ngành công nghệ thông tin trường mình lấy bao nhiêu điểm
+em để ngành công nghệ thông tin của trường mình ở nguyện vọng 3 thì có sao không
+tức là em vẫn có thể đăng ký nguyện vọng ngành công nghệ thông tin ở nguyện vọng 2 hoặc 3 chứ
+em nghe nói học công nghệ thông tin tới năm 3 sẽ chọn chuyên ngành công nghệ phần mềm gì đó
+các anh chị cho em hỏi em đăng ký công nghệ thông tin nhưng để nguyện vọng 3 có vào được không
+thứ 3 là nếu em đăng ký công nghệ thông tin bưu chính ở nguyện vọng 2 nguyện vọng 3 thì trường có xét không
+em định đăng ký ngành công nghệ thông tin thì em có thể đặt xuống nguyện vọng 2 3 3 được không
+xin cho em hỏi là nếu em để khoa công nghệ thông tin của trường mình cở nguyện vọng số 3 và số 4 có khác nhau không
+về thứ tự nguyện vọng ngành công nghệ thông tin của trường em thấy ngành thứ tự nguyện vọng 1 nhưng trong hồ sơ em để ở nguyện vọng 3 hay 4 được không
+em để ngành công nghệ thông tin của trường mình ở nguyện vọng 4 thì có được không
+điểm mà em để công nghệ thông tin ở nguyện vọng 4 thì có đỗ không
+nghĩa là nếu công nghệ thông tin mình để là nguyện vọng 4 mà điểm của mình cao hơn điểm trúng tuyển mình cũng không đươc xét đúng không bạn
+điểm nhưng em để công nghệ thông tin ở nguyện vọng 4 thì có đỗ không
+lịch học tuần công dân của công nghệ thông tin là vào mấy giờ những hôm nào thế
+công nghệ thông tin nhập học chiều mai lúc mấy giờ
+mình muốn đăng ký ngành công nghệ thông tin
+em muốn đăng ký ngành công nghệ thông tin của truongef
+số lượng đăng ký ngành công nghệ thông tin nữa
+em muốn đăng ký vào ngành công nghệ thông tin của hv
+em đăng ký ngành công nghệ thông tin
+em định đăng ký ngành công nghệ thông tin
+mình muốn đăng ký ký ngành công nghệ thông tin
+em đăng ký công nghệ thông tin mà nó lại ra cái này
+trong công nghệ thông tin mình được đăng ký công nghệ phần mềm đúng không
+em đăng ký công nghệ thông tin
+em muốn đăng ký công nghệ thông tin
+em đăng ký khoa công nghệ thông tin nhé
+mà đăng ký công nghệ thông tin
+em đăng ký công nghệ thông tin mà
+em đăng ký công nghệ thông tin
+em đăng ký mỗi công nghệ thông tin
+mình đăng ký công nghệ thông tin
+em đăng ký công nghệ thông tin đó admin
+con tôi đang học lớp 12 cháu muốn học ngành công nghệ thông tin
+admin oi cho em hỏi học công nghệ thông tin về sau có đá sang được công nghệ đa phuong tiện không
+em hiện tại là học sinh lớp 12 và đang trong thời gian chọn ngành học của mk em đang rất băn khoăn về 2 ngành công nghệ thông tin và marketing trang cho em hỏi là giữa 2 ngành thì ngành nào áp lực cao hơn
+mình đang phân vân giữa 2 ngành khoa học máy tính và công nghệ thông tin
+em mún xét cả công nghệ thông tin và marketing thì sao
+nguyện vọng 2 của em là công nghệ thông tin bưu chính viễn thông
+em đăng ký trong tờ nguyện vọng là công nghệ thông tin nguyện vọng 3 mà sao em lại đỗ vào ngành khác là sao
+điểm đăng ký ngành công nghệ thông tin nguyện vọng 3 vậy có đỗ không admin
+do em thấy nguyện vọng công nghệ thông tin các năm trước có giới hạn phải nằm trong 3 nguyện vọng đầu tiên
+năm ngoái em thấy ngành công nghệ thông tin yêu cầu thứ tự nguyện vọng phải 3 mới được xét vậy năm nay có như thế không
+cả điểm khu vực nhưng khoa công nghệ thông tin em để nguyện vọng 3 nhưng em trượt 2 cái đầu ròi có phải xét nguyện vọng như trong bảng không
+năm nay trường có tiêu chí phụ ngành công nghệ thông tin như năm ngoái là từ nguyện vọng 3 trở lên không
+admin ơi giữa công nghệ thông tin và kỹ thuật phần mềm khác gì nhau
+như tuần lễ công dân em thấy chia lớp công nghệ thông tin với điện tử viễn thông 2 phòng riêng vậy em vào phòng nào
+admin ơi em năm nay định thi vào trường mình khoa công nghệ thông tin nhà em không có đăng ký nên em muốn hỏi admin trường mình có chính sách học bổng gì không
+ví dụ như ngành công nghệ thông tin năm 2020 có tiêu chí nguyện vọng là nhỏ hơn bằng 3
+trường mình có cái ngành công nghệ thông tin ấy chỉ tiêu phụ của nó là nguyện vọng 3 ấy nghĩa là sao thế
+nhưng ở đề án năm nay phần mục chỉ tiêu 2 năm về trước thì ngành công nghệ thông tin tổng chỉ tiêu lại là khoảng 900 trong đó có 300 alot dành cho xét kết hợp
+em chọn công nghệ thông tin toán được 8
+chỗ thứ tự nguyện vọng người ta ghi thứ tự nguyện vọng 3 ở ngành công nghệ thông tin là sao
+cho em hỏi là học viện có tuyển sinh liên thông từ trung cấp lên đại học ngành công nghệ thông tin không
+tính tới thời điểm hiện tại thì trường đào tạo ngành công nghệ thông tin 140 tín chỉ hả
+vậy cho em hỏi học viện có đào tạo bậc đại học ngành công nghệ thông tin không
+em thấy một số trường khoa công nghệ thông tin tính điểm toán lí nhân 2 cộng hóa chia 5 nhân 3 còn trường mình là chỉ cộng 3 môn thôi đúng không
+tôi muốn học văn bằng 2 người hành công nghệ thông tin
+mình muốn tìm hiểu thông tin về văn bằng 2 công nghệ thông tin trường mình
+mình muốn hỏi văn bằng 2 công nghệ thông tin của trường
+mình muốn học văn bằng 2 công nghệ thông tin tại trường
+em muốn chuyển sang ngành công nghệ thông tin bưu chính thì cần điều kiện gì và có được không
+theo mình biết là từ năm 2017 chính thức cho phép sinh viên ngành khác chuyển sang công nghệ thông tin trường khác
+cho em hỏi là mình muốn chuyển ngành đang học sang ngành công nghệ thông tin thì cần những điều kiện gì
+em đăng ký khoa công nghệ thông tin của trường và để nguyện vọng thứ 3
+giải 3 quốc gia môn tin học muốn được tuyển thẳng vào ngành công nghệ thông tin thì nộp hồi sơ như thế nào
+vậy ví dụ em đăng ký nguyện vọng 1 là trường kinh tế quốc dân nguyện vọng 2 là ngành công nghệ thông tin ở trường bưu chính
+ngành công nghệ thông tin thông thường đào tạo 4 hay 5 năm
+học xong 4 5 năm ra trường được bằng cử nhân hay kỹ sư công nghệ thông tin hả thầy
+thưa là khoa công nghệ thông tin của trường cũng đào tạo chuyên sâu như đại học quốc gia và đại học bách khoa đúng không
+admin có thể cho em về ngành công nghệ thông tin được không
+ngành công nghệ thông tin học mấy năm ra trường
+muốn hỏi cháu được vào tốp mấy của ngành học công nghệ thông tin của trường nhỉ
+admin oi cho em hỏi sinh viên khoa công nghệ thông tin năm nhất học về c hay c
+trường mình đào tạo ngành công nghệ thông tin trong mấy năm
+ngành công nghệ thông tin trường mình đào tạo mấy năm nhỉ
+cho em hỏi ngành công nghệ thông tin học đến năm mấy thì phân ngành
+em chào admin năm năy ngành công nghệ thông tin của
+là trường mình đạo tạo sinh viên ngành công nghệ thông tin mấy năm
+tiêu chí phụ ngành công nghệ thông tin trường mình là gì
+ngành công nghệ thông tin của trường là gồm học những gì
+công nghệ thông tin trường mình có bao gồm cả kĩ thuật phần mềm không
+admin ơi nghe nói khoa công nghệ thông tin được giảm học phí hả admin
+admin ơi ctrjnh học ngành công nghệ thông tin của trường mình như thế nào vậy
+nếu đỗ khoa công nghệ thông tin thì học ở cầu giấy hay hà đông
+thi tổ hợp xã hội có học được ngành công nghệ thông tin không
+học ngành công nghệ thông tin ở trường mình thì học ở cơ sở nào
+admin ơi em muốn hỏi là ngành công nghệ thông tin chất lương cao của trường có ở cơ sở phía nam hay bắc vậy
+ngành công nghệ thông tin năm nay dự kiến học ở cơ sở nào
+chị em cg hoc công nghệ thông tin trong back khoa nhug ra truong rồi
+vậy luôn là học công nghệ thông tin ở trường mình thì học ở địa chỉ nào
+admin ơi em thấy người ta nói là trường mình chỉ có công nghệ thông tin là ngành chính thôi phải không
+admin ơi ngành công nghệ thông tin với quản trị kinh doanh năm 1 học ở đâu vậy
+ngành công nghệ thông tin học ở cơ sở nào ở phía nam
+điểm công nghệ thông tin phía nam có cao hơn phía bắc hay bằng nhau
+học viện ngành công nghệ thông tin có chia thành khoa học máy tính và thông tin liên lạc không
+chương trình khung của ngành công nghệ thông tin với
+thông tin về ngành khoa học máy tính và công nghệ thông tin với
+cho mình hỏi nếu đăng ký vào khoa công nghệ thông tin nhưng thi không đủ điểm vào khoa đấy mà chỉ đủ vào khoa khác
+vâng là em đăng ký nguyện vọng 1 vào khoa công nghệ thông tin của trường mình trong trường hợp em không đỗ thì có được nộp vào khoa khác trong trường không em cảm ơn admin
+nếu như em học công nghệ thông tin nhưng sau đó em cảm thấy không hợp thì có thể chuyển sang ngành khác học được không
+em muốn học công nghệ thông tin mà không đủ điểm vậy học ngành khác xong có xin chuyển sang công nghệ thông tin được không
+mình muốn thành 1 it nhưng mà trượt an toàn với công nghệ thông tin rồi không biết học ngành này có được không
+sau 1 năm học ngành marketing em có được đổi sang học công nghệ thông tin duoc không
+vậy em rất thích công nghệ thông tin mà năm nay em không đủ điểm thì em có thể học ngành khác và đkí văn bằng 2 công nghệ thông tin tại trường mình được không
+nếu mà thi đỗ công nghệ thông tin thì em có được đổi ngành không
+vậy cho em hỏi em có được chuyển sang học ngành công nghệ thông tin tại trường không
+và em muốn hỏi thêm là nếu điểm thi của em không đủ vào ngành công nghệ thông tin thì em đăng ký vào ngành thấp hơn sau đó học song song hai văn bằng có được không
+em năm nay lớp 11 và mog muốn sau này thi vào ngành công nghệ thông tin thì theo em tìm hiểu thì thi 3 môn toán lý anh
+em mình đậu ngành công nghệ thông tin
+em thi ngành công nghệ thông tin
+em thích công nghệ thông tin anh
+em được 22 9 công nghệ thông tin
+cho mình hỏi nếu ngành công nghệ thông tin mình không đỗ mà ngành marketing của trường mình lại đỗ
+cho em hỏi em được 27đ khối a00 muốn nộp ngành công nghệ thông tin trường mình thì có cần bắt buộc đặt nguyện vọng 1 không
+trường hồ chí minh ngành công nghệ thông tin đào tạo kỹ sư hay cử nhân
+trường mình đào tạo hệ kĩ sư công nghệ thông tin
+công nghệ thông tin trường đào tạo cử nhân hay kĩ sư vậy
+công nghệ thông tin của trường đào tạo hệ kĩ sư hay cử nhân đấy
+hôm nay em có theo dõi thấy trường x có đăng thông báo tuyển sinh đại học em mong muốn được học ngành công nghệ thông tin tại trường x nên đã nhắn tin để mong được tư vấn
+admin có thể cho em xin mã trường mã ngành công nghệ thông tin của trường mình được không
+ngành công nghệ thông tin lấy 620 sinh viên chia thành 12 lớp thì chia theo điểm hay stt
+admin ơi admin cho em xin mã trường và mã ngành công nghệ thông tin với
+cho em hỏi là ngành công nghệ thông tin trường mình học xong sẽ cấp bằng cử nhân hay kĩ sư
+admin ơi em muốn học ngành công nghệ thông tin của trường sau làm bên mảng iot được không
+cho em hỏi ngành công nghệ thông tin ra trường là cử nhân hay kỹ sư
+admin cho mình hỏi ngành công nghệ thông tin trường mình là cấp bằng cử nhân hay bằng kỹ sư
+xin hỏi công nghệ thông tin cấp bằng cử nhân hay kỹ sư
+admin ơi học công nghệ thông tin ở trường điều kiện ra trường có cần bằng ielts không
+em đủ điểm đậu ngành công nghệ thông tin ở cơ sở phía nam
+cộng cả điểm vùng có đậu ngành công nghệ thông tin phía nam chưa
+em muốn hỏi bên trường có chương trình học trực tuyến cho sinh viên từ xa ngành công nghệ thông tin không
+em được biết đến trường là 1 trong những trường đào tạo công nghệ thông tin hàng đầu
+nhà trường cho em hỏi trường mình có đào tạo ngành công nghệ thông tin từ xa không
+ngành công nghệ thông tin hệ vừa học vừa làm
+làm ơn cho mình hỏi chương trình đào tạo công nghệ thông tin của trường có liên kết với trường đại học nước ngoài không
+xin chào admin em muốn biết thông tin hệ đào tạo vừa học vừa làm ngành công nghệ thông tin
+em muốn tìm hiểu thông tin đăng ký học hệ vừa học vừa làm ngành công nghệ thông tin
+em muốn xin điểm chuẩn chương trình vừa học vừa làm ngành công nghệ thông tin
+cho em hỏi trường mình có chưong trình đại học từ xa ngành công nghệ thông tin không
+em muốn tham khảo về hình thức vừa học vừa làm của ngành công nghệ thông tin
+em muốn hỏi thông tin về ngành công nghệ thông tin hệ vừa học vừa làm
+như mình đăng ký ngành công nghệ thông tin thì mình để thứ tự nguyện vọng như nào vậy và thứ tự nguyện vọng là bao nhiêu để biết mà để cho hợp lý vậy
+thưa bây giờ em muốn để nguyện vọng 1 ngành khác của 1 trường khác thì công nghệ thông tin em đậu kết hợp rồi em để nguyện vọng 2 có ảnh hưởng không
+em hỏi thêm là công nghệ thông tin của trường có nhiều hồ sơ đăng ký không
+là mình phải để ngành công nghệ thông tin trường là nguyện vọng 1 trong đăng ký nguyện vọng trung học phổ thông quốc gia hay chỉ cần là nguyện vọng đầu tiên trong số các nguyện vọng đăng ký vào trường thôi
+vd em thi công nghệ thông tin thì trong tờ đăng ký nguyện vọng phải để đầu tiên
+con trai tôi muốn đăng ký nguyện vọng khoa công nghệ thông tin
+vậy có thể sử dụng để đăng ký cả nguyện vọng công nghệ thông tin không
+em muốn đăng ký nguyện vọng công nghệ thông tin thì nguyện vọng đó bắt buộc là nguyện vọng 1
+em muốn đăng ký nguyện vọng 1 là công nghệ thông tin bằng điểm thi tốt nghiệp
+xin chào con tôi đăng ký nguyện vọng 1 vào khoa công nghệ thông tin bvh
+em gái mình dự định nộp nguyện vọng vào khoa công nghệ thông tin nhưng nếu không may bị trượt
+công nghệ thông tin
+các bạn là trường công nghệ thông tin mà sao số điện thoại liên hệ nào cũng không đúng vậy
+em muốn theo học công nghệ thông tin của trường việc học theo vừa học vừa làm không hiệu quả như học bình thường hay sao
+cụ thể là ngành công nghệ thông tin thì là 480k 1 tín
+thế tức là em để công nghệ thông tin ở nguyện vọng 2 mà điểm em cao hơn điểm sàn và em không ở cuối danh sách thì em vẫn đỗ đúng không
+như vậy là em đặt công nghệ thông tin trường ở nguyện vọng 2 thì vẫn được chọn nếu đủ điểm đúng không
+cho em hỏi là khoa công nghệ thông tin trường mình có phải xếp theo thứ tự nguyện vọng không kiểu công nghệ thông tin thì phải xếp lên nguyện vọng 1 ấy
+về vấn đề nguyện vọng chút ngành công nghệ thông tin có bắt buộc nguyện vọng 1 khi điểm cao hơn hay không
+admin ơi em trúng tuyển trường khoa công nghệ thông tin thì khi xếp nguyện vọng có bắt buộc phải để công nghệ thông tin nguyện vọng 1 không
+với cho em hỏi là trong công nghệ thông tin có ngành đồ họa không
+cho em hỏi trong công nghệ thông tin có ngành đồ họa không
+cho tôi hỏi ngành công nghệ thông tin có được đăng ký nguyện vọng 2 không
+em đăng ký ngành công nghệ thông tin nguyện vọng 2 được không
+admin ơi em muốn hỏi thêm nếu như em để nguyện vọng 2 là công nghệ thông tin của trường mình
+ví dụ như ngành công nghệ thông tin thì phải đặt từ nguyện vọng 2 trở lên
+công nghệ thông tin em để nguyện vọng 2 được không
+nếu đăng ký ngành công nghệ thông tin có xét đối tượng 2 này không bạn
+liệu công nghệ thông tin em để nguyện vọng 2 được không
+admin ơi em được 24 75 nhưng lại đăng ký công nghệ thông tin của trường mình là nguyện vọng 2 thì có được không em lo quá
+mình muốn hỏi nếu mình đăng ký học viện công nghệ bưu chính viễn thông khoa công nghệ thông tin là nguyện vọng thứ 2 của mình thì có được không
+cho em hỏi là trường mình ngành công nghệ thông tin có lấy nguyện vọng 2 không
+nếu em đặt công nghệ thông tin của trường mình vào nguyện vọng 2
+nếu em đặt nguyện vọng của công nghệ thông tin trường mình ở nguyện vọng 2
+nếu em đăng ký công nghệ thông tin nguyện vọng 1 mà không đậu thì nguyện vọng 2 là marketing có được xét tiếp không
+nếu em để ngành công nghệ thông tin trường mình nguyện vọng 2
+cho em hỏi là đăng ký ngành công nghệ thông tin trường mình để ở nguyện vọng 2 được không
+nguyện vọng công nghệ thông tin em bằng điểm chuẩn nhưng để nguyện vọng 2
+khung chương trình và thông tin thêm về ngành công nghệ thông tin
+cho em hỏi em học ngành công nghệ thông tin của trường thì có đòi hỏi gì về cấu hình laptop để học tập
+anh chị cho em hỏi là em đặt công nghệ thông tin không phải là nguyện vọng 1 có được vào không
+nên em để nguyện vọng 2 là công nghệ thông tin có được không
+ngành công nghệ thông tin mình được để ngooài nguyện vọng 1 không
+với lại cho em hỏi là công nghệ thông tin đặt nguyện vọng 2 vẫn được đúng không
+cho em hỏi là công nghệ thông tin ở trường có được đặt nguyện vọng 2 không
+em cho ngành công nghệ thông tin vào nvọng 2 được không
+thế có nghĩa là công nghệ thông tin của trường mình em để ở nguyện vọng 2 cũng được
+em để nguyện vọng 2 là công nghệ thông tin của học viện bưu chính viễn thông có làm sao không
+công nghệ thông tin có được để nguyện vọng 2 không
+em nghe nói ngành công nghệ thông tin mấy năm trước có lấy nguyện vọng 2
+nếu em để nguyện vọng 2 công nghệ thông tin của trường mjk thì sẽ bị thiệt thòi gì không cho với nguyện vọng 1
+cho mình hỏi nội dung đào tạo của ngành công nghệ thông tin với gồm bao nhiêu tín chỉ những môn học nào
+tôi uốn hỏi ngành công nghệ thông tin đào tạo mấy năm
+cho em hỏi thời gian đào tạo ngành công nghệ thông tin là mấy năm và gọi là cử nhân hay kỹ sư
+cho em hỏi thời gian đào tạo 1 khóa sinh viên cho ngành công nghệ thông tin
+cho em hỏi khoa công nghệ thông tin học trong bao nhiêu năm
+cho em hỏi là ngành công nghệ thông tin ở trường đào tạo trong bao lâu
+cho em hỏi ngành công nghệ thông tin chương trình đào tạo bao nhiêu năm
+cho em hỏi ngành công nghệ thông tin có thời gian đào tạo mấy năm
+ngành công nghệ thông tin đào tạo bao nhiêu năm vậy
+admin ơi có điểm chuẩn khoa công nghệ thông tin của trường mình chưa
+admin ơi mình muốn nhờ admin gửi thông tin vị trí lập trình php tới sinh vien ngành công nghệ thông tin trường mình nắm được được không
+admin cho mình xin email của khoa công nghệ thông tin với
+cho tôi hỏi con tôi muông học công nghệ thông tin thì nộp hờ sơ như thế nào
+chút muốn học hệ cao đẳg ngàh công nghệ thông tin thì cần nộp hồ sơ ở đâu
+admin ơi giờ em chưa biết gì về tin học liệu vào ngành công nghệ thông tin có được đào tạo y lại từ đầu không
+điểm toán 9 điểm đăng ký học vào ngành công nghệ thông tin nhà trường có điểm chuẩn 24 75 tức là cháu thiếu 0 05 điểm với mức điểm này con mình bị trượt gia đình và cháu rất buồn vậy có cách nào để con mình được đi học không
+nếu em để nguyện vọng 2 ngành công nghệ thông tin thì khi đủ điểm thì có đỗ không
+bao gồm cả điểm cộng đăng ký khoa công nghệ thông tin ở nguyện vọng số 2
+ví dụ em đăng ký nguyện vọng 1 ngành công nghệ thông tin nguyện vọng 2 khoa học máy tính
+em chào thầy cô em muốn tham khảo về học phí của ngành công nghệ thông tin trường mình
+là đỗ công nghệ thông tin thì em còn cơ hội đợt 2 không
+anh 4 2 có đậu ngành công nghệ thông tin không
+cho em hỏi trường có xét nguyện vọng 2 công nghệ thông tin không em 26đ liệu có cơ hội vào trường theo nguyện vọng 2 ngành công nghệ thông tin
+trường năm nay công nghệ thông tin có tuyển sinh đợt 2 không
+khoa công nghệ thông tin của trường mình có xét nguyện vọng 2 hay không
+năm nay ngành công nghệ thông tin của trường có xét nguyện vọng 2 không
+trường mình có xét nguyện vọng 2 ngành công nghệ thông tin không
+2 có khả năng đỗ vào khoa công nghệ thông tin không
+năm nay khoa công nghệ thông tin của trường có xét nguyện vọng 2 không
+em đăng ký 2 ngành công nghệ thông tin và kỹ thuật điện tử viễn thông vậy em muốn hỏi mức điểm trúng tuyển cụ thể của 2 ngành trên là bao nhiêu
+em là sinh viên năm nhất trường trường và năm nay em thi lại vào khoa công nghệ thông tin trường trường mà em chưa rút hồ sơ được thì nếu em đủ điểm trúng tuyển thì có được nhập học như các bạn học sinh khác không
+có nghĩa là nếu em để công nghệ thông tin ở nguyện vọng 2 thì nếu em đúng bằng điểm thì sẽ không bằng nguyện vọng 1 nhưng vx có thể vào í
+anh c có thể cho em xin ít review về chuyên ngành công nghệ thông tin không
+với đam mê công nghệ thông tin thì em nên làm gì lớn hơn
+cho em hỏi là khi vào trường ngành công nghệ thông tin cần có điều kiện gì về tiếng anh không
+là vào công nghệ thông tin ở trường thì bắt buộc phải để ở nguyện vọng 1
+ngành công nghệ thông tin của trường mình bắt buộc phải để nguyện vọng 1 phải không
+admin oi cho mình hỏi khoa công nghệ thông tin trường mình bắt buộc phải nguyện vọng 1
+khoa công nghệ thông tin có bắt buộc phải để nguyện vọng 1 không
+năm nay khoa công nghệ thông tin của trường mình có bắt buộc nguyện vọng 1 không
+admin ơi ngành công nghệ thông tin của trường bắt buộc phải đặt lên nguyện vọng 1
+admin ơi vào công nghệ thông tin không nhất thiết phải để nguyện vọng 1 đúng không
+ngành công nghệ thông tin của trường mình năm nay có buộc phải để nguyện vọng 1 không
+admin ơi có phải công nghệ thông tin năm nay không nhận nguyện vọng 2 phải không
+năm nay công nghệ thông tin có như năm trước nguyện vọng 1 không
+admin ơi liệu năm nay 2 ngàng công nghệ thông tin và công nghệ thông tin có tăng nhiều không admin
+cho em hỏi là giữa ngành kỹ thuật điện tử viễn thông và công nghệ thông tin ngành nào có tiềm năng phát triển hơn
+cho em hỏi là trường mình bắt đăng ký công nghệ thông tin nguyện vọng 1 hay đó chỉ là tiêu chí phụ thôi
+cho em hỏi là nếu em muốn đăng ký công nghệ thông tin mà để nguyện vọng 4 có sao không
+em định đăng ký công nghệ thông tin của trường mình thì có bắt buộc phải để nguyện vọng 1 không admin
+cho em hỏi thông tin về ngành kỹ thuật điện tử viễn thông kỹ thuật điện điện tử và công nghệ thông tin với
+em đang phân vân giữa ngành kĩ thuật máy tính bên quốc gia và ngành công nghệ thông tin của trường mình
+cho em hỏi là đầu ra của trường mình điều kiện như thế nào đối với ngành công nghệ thông tin
+ngành công nghệ thông tin có bắt buộc nguyện vọng 1 không
+công nghệ thông tin có bat buộc phải đặt nv1khong
+ngành công nghệ thông tin có bắt buộc đặt nguyện vọng 1 không
+công nghệ thông tin năm nay có bắt buộc nguyện vọng 1 không
+admin cho hỏi ngành công nghệ thông tin phải đặt nguyện vọng 1 mới hợp lệ hay sao
+cho em hỏi là đăng ký ngành công nghệ thông tin có bắt buộc nguyện vọng 1 không
+cho em hỏi em muốn đăng ký ngành công nghệ thông tin thì bắt buộc phải để là nguyện vọng 1
+thì là bắt buộc phải điền nguyện vọng 1 là ngành công nghệ thông tin
+nếu em đăng ký ngành công nghệ thông tin thì em phải để nguyện vọng 1
+cho em hỏi nếu đăng ký công nghệ thông tin bắt buộc phải để ở nguyện vọng 1
+em đăng ký nguyện vọng ngành công nghệ thông tin là bắt buộc phải để nguyện vọng 1 hay sao
+cho em hỏi là ngành công nghệ thông tin bên mình là đăng ký nguyện vọng 1 mới được đăng ký
+cho em hỏi là đăng ký ngành công nghệ thông tin của trường thì có bắt buộc để nguyện vọng 1 không
+cho em hỏi ngành học công nghệ thông tin khi đăng ký bắt buộc phải để nguyện vọng 1
+như thông tin mình khoanh tròn thì khi đăng ký ngành công nghệ thông tin bắt buộc phải chọn là nguyện vọng 1
+em đọc thấy hình như công nghệ thông tin và thương mại điện tử phải để nguyện vọng 1 đúng không
+thì người ta chia ra những ngành nào trong công nghệ thông tin ấy anh
+xin chào quý trường tôi liên hệ từ công ty cptm công nghệ thông tin di động
+thi khoa công nghệ thông tin trường mình thì ngành tester là như thế nào
+ngành khoa học máy tính ngành công nghệ thông tin
+trong công nghệ thông tin phân thành các chuyên ngành hệ thống thông tin khoa học máy tính
+ngành công nghệ thông tin và kỹ thuật máy tính sinh viên có cần dùng máy tính card rời và chip core i5
+tức là khoa học máy tính chỉ là chuyên ngành nhỏ trong công nghệ thông tin
+trang ơi em có 1 thắc mắc năm nay ngành công nghệ thông tin có bắt buộc là phải nguyện vọng 1 không để em còn cân nhắc chọn trg em cảm ơn trước
+cho em hỏi là ngành công nghệ thông tin bắt buộc phải đăt nguyện vọng 1 không
+cho em hỏi khoa công nghệ thông tin của trường mình là bắt buộc phải để nguyện vọng 1
+anh chị thầy cô cho em hỏi em muốn hỏi ngành công nghệ thông tin trường mình bắt buộc phải để nguyện vọng 1
+cho em hỏi ngành công nghệ thông tin của trường bắt buộc phải để nguyện vọng 1 phải không
+cho em hỏi ngành công nghệ thông tin trường mình là bắt buộc phải để nguyện vọng 1 phải không
+anh chị cho em hỏi là năm nay công nghệ thông tin có bắt buộc phải để ở nguyện vọng 1 không
+đăng ký ngành công nghệ thông tin của trường có yêu cầu phải là nguyện vọng 1 không
+là em đăng ký ngành công nghệ thông tin của trường thù có phải để nguyện vọng 1 không
+ngành công nghệ thông tin của trường mình là phải xếp nguyện vọng 1
+nếu mình muốn đăng ký ngành công nghệ thông tin của trường thì có cần bắt buộc nguyện vọng 1 không
+là công nghệ thông tin trường mình chỉ lấy nguyện vọng 1 thôi
+là ngành it với công nghệ thông tin của trường là phải xếp nguyện vọng 1
+cho em hỏi truòng có xét đến nguyện vọng 2 và nguyện vọng 3 vào ngành công nghệ thông tin không vù nguyện vọng 1 em lại dăng ký vào bên quân đội rồi cơ hội còn với em không
+thưa anh chị thầy cô em hỏi ngành công nghệ thông tin của trường nhận những khối thi nào
+mình có con trai đang có nguyện vọng vào ngành công nghệ thông tin của học viện
+cái ngành công nghệ thông tin của trường mình có phải để ở nguyện vọng 1 không
+ngành công nghệ thông tin trường mình chỉ lấy nguyện vọng 1 thôi
+ngành công nghệ thông tin của trường phải để ở nguyện vọng 1
+tại em thấy trường mình ngành công nghệ thông tin bắt phải để ở nguyện vọng 1
+ngành công nghệ thông tin trường mình là ngành số 1 của trường phải không
+nếu để ngành công nghệ thông tin của trường mình có phải nhất thiết p dể nguyện vọng 1 không
+em lại tưởng công nghệ thông tin của trường phải để nguyện vọng 1
+tức là ví dụ ngành công nghệ thông tin thứ tự nguyện vọng 1 mà mình để ngành đó của mình ở nguyện vọng 2
+năm nay trường có yêu cầu ngành công nghệ thông tin phải đặt ở nguyện vọng 1 không
+như những năm trước trường viết công nghệ thông tin để nguyện vọng 1
+cho em hỏi là ngành công nghệ thông tin của trường có bắt buộc phải là đặt ở nguyện vọng 1 không
+cái thứ tự nguyện vọng của ngành công nghệ thông tin năm ngoái của trường là 1
+cho em hỏi là năm nay ngành công nghệ thông tin của mình có giới hạn nguyện vọng không
+em muốn hỏi là trường mình ngành công nghệ thông tin năm 2022 có giới hạn thứ tự nguyện vọng phải là nguyện vọng 1 không
+như năm trước công nghệ thông tin có chỉ tiêu thứ tự nguyện vọng 1 là bắt buộc hay chỉ áp dụng cho thí sinh cuối danh sách
+cho em hỏi năm trước ngành công nghệ thông tin của trường mình chỉ lấy nguyện vọng 1 đúng không
+cho em hỏi ngành công nghệ thông tin của trường chỉ lấy nguyện vọng 1 thôi
+cho em hỏi năm nay trường phía nam mình chỉ lấy 210sv ngành công nghệ thông tin phải không
+cho em hỏi công nghệ thông tin trường mình chỉ lấy nguyện vọng 1
+chị ơi cho em hỏi năm nay có ngành công nghệ thông tin có xếp chỉ tiêu nguyện vọng là 1 không
+cho em hỏi công nghệ thông tin của trường có lấy nguyện vọng khác ngoài nguyện vọng 1 không
+cho mình hỏi là ngành công nghệ thông tin của trường chỉ xét nguyện vọng 1 thôi đúng không
+cho tôi hỏi là có phải khoa công nghệ thông tin của học viện chỉ xét nguyện vọng 1 thôi đúng không
+cho em hỏi ngành công nghệ thông tin của trường chỉ lấy nguyện vọng 1 hay lấy cả những nguyện vọng sau
+cho em hỏi ngành công nghệ thông tin của trường lại yêu câu thứ tự nguyện vọng 1 là sao
+cho em hỏi ngành công nghệ thông tin của trường phải yêu cầu là nguyện vọng 1
+cho em hỏi vào trường ngành công nghệ thông tin có cần yêu cầu nguyện vọng 1 không
+cho em hỏi là nếu trúng xt ngành công nghệ thông tin thì có cần để nguyện vọng 1 không
+cho em hỏi ngành công nghệ thông tin có cần nguyện vọng 1 không
+cho em hỏi là ngàh công nghệ thông tin có nhất thiết phải để nguyện vọng 1 không
+cho em hỏi là đăng ký vào ngành công nghệ thông tin của trường có cần xếp nguyện vọng 1 không
+công nghệ thông tin thì để nguyện vọng 1 là tiêu chí phụ đúng không
+tôi là phu huynh hoc sinh cho tôi hỏi phuong thưc tuỷen sinh xét diem tot nghiep trung học phổ thông 2021 nghanh công nghệ thông tin con xet hay đã hết hạn con tôi 3 môn toan van anh van 22 7điểm 1 điểm nghề có đủ điểm xét không xin cảm ơn
+em đặt nguyện vọng 1 là công nghệ thông tin luôn
+tại em thấy công nghệ thông tin thứ tự nguyện vọng là 1
+cho em hỏi công nghệ thông tin có thứ tự nguyện vọng 1 là gì
+ngành công nghệ thông tin có yêu cầu gì về thứ tự nguyện vọng không
+ngành công nghệ thông tin có yêu cầu nguyện vọng 1 không vậy tại em thấy năm ngoái có chữ nguyện vọng 1
+cho em hỏi ngành công nghệ thông tin có yêu cầu nguyện vọng không
+còn hi vọng gì về công nghệ thông tin không
+cho em hỏi là ngành công nghệ thông tin có yêu cầu thứ tự nguyện vọng 1 không
+cho tôi hỏi ghi chú phần thứ tự nguyện vọng có ghi thứ tự nguyện vọng 7 của ngành công nghệ thông tin là gì vậy
+ngành công nghệ thông tin yêu cầu những gì admin
+thứ tự nguyện vọng của ngành công nghệ thông tin là gì
+có nhiều nguyện vọng công nghệ thông tin không anh p
+ngành công nghệ thông tin và thương mại điện tử có yêu cầu về thứ tự nguyện vọng không
+ngành công nghệ thông tin trường mình xét kết quả thi trung học phổ thông những tổ hợp môn nào
+khoa công nghệ thông tin trường lấy môn gì vậy
+trường mình tính điểm vào ngành công nghệ thông tin như thế nào
+em ơi ngành công nghệ thông tin ở trường mình xét những khối nào vậy em
+ngành công nghệ thông tin trường mình xét khối nào vậy
+ngành công nghệ thông tin của học viện năm nay đã có điểm chuẩn chưa
+có điểm chuẩn công nghệ thông tin chưa
+điểm chuẩn cho ngành công nghệ thông tin của trường vào những năm trước
+có điểm chuẩn của khoa công nghệ thông tin chưa admin
+hiện tại trường đã công bố điểm ngành công nghệ thông tin chưa
+điện tử viễn thông có liên quan nhiều đến công nghệ thông tin không admin
+em muốn đăng ký ngành công nghệ thông tin trường mình mà lên mạng thấy có ghi thứ tự nguyện vọng 1 nghĩa là nhất thiết phải để ở nguyện vọng 1 thì mới đỗ được đúng khôgn còn nếu để nguyện vọng 2 3 thì có đủ điểm cũng không được nhập học phải không
+năm nay trường có bắt buộc ngành công nghệ thông tin ở nguyện vọng 1 không
+nghĩa là ngành công nghệ thông tin không bắt buộc phải đặt ở nguyện vọng 1 đúng không
+ngành công nghệ thông tin của trường mình bắt buộc là phải nguyện vọng 1
+nên ý em hỏi là bắt buộc phải để công nghệ thông tin ở nguyện vọng 1 hay không cần cũng được
+ngàng công nghệ thông tin trường mình bắt buộc phải xếp nguyện vọng 1
+ngành công nghệ thông tin của trường cơ sở phía bắc bắt buộc phải xếp ở nguyện vọng 1 hay sao
+ngành công nghệ thông tin của trường bắt buộc phải đặt ở nguyện vọng 1
+thi công nghệ thông tin ở trường mình thì phải để nguyện vọng 1
+ví dụ ngành công nghệ thông tin bắt buộc phải để ở nguyện vọng 1
+vụ và ứng dụng đa phương tiện trên mạng truyền thông có phải nó cũng tương tự với công nghệ thông tin nhưng hẹp hơn đúng không
+công nghệ thông tin và công nghệ thông tin định hướng thị trường nb là 1
+em có đăng ký công nghệ thông tin trường mình rồi
+em đăng ký công nghệ thông tin trường rồi
+có đăng ký vào công nghệ thông tin của trường mình
+cảm ơn admin mà hồi nãy em gọi lên trường thì trường gõ danh sách nói em đậu công nghệ thông tin rồi admin
+hay vẫn đăng ký công nghệ thông tin của trường minhf
+em có đăng ký công nghệ thông tin của trường mà em được 26
+em được 27 9 đăng ký công nghệ thông tin của trường ở nguyện vọng 2
+nguyện vọng 1 em để trường đại học công nghệ nhưng trượt nguyện vọng 2 em để công nghệ thông tin trường có sao không
+là ngành công nghệ thông tin trường mình yêu câu thứ tự nguyện vọng 1 tức là nếu em ghi nguyện vọng 2 mà điểm em cao hơn điểm chuẩn thì vẫn trượt
+thì em có thể để nguyện vọng 2 là công nghệ thông tin của trường mà em đã đậu để phòng khi nguyện vọng 1 vnu em rớt thì có thể vào trường học không
+cho em hỏi là em được 25 75 vào khoa công nghệ thông tin nguyện vọng 2 nhưng tại sao em không thấy tên em trên danh sách trúng tuyển
+nếu em chọn học ngành công nghệ thông tin ở nguyện vọng 2 và đủ điểm đỗ thì em có được nhận vào không
+em đỗ ngành điện tử viễn thông rồi mà muốn dùng điểm trung học phổ thông để xét công nghệtt thì nếu mình trượt công nghệ thông tin ở nguyện vọng 1 mà để điện tử viễn thông ở nguyện vọng 2 đã đỗ thì được không
+cho em hỏi là khoa công nghệ thông tin của trường chỉ nguyện vọng 1 mới xét thôi hay cả nguyện vọng 2 cụng được xét vào
+cho em hỏi là năm ngoái khoa công nghệ thông tin trường mình em thấy lấy thứ tự nguyện vọng 1 năm nay em để nguyện vọng 2 nếu trượt nguyện vọng 1 mà đủ điểm nguyện vọng 2 trường có lấy nguyện vọng 2 không
+nhưng em đã đăng ký công nghệ thông tin trường mình ở nguyện vọng 2 rồi thì nếu nguyện vọng 1 em không được mà điểm của em cao hơn điểm chuẩn công nghệ thông tin trường mình thì em có đỗ được nguyện vọng 2 không
+thì nếu em nó đkí ngành công nghệ thông tin nguyện vọng 2 thì điểm chuẩn khác như thế nào so với điểm chuẩn nguyện vọng 1
+nếu 2 đủ điểm vào khoa công nghệ thông tin của trường nhưng lại đăng ký ở nguyện vọng 2 thì liệu có đỗ không
+em có tham khảo qua link admin gửi thì em thấy có 1 ngành 7480201clc công nghệ thông tin
+ngành công nghệ thông tin của học viện bưu chính viến thông phía nam học ở cơ sở nào
+nếu em học công nghệ thông tin thì học tại cơ sở nào ở miền nam vậy
+mà công nghệ thông tin đào tạo ở cơ sở nào phía nam
+nếu em học công nghệ thông tin thì học ở cơ sở nào
+mình đậu công nghệ thông tin ở trường miền bắc thì sẽ học cơ sở nào vậy
+ngành công nghệ thông tin của trường sẽ học ở cơ sở nào vậy admin
+em học công nghệ thông tin thì sẽ học cơ sở nào
+trường cho em hỏi em học công nghệ thông tin thì học ở cơ sở nào vậy
+cho em hỏi là nếu em muốn đăng ký khoa công nghệ thông tin của trường thì bắt buộc phải để ở nguyện vọng 1
+cho em được hỏi nếu em đăng ký nguyện vọng công nghệ thông tin của trường thì có cẩn phải bắt buộc điền vào nguyện vọng 1 không
+cho em hỏi ngành công nghệ thông tin có bắt buộc nguyện vọng 1 không
+cho em hỏi là ngành công nghệ thông tin có bắt buộc đăng ký nguyện vọng 1 không
+thầy cô cho em hỏi ngành công nghệ thông tin có bắt buộc nguyện vọng 1 không
+cho em hỏi ngành công nghệ thông tin có bắt buộc nguyện vọng 1 không viết cho đỗ hoàng đức
+nếu tớ rớt nguyện vọng 1 ở công nghệ thông tin bưu chính thì muốn qua nguyện vọng 2 truyenf thông đa phương tiện thì có bị tăng thêm điểm không
+giờ em muốn đặt nguyện vọng 1 là 1 ngành khác nguyện vọng 2 là công nghệ thông tin của trường mình thì nếu trượt nguyện vọng 1 thì có đỗ nguyện vọng 2 không
+admin ơi nếu em để nguyện vọng 2 là công nghệ thông tin của trường thì khi em trượt nguyện vọng 1 xét đến nguyện vọng 2
+cho em hỏi với em đỗ công nghệ thông tin của trường rồi nhưng lúc để nguyện vọng có bắt buộc phải để nguyện vọng 1 không
+thầy cô cho em hỏi là năm nay trường mình khi đăng ký nguyện vọng có cần phải bắt buộc là ngành công nghệ thông tin là nguyện vọng 1 không
+nếu em thi ngành công nghệ thông tin của trường thì bắt buộc em phải để nguyện vọng 1
+công nghệ thông tin của trường có yêu cầu bắt buộc đăng ký nguyện vọng 1 không hay nguyện vọng nào cũng được
+cho em hỏi là nếu thi ngành công nghệ thông tin thì nguyện vọng 1 là điều kiện bắt buộc hay tiêu chí phụ vậy
+cho em hỏi là nếu em muốn đăng ký thi vào ngành công nghệ thông tin của trường thì có yêu cầu bắt buộc phải đăg ký ngành công nghệ thông tin là nguyện vọng 1 hay không
+nếu em đăng ký ngành công nghệ thông tin của trường thì có bắt buộc phải để nguyện vọng 1 không
+em muốn thi công nghệ thông tin thì có bắt buộc nguyện vọng 1phải là nó không
+em có 1 thắc mắc ví dụ em muốn vào ngành công nghệ thông tin của trường thì cái thứ tự nguyện vọng bằng 1 là sao
+đăng ký ngành công nghệ thông tin có cần phải để nguyện vọng 1 không
+là em đăng ký ngành công nghệ thông tin thì ngoài đủ điểm thi trung học phổ thông quốc gia thì cần điều kiện gì khác không có yêu cầu tiếng anh không
+cho em hỏi là mình muốn đăng ký nguyện vọng vào ngành công nghệ thông tin của trường thì bắt buộc phải là nguyện vọng 1
+cho em hỏi là ngành công nghệ thông tin của trường bắt buốc phải để nguyện vọng 1
+bạn ơi cho mình hỏi điều kiện tuyển sinh năm 2019 mình muốn đăng ký vào khoa công nghệ thông tin có cần bắt buộc để thứ tự nguyện vọng là nguyện vọng 1 không b
+và em có nguyện vọng vào khoa công nghệ thông tin của trường và em muốn nộp hồ sơ trực tuyến thì em có đủ điều kiện không
+em xét nguyện vọng vào ngành công nghệ thông tin của trường phải đặt nguyện vọng 1 đúng không
+nếu em đặt công nghệ thông tin trường không phải nguyện vọng 1 có được không
+là em muốn thi vào ngành công nghệ thông tin của trường thì nhất định em phải để nguyện vọng 1 phải không
+nhưng 1 số trang tuyển sinh thì lại ghi chú thích bên cạnh là ngành công nghệ thông tin chỉ tuyển nguyện vọng 1
+xin hỏi muốn học tại trường khoa công nghệ thông tin thì thứ tự nguyện vọng phải là 1 đúng không
+em có dự định thi vào khoa công nghệ thông tin của trường mình nhưng em không muốn để ở nguyện vọng 1 thì có được không admin có thể giải thích chi tiết cho em các yêu cầu về thứ tự nguyện vọng của trường mình được không
+chào admin cho em hỏi công nghệ thông tin miền bắc khi nào nhập học
+theo admin thì năm nay trường mình có lên nhiiều điểm khoa công nghệ thông tin không
+xin chào admin bạn nhà mình năm nay sẽ thi trung học phổ thông và có mong muốn được vào trường để theo học ngành công nghệ thông tin
+vậy ngoài học về công nghệ thông tin em có cần học về kinh doanh nữa không
+vậy nếu em học công nghệ thông tin thì em sẽ học tại đâu
+hmm nếu học công nghệ thông tin thì em cần chuẩn bị những gì
+anh chị cho em hỏi là em muốn học công nghệ thông tin nhưng mà trước giờ ít tiếp xúc với máy tính hiểu biết của em về máy tính không nhiều liệu em có học đăng ký không a
+còn nếu học công nghệ thông tin thì em sẽ được học những gì
+vậy nếu thi công nghệ thông tin thì sẽ học ở đâu
+với là ngành công nghệ thông tin của mình là học về gì
+em học công nghệ thông tin thì thi và nhập học như thế nào
+chuyên ngành hệ thống thông tin quản lí trong công nghệ thông tin là khi vào mình học luôn hay sao
+vậy ngành công nghệ thông tin thì học ở đâu
+ngành công nghệ thông tin thì được học như thế nào
+ngành công nghệ thông tin thì được học về những môn
+năm đầu công nghệ thông tin học ở đâu vậy
+là học công nghệ thông tin thì có gái nên học khoa rì
+cho em hỏi là đậu công nghệ thông tin ở thành phố hồ chí minh thì học tập ở đâu
+ngành công nghệ thông tin thì học ở đâu
+chương trình học công nghệ thông tin của trường gồm những gì học phí ra trường thì làm cho bộ thông tin và truyền thông hay là được làm ở các công ty khác
+học công nghệ thông tin thì học ở khu vực nào
+cho em hỏi là công nghệ thông tin của bưu chính viễn thông thì học ở gần đoạn đường nào
+học công nghệ thông tin là học những gì vậy
+cho em hỏi là ngành công nghệ thông tin của trường mình có cần phải yêu cầu về thứ tự các nguyện vọng không
+nếu đăng ký ngành công nghệ thông tin của trường thì có yêu cầu gì về thứ tự nguyện vọng không
+trường mình có yêu cầu gì về thứ tự nguyện vọng và điểm tiếng anh cho ngành công nghệ thông tin không
+em chắc chắn là đã ghi đúng và còn nhớ mã công nghệ thông tin trường y chang công nghệ thông tin trường công nghệ thông tin đại học quốc gia nữa mà sao hôm nay web nó báo không hợp lệ dòng màu đỏ
+anh chị cho em xin thông tin tuyển sinh và học phí cao đẳng công nghệ thông tin hn với
+tuyển sinh ngành công nghệ thông tin của học viện công nghệ bìu chính viễn thông bao giờ thì nộp hồ sơ
+thông tin tuyển sinh hệ đào tạo từ xa trình độ đại học chuyên ngành công nghệ thông tin
+cho tôi xin thông tin tuyển sinh cao học ngành công nghệ thông tin
+cháu mình đăng ký ngành công nghệ thông tin của trường
+chào nhà trường em muốn đăng ký học khóa vừa học vừa làm khoa công nghệ thông tin
+em có đăng ký vào trường ta ngành công nghệ thông tin
+em đăng ký ngành công nghệ thông tin của trường
+mà em muốn đăng ký học ngành công nghệ thông tin của trường
+em apply ngành công nghệ thông tin trường mình nhưng chưa đăng ký được
+em 2002 năm nay muốn đăng ký khoa công nghệ thông tin của trường mình
+nếu mình đăng ký ngành công nghệ thông tin của trường
+mong muốn đăng ký ngành công nghệ thông tin ở trường mình
+em đang muốn đăng ký vố ngành công nghệ thông tin trường mình
+em chào thầy cô em tốt nghiệp cd bach khoa năm 2014 nganh công nghệ thông tin em muốn liên thông trường mình giờ có được không và đăng ký ở đâu em cảm ơn
+em muốn đăng ký vào học công nghệ thông tin clc thì đăng ký thế nào mong thầy cô chia sẻ cho em biết
+mình bên tuyển dụng nhân sự về công nghệ thông tin
+bên mình hiện tại đang có nhu cầu tuyển dụng sinh viên thực tập lĩnh vực công nghệ thông tin
+diem có dâu học viện bưu chính viễn thông khoa công nghệ thông tin không vậy
+chào bạn bạn cho mình hỏi bên trường có đào tạo chương trình đại học ngành công nghệ thông tin từ xa chương trình học viên tự xem các video giảng day phải không bạn nhỉ
+nếu em muốn chuyển khoa từ kỹ thuật điện tử sang công nghệ thông tin được không
+thế có nghĩa là em sẽ đổi từ ngành kỹ thuật điện điện tử sang ngành công nghệ thông tin
+admin ơi ngành công nghệ thông tin và khoa học máy tính thì công nghệ thông tin chỉ lấy a00 còn khoa học máy tính chỉ lấy a01 thôi phải không cơ sở miền bắc
+ngành công nghệ thông tin có khối a01 không
+em xin hỏi trường là ngành công nghệ thông tin có xét khối d01 không
+ngành công nghệ thông tin có xét tổ hợp môn d01 không
+em chào a chị acj cho em hỏi ngày công nghệ thông tin có tuyển d01 không
+cho em hỏi năm nay ngành công nghệ thông tin có xét riêng tổ hợp a01 và a00 không
+ngành công nghệ thông tin ở trường mình năm nay có tuyển khối d01 không
+admin ơi ngành công nghệ thông tin trường mình có xét tổ hớp d01 không
+học phí ngành công nghệ thông tin chương trình tiên tiến như thế nào bạn
+tại sao ngành công nghệ thông tin lại tự túc học phí vậy
+cho em hỏi học phí công nghệ thông tin chất luoengj cao được không
+học phí ngàhnh công nghệ thông tin với
+học phí chương trình chát lượng cao ngành công nghệ thông tin
+đăc gì biệt là công nghệ thông tin học phí ý không
+em có bằng cao đẳng điện tử viễn thông thì có đăng ký học đại học ngành công nghệ thông tin được không
+theo admin thì năm nay điểm chuẩn công nghệ thông tin và thương mai điện tử có biến động nhiều không
+cho em hỏi ngành quản trị kinh doanh kế toán công nghệ thông tin thì chắc công nghệ thôg tin học nhiều tín chỉ hơn
+ngành mà kết hợp giữa công nghệ thông tin với kế toán kiểm toán ấy aạ
+xin cho hỏi trong năm 2020 nhà trường có tuyển sinh lớp đại học từ xa ngành công nghệ thông tin nào không
+em đang là sinh viên năm 1 trường đại học công nghệ thông tin ngành mạng máy tính và truyền thông
+em là tân sinh viên d18 học công nghệ thông tin 02
+em là tân sinh viên khoa công nghệ thông tin của trường
+em đậu khoa công nghệ thông tin của đại học hà nội
+em là sinh viên mới được trúng tuyển vào ngành công nghệ thông tin của trường
+em hiện là sinh viên năm nhất ngành công nghệ thông tin của kma
+em là tân sinh viên ngành công nghệ thông tin của trường cơ sở phía nam
+vậy em trúng tuyển công nghệ thông tin không
+em đã trúng tuyển ngành công nghệ thông tin
+em mình trúng tuyển khoa công nghệ thông tin
+em mình đỗ ngành công nghệ thông tin trường mình
+em đã có tên trong danh sách đậu ngành công nghệ thông tin của học viện trên website
+cháu đạt vừa nhận được giấy báo trúng tuyển khoa công nghệ thông tin
+em đã đỗ vào ngành công nghệ thông tin của trường mình
+em đã đỗ vào ngành công nghệ thông tin của trường trường
+em đã đỗ ngành công nghệ thông tin của trường
+em đã được thông báo đỗ ngành công nghệ thông tin của trường
+em đỗ ngành công nghệ thông tin của học viện bưu chính viến thông
+nếu em lấy kết quả này để xét ngành công nghệ thông tin thì tổ hợp xét là toán anh hay toán khoa học xã hội hay toán khoa học xã hội tiếng anh
+vậy tôi muốn hỏi học viện điều kiện sau tốt nghiệp phổ thông thì điểm toán lý quy định là bao nhiêu không chau đang ký ngành công nghệ thông tin khối a01 xin cảm ơn
+nhưng mà thấy nhóm ngành công nghệ thông tin ở trường lại ghi chú là nguyện vọng 1
+ngành công nghệ thông tin ở trường mình có ghi là thứ tự nguyện vọng 1
+ngành công nghệ thông tin của trường mình em thấy có ghi chú thứ tự nguyện vọng 1 là thế nào
+ngành công nghệ thông tin ghi chú là thứ tự nguyện vọng 1
+thầy cô cho em hỏi như năm ngoái học sinh trường chuyên đạt giải khuyến khích học sinh giỏi quốc gia có được tuyển vào ngành công nghệ thông tin không
+như thế này nghĩa là muốn nộp vào công nghệ thông tin của bưu chính thì cần phải để ở nguyện vọng 1 2 3
+em xem thông tin tuyển xinh rồi nhưng vào ngành công nghệ thông tin không có khối điểm an
+anh ơi ông anh em bảo vào khoa công nghệ thông tin gái hiếm mà còn xấu nữa anh
+và em thi ban điểm nhưng công nghệ thông tin lấy a1 và anh thì em có được vào ko
+ngành công nghệ thông tin năm nay có lấy khối d01 không ai
+bên mình có đào tạo liên thông từ cao đẳng đại học ngành công nghệ thông tin không
+bên mình đang muốn tham gia tài trợ 1 số các jobfair ngày hội việc làm của các bạn sinh viên công nghệ thông tin trong tháng 5 tới đây
+gia đình có nguyện vọng muốn cháu chuyển khoa công nghệ thông tin của trường có được không a
+nhưng em muốn đổi lên công nghệ thông tin ấy
+em đổi công nghệ thông tin của bưu chính lên nguyện vọng 1 thì có được không
+kiểu như em thi công nghệ thông tin nhưng em muốn đỏo sang công nghệ thông tin được không
+mà giờ muốn đổi sang công nghệ thông tin được không
+mình muốn hỏi về đào tạo từ xa ngành công nghệ thông tin
+mình muốn được tư vấn hệ đào tạo từ xa ngành công nghệ thông tin
+mình muốn nhờ admin tư vấn về hệ đào tạo ngoài ngân sách của trường khoa công nghệ thông tin
+xin chào mình muốn hỏi về chương trình đào tạo từ xa liên thông lên đại học ngành công nghệ thông tin
+thầy cô có thể tư vấn cho em về chương trình đào tạo công nghệ thông tin liên kết với đại học latrobe được không
+em muốn được tư vấn hệ đào tạo từ xa ngành công nghệ thông tin
+muốn học từ xa ngành công nghệ thông tin
+mình muốn hỏi về chương trình học liên thông cao đẳng lên đại học chuyên ngành công nghệ thông tin
+em đã tốt nghiệp cao đẳng công nghệ thông tin muốn học liên thông lên đại học thì phải học bao lâu
+giờ em muốn có bằng đại học công nghệ thông tin
+em muốn học liên thông từ cao đẳng lên đại học ngành công nghệ thông tin
+mình đã có bằng cao đẳng chính quy chuyên ngành công nghệ thông tin
+em có bằng trung cấp công nghệ thông tin
+em có bằng cao đẳng điều khiển tàu biển muốn học đại học công nghệ thông tin thơic gian bao lâu
+mình đã có bằng trung cấp công nghệ thông tin
+mình muốn liên thông cao đẳng lên đại học ngành công nghệ thông tin trường mình thì làm thế nào bạn nhỉ
+em chào thầy cô hiện tại em đã có mail thông báo bổ sung hồ sơ của hệ đạo tạo vừa học vừa làm của ngành công nghệ thông tin
+chào bạn mình muốn đăng ký lớp học từ xa ngành công nghệ thông tin
+mình muốn đăng ký chương trình đào tạo từ xa ngành công nghệ thông tin
+em muốn đăng ký hệ đào tạo từ xa ngành công nghệ thông tin
+vì vậy bss mong muốn được tài trợ cho các hoạt động của các trường đại học chuyên về công nghệ thông tin như học viện bưu chính viễn thông đây và tìm kiếm những bạn trẻ có đam mê và khả năng trong lĩnh vực it
+em chào thầy cô anh chị cho em hỏi em được giải nhì môn toán tỉnh muốn vào khoa công nghệ thông tin có được tuyển thẳng không
+để xét và dùng giải nhì môn hóa học sinh giỏi thành phố cho khoa công nghệ thông tin được không vậy ts
+hiện cháu học khoa công nghệ thông tin học viện nông nghiệp việt nam
+mới đăng ký học viện bưu chính viễn thông ngành công nghệ thông tin
+dể có thể nao ra có thể làm nghề về các phần mềm máy tính ngoài khoa công nghệ thông tin còn khoa nào khác không anh
+ngành công nghệ thông tin của trường mình sau ra thì làm ở đâu và công việc là gì
+em muốn tìm hiểu về ngành công nghệ thông tin của trường mình
+em đang tìm hiểu ngành công nghệ thông tin trường mình á
+em đánh giá muốn tìm hiểu ngành công nghệ thông tin ở trường
+em vẫn chưa hiểu về chuyên ngành trong khoa công nghệ thông tin
+em đang muốn tìm hiểu về ngành công nghệ thông tin trường mình
+mình muốn tìm hiểu ngành công nghệ thông tin của trường năm 2022
+em muốn tìm hiểu về ngành công nghệ thông tin của trường
+em là học sinh 2005 muốn tìm hiểu rõ về ngành công nghệ thông tin
+em muốn hỏi một vài thông tin về ngành công nghệ thông tin của trường
+em là học sinh lớp 12 2004 có nguyện vọng vào ngành công nghệ thông tin và kĩ thuật điện tử viễn thông của học viện
+em em là học sinh lớp 12 muốn tìm hiểu chương trình đào tạo ngành công nghệ thông tin của trường
+nay mình muốn học thêm ngành công nghệ thông tin vậy có những chương trình nào phù hợp tại trường không nhỉ
+nếu mình muốn học công nghệ thông tin ở trường như năm nay mình phải đặt nguyện vọng 1 ngành công nghệ thông tin của trường
+cho em hỏi đăng ký ngành công nghệ thông tin mã ngành 7480201 nếu đậu vào trường thì sau 1 năm mới chọn chuyên ngành riêng cho mình hay sao
+chào ptit học viên 2018 trường công nghệ thông tin
+không biết giờ gia đình em đăng ký cho cháu học công nghệ thông tin trường mình bằng hình thức tuyển sinh kết hợp được không
+năm nay trường mở thêm ngành khoa học máy tính thì liệu trong ngành công nghệ thông tin có còn chuyên ngành khoa học máy tính không
+cho em hỏi ngành công nghệ thông tin sao nó chung chung vậy nó khác gì so với khoa học máy tính không
+cho em hỏi là tại sao trường lại tách khoa học máy tính ra khỏi các định hướng trong ngành công nghệ thông tin làm 1 ngành riêng vậy
+và cho em hỏi cả ngành khoa học máy tính trường mình năm nay mới mở có khác gì so vơi ngành công nghệ thông tin không
+thầy cô cho em hỏi là ngành công nghệ thông tin của trường có chuyên ngành kĩ thuật máy tính không
+nhưng ctrinh học khoa học máy tính có giống với công nghệ thông tin không hay là 1
+vì năm nay em thấy trường lấy nhiều chỉ tiêu liên quan về công nghệ thông tin
+cho em xem chương trình không công nghệ thông tin với số tín chỉ của ngành với
+mà em thấy có chuyên ngành công nghệ phần mềm trong mục công nghệ thông tin
+có phải là công nghệ thông tin chuyên ngành công nghệ phần mềm không
+em đủ điểm đậu công nghệ thông tin
+em rớt công nghệ thông tin rồi
+em chỉ mong đỗ công nghệ thông tin thôi
+vì điểm thi của em đỗ công nghệ thông tin rồi
+em đậu công nghệ thông tin đại trà rồi muốn chuyển lên công nghệ thông tin thì làm sao
+em đỗ công nghệ thông tin rồi vậy
+em muốn tư vấn về công nghệ thông tin
+chị có thể tư vấn cho em về ngành công nghệ thông tin
+xin tư vấn ngành công nghệ thông tin
+em muốn được tư vấn về ngành công nghệ thông tin ở đây
+em muốn tư vấn ngành công nghệ thông tin
+em muốn tư vấn về ngành công nghệ thông tin
+mình muốn được tư vấn về ngành công nghệ thông tin với
+anh tư vấn cho em ngành công nghệ thông tin với
+cho em tư vấn về ngành công nghệ thông tin với
+em muốn tư vấn ngành công nghệ thông tin của trường
+em muốn hỏi về ngành công nghệ thông tin
+cho em hỏi một chút về ngành công nghệ thông tin với
+em muốn hỏi về khoa công nghệ thông tin
+cho em hỏi chi tiết về ngành công nghệ thông tin
+em muốn biết về ngành công nghệ thông tin
+cho em hỏi về ngành công nghệ thông tin
+mìmình muốn hỏi tại chức ngành công nghệ thông tin
+cho em hỏi về tiến sĩ ngành công nghệ thông tin
+mình hỏi ngành công nghệ thông tin bên bạn
+em muốn hỏi ngành công nghệ thông tin tại chức
+trang cho em hỏi về ngành công nghệ thông tin
+em muốn hỏi ngành công nghệ thông tin
+cho em hỏi là chuyên ngành công nghệ thông tin trương mình
+em muốn tìm hiểu về công nghệ thông tin
+em múnnhocj về công nghệ thông tin
+em muốn tìm hiểu ngành công nghệ thông tin
+ngành em muốn tìm hiểu là công nghệ thông tin
+em muốn tìm hiểu thêm về ngành công nghệ thông tin
+cho em hỏi em học khoa công nghệ thông tin thì năm đầu vào học đã phân chuyên ngành chưa
+cho em hỏi về chương trình đào tạo của ngành công nghệ thông tin trường mình với
+cho em hỏi khi nào học viện mở lại hồ sơ cho ngành công nghệ thông tin
+cho em hỏi thêm là ngành công nghệ thông tin của trường đào tạo thế nào
+cho em hỏi ngành công nghệ thông tin thì đào tạo về những mảng nào các yếu tố cần thiết để học được ngành này sau ra thì có thể làm những nghề gì
+em sn 2001 cho em hỏi công nghệ thông tin và antt của trường đào tạo mấy năm
+cho em hỏi là ngành công nghệ thông tin ở trường có đào tạo những chuyên ngành nào
+thầy cô cho em hỏi về liên thông đại học ngành công nghệ thông tin của trường mình
+cho em hỏi là vì sao lại có ngành học công nghệ thông tin đây rồi
+cho em hỏi công nghệ thông tin trường mình đào tạo những ngành gì
+cho em xin danh sách các môn học cần học trong quá trình đào tạo ngành công nghệ thông tin với
+trường cho em hỏi ngành công nghệ thông tin bên mình có được học về trí tuệ nhân tạo không
+cho em hỏi là trường mình có cho bảo lưu các ngành thuộc nhóm công nghệ thông tin không
+em có chứng chỉ ielts và là học sinh trường chuyên thì có thể dùng phương thức này xét vào ngành công nghệ thông tin của học viện được không
+em khá tự tin điểm của mình đỗ được công nghệ thông tin của trường thì em không nộp hồ sơ tuyển thẳng mà cứ xếp nguyện vọng bình thường như bao bạn khác được không
+bên ngành công nghệ thông tin trường mình đào tạo nên mảng nào vậy admin
+học viện tuyển ngàng công nghệ thông tin khối nào vậy
+trường mình đào tạo khoa công nghệ thông tin ở sở miền bắc bằng ngôn ngữ nào
+trường mình có những chương trình đào tạo công nghệ thông tin như nào
+thì em chọn xét bằng phương thức nào được ưu tiên cho ngành công nghệ thông tin hơn
+cho mình hỏi dự đoán điểm chuẩn ngành công nghệ thông tin năm nay
+trang có thể dự đoán điểm ngành công nghệ thông tin không
+tôi muốn xem điểm chuẩn ngành công nghệ thông tin
+cho em hỏi điểm chuẩn của công nghệ thông tin cao không
+như là điểm sàn của ngành công nghệ thông tin
+thầy dự đoán ngành công nghệ thông tin liêu coa
+cho em hỏi là cách tính điểm ngành công nghệ thông tin là gì
+cho hỏi ngành công nghệ thông tin trường mình tuyển sinh thế nào đào tạo nghe nào c nhể
+cho em hỏi trường bao giờ sẽ tuyển sinh hệ đhtx ngành công nghệ thông tin em vào website chưa thấy đăng tin
+xin hỏi phương án tuyển sinh năm nay của học viện ngành công nghệ thông tin như thế nào
+lịch học của trường ngành công nghệ thông tin mọi năm là như thế nào
+bạn ơi cho mình hỏi văn bằng 2 ngành công nghệ thông tin của mình khi nào tuyển sinh thế
+trường còn tuyển ngành công nghệ thông tin không
+trường cho em còn là còn tuyển sinh ngành công nghệ thông tin không
+cho em hỏi trường có tuyển liên thông trái ngành của ngành công nghệ thông tin không
+cho em hỏi trường còn tuyển sinh ngành công nghệ thông tin không
+nếu em điền vào bảng xt thẳng như thế thì em sẽ được xét vào công nghệ thông tin hay attt
+bên trường mình còn tuyển bổ sung ngành công nghệ thông tin không cô
+xin hỏi học sinh khuyết tật nặng học ngành công nghệ thông tin chuyên ngành vừa học vừa làm có được miễn giảm học phí o
+em muốn hỏi là ngành công nghệ thông tin của trường mình có yêu cầu tiếng anh không
+ý em là trong ngành công nghệ thông tin ấy còn bộ môn khác không
+cho em hỏi mà ngành công nghệ thông tin chất lượngcao của trường mình có mã là gì
+xin chào trang cho em hỏi về khoa công nghệ thông tin của trường với
+cho em hỏi mã trường và mã ngành công nghệ thông tin
+cho em hỏi mã ngành công nghệ thông tin của trường là gì
+trường cho em hỏi về ngành công nghệ thông tin được không
+tư vấn cho em ngành công nghệ thông tin trường mình với
+cho em hỏi là em muôn shocj ngành công nghệ thông tin của trường
+cho em hỏi về ngành công nghệ thông tin trường mình
+anh chị cho em hỏi là em muốn theo ngành công nghệ thông tin tại trường mình
+cho em hỏi chút về ngành công nghệ thông tin của trường mình không
+cho em hỏi là trường có ngành công nghệ thông tin không
+cho em hỏi mã ngành công nghệ thông tin cơ sở miền nam là gì vây
+điểm sàn thì có đỗ vào ngành công nghệ thông tin không
+điểm thì có đỗ công nghệ thông tin không em để công nghệ thông tin của trường ở nguyện vọng 1
+có đỗ được vào khoa công nghệ thông tin của trường không
+em ở khu vực 1 thì em đỗ công nghệ thông tin của trường không
+điểm vậy em có thể đỗ vào công nghệ thông tin không
+đăng ki công nghệ thông tin có đỗ vào trường không bạn nhỉ
+liệu có đỗ được công nghệ thông tin của trường không lo quá
+điểm thì cơ hội đỗ khoa công nghệ thông tin có cao không admin
+điểm thì đặt nguyện vọng công nghệ thông tin trường mình thì có ổn không
+em của em có đỗ vào công nghệ thông tin của trường mình
+vậy có cơ hội đỗ vào công nghệ thông tin clc không bạn
+có cơ hội đỗ công nghệ thông tin ko
+9 có cơ hội đỗ công nghệ thông tin không
+liệu em có thể đỗ được khoa công nghệ thông tin của trường không
+điểm có đỗ vào ngành công nghệ thông tin không
+có cơ hội đỗ khoa công nghệ thông tin không
+có cơ hội đỗ công nghệ thông tin không
+điểm mà em đăng ký vào công nghệ thông tin và kỹ thuật điện tử viễn thống của trường mình thì cơ hội đỗ có cao không
+em có đỗ vào công nghệ thông tin không
+điểm thì có đỗ được khoa nào trong nhóm công nghệ thông tin của trường không em cảm ơn
+liệu có đỗ khoa công nghệ thông tin của trường mình không
+liệu có đỗ được khoa công nghệ thông tin trường mình không
+liệu có chắc đỗ công nghệ thông tin không em lo quá
+có khả năng đỗ công nghệ thông tin không
+cháu đăng ký vào công nghệ thông tin và công nghệ thông tin liệu có đỗ ko
+điểm liệu có đỗ khoa công nghệ thông tin không
+thì em có đỗ khoa công nghệ thông tin của trường mình không
+điểm cho thi sinh thi kỳ thi trung học phổ thông quốc gia nam 2017 có cơ hội dỗ vào kho công nghệ thông tin được không a
+điểm không biết có cơ hội đậu công nghệ thông tin bưu chính không
+em được 101 có khả năng đỗ công nghệ thông tin không
+1đ đã đủ đỗ công nghệ thông tin trường mình chưa admin
+thì có đỗ đựoc ngành công nghệ thông tin không
+cơ hội kiếm việc làm có cao như công nghệ thông tin không
+cháu có đỗ vào công nghệ thông tin không
+mình muốn hỏi thông tin về chương trình đào tạo sau đại học ngành công nghệ thông tin của trường
+chào bạn mình muốn hỏi chút khoa công nghệ thông tin tuyển sinh có hệ bán công không
+năm nay trường khu vực phía nam có mở thêm ngành mới bên môn công nghệ thông tin không
+có phải năm nay trường mới có tuyển sinh công nghệ thông tin clc
+con gái tôi đã trúng tuyển nguyện vọng 1 công nghệ thông tin của học viện
+em thấy trên trang tuyển sinh của mình ngành công nghệ thông tin
+thầy cô cho em hỏi bên trường mình có đào tạo thạc sỹ ngành công nghệ thông tin không
+thầy cô cho em hỏi ngành công nghệ thông tin có chuyên ngành công nghệ phần mềm không
+cho em hỏi trường có đào tạo công nghệ thông tin không
+nếu không có cơ hội thì có thể tư vấn giúp em 1 trường nào đó đào tạo về công nghệ thông tin ổn không
+chào admin cho em hỏi trường mình đợt này có đâò tạo thạc sĩ công nghệ thông tin không
+cho em hỏi là trường mình có đào tạo công nghệ thông tin chuyên về phần mềm không
+có nhóm ngành công nghệ thông tin không
+ngành công nghệ thông tin của trường có mã ngành là gì vậy
+và mã ngành công nghệ thông tin chính xác nhất
+mã ngành công nghệ thông tin đúng không
+có ngành công nghệ thông tin không
+ngành công nghệ thông tin thì mã ngành là gì vậy
+vậy ngành công nghệ thông tin bao gồm các chuyên ngành nào vậy
+em đậu nguyện vọng khoa công nghệ thông tin của nhà trường em muốn vào ctđtclc
+em mình năm nay có nộp học sinho vào trường học viện công nghệ bưu chính viễn thông có nguyện vọng khoa công nghệ thông tin
+hiện tại em có nguyện vọng học thêm ngành công nghệ thông tin của học viện bưu chính viễn thông
+vậy ngành công nghệ thông tin có xét bổ sung không admin
+hóa cáp tỉnh thì có xét được ngành công nghệ thông tin không
+thì có được vào công nghệ thông tin của trường mình không
+đó có xét được vào ngành công nghệ thông tin không
+điểm liệu có khả năng vào công nghệ thông tin trường mình không
+có vào được ngành công nghệ thông tin không đây
+thì có nên đặt vào ngành công nghệ thông tin không
+có đậu công nghệ thông tin của trường không
+thì có thể xếp vào ngành công nghệ thông tin không
+liệu có đủ điểm vào công nghệ thông tin của trường không
+có đậu ngành công nghệ thông tin không
+thế có còn cơ hội để vào công nghệ thông tin nữa không
+vậy năm nay có khả năng đậy công nghệ thông tin của trường không
+công nghệ thông tin thì sao
+khoa công nghệ thông tin thì như thế nào
+ngành công nghệ thông tin y về gì
+còn công nghệ thông tin thì sao
+ngành công nghệ thông tin thì sao admin
+ngành công nghệ thông tin thì sao
+hiện có nguyện vọng theo ngành công nghệ thông tin
+nguyện vọng ngành công nghệ thông tin
+và có nguyện vọng vào ngành công nghệ thông tin
+nguyện vọng muốn học các ngành công nghệ thông tin
+vì em có nguyện vọng muốn học khoa công nghệ thông tin của trường mình
+con có nguyện vọng được học ở trường mình ngành công nghệ thông tin
+em đang có nguyện vọng học chuyên ngành công nghệ thông tin tại trường
+em thực sự rất mong muốn có cơ hội được học tại trường ngành công nghệ thông tin hệ clc
+tuy nhiên nguyện vọng của em là được theo học ngành công nghệ thông tin của trường
+hiện tại em dự định đặt nguyện vọng ở trường mình ngành công nghệ thông tin
+em có nguyện vọng thi khoa công nghệ thông tin của trườnh nên muốn biết thêm 1 số thông tin về khoa và tường
+em đang để nguyện vọng 1 là ngành công nghệ thông tin của trường mình
+mình có em gái là học sinh khuyết tật đánh giá có nguyện vọng theo học ở trường ngành công nghệ thông tin
+ngành công nghệ thông tin kb lấy cao hơn không
+đầu ra của công nghệ thông tin bưu chính có tốt không
+công nghệ thông tin chắc không có khả năng
+có dùng mát tính nhieu nhu công nghệ thông tin không
+cho em hỏi trường có xét tiêu chí phụ ngành công nghệ thông tin không
+cho em hỏi là chỉ tiêu tuyển sinh của trường ở ngành công nghệ thông tin năm nay giảm
+cho em hỏi ngành công nghệ thông tin trường mình có tiêu chí phụ không
+cho em hỏi trường đã đủ chỉ tiêu chưa ngành công nghệ thông tin
+em muốn hỏi là năm nay trường minh có tieu chí phụ ngành công nghệ thông tin không
+trường mình có chỉ tiêu phụ về ngành công nghệ thông tin không
+ngành công nghệ thông tin của trường năm nay còn chỉ tiêu không
+ngành công nghệ thông tin có hạ điểm không
+vậy điểm công nghệ thông tin tăng hay giảm vậy
+điểm của trường ngành công nghệ thông tin có thể giảm không vậy
+mà năm nay công nghệ thông tin không có chuyện giảm điểm nên vẫn cố
+điểm chuẩn so với năm ngoái có thể giảm nhiều không thầy em theo công nghệ thông tin
+dự kiến điểm chuẩn công nghệ thông tin năm nay tăng hay giảm
+giấy báo của khoa công nghệ thông tin gửi chưa
+ngành công nghệ thông tin chuyên ngành an ninh mạng
+ngành công nghệ thông tin và ngành an toàng thông tin khác nhau chỗ nào
+em học công nghệ thông tin ổn không anh
+giờ muốn học công nghệ thông tin bên trường mình
+em thích công nghệ thông tin
+hmm em muốn vào công nghệ thông tin của trường mình
+học công nghệ thông tin dễ không
+em theo công nghệ thông tin ấy
+em học công nghệ thông tin
+em thích làm công nghệ thông tin
+em đang đang quan tâm ngang công nghệ thông tin tại trường
+em tính học công nghệ thông tin
+em định học công nghệ thông tin
+em vào công nghệ thông tin
+em rất muốn học công nghệ thông tin
+em học công nghệ thông tin cũng vậy
+em thi công nghệ thông tin
+và hiện em muốn học về công nghệ thông tin
+giờ muốn học lên thạc sĩ công nghệ thông tin bên mình
+em có đứa bạn muốn vào công nghệ thông tin
+em muốn học công nghệ thông tin
+em thích ngành công nghệ thông tin anh
+em muốn học liên thông ngành công nghệ thông tin
+chuyên ngành công nghệ thông tin nhưng mà em không được ưng ý lắm vì em muốn học truyền thông đa phương tiện hệ chính quy hơn ý
+mà em muốn học ngành công nghệ thông tin
+em muốn học ngành công nghệ thông tin của học viện ở thành phố
+em học ngành công nghệ thông tin
+em tốt nghiệp ngành công nghệ thông tin
+em muốn học công nghệ thông tin mà đánh giá theo học khối điểm
+em muốn học ngành công nghệ thông tin
+liệu có thể đỗ được công nghệ thông tin bưu chính không
+cả cộng có đỗ được công nghệ thông tin không
+05 có vào được công nghệ thông tin không
+có công nghệ thông tin không
+khoa công nghệ thông tin không
+có công nghệ thông tin định hướng nhật bản không anh
+với công nghệ thông tin có không
+liệu có dỗ công nghệ thông tin không
+liệu có đậu công nghệ thông tin không
+vào được công nghệ thông tin không anh
+có đỗ đăng ký công nghệ thông tin ở hà nội không
+có đỗ công nghệ thông tin không
+có đỗ được công nghệ thông tin bưu chính không
+anh chị ơi không biết gì về công nghệ thông tin thì có được y căn bản không
+đậu công nghệ thông tin không vậy thầy
+hay chỉ có công nghệ thông tin thôi
+đỗ được công nghệ thông tin không
+thế em vẫn đỗ công nghệ thông tin bình thường
+điểm thì có thể đỗ công nghệ thông tin không
+liệu có đỗ được công nghệ thông tin không
+cho em hỏi là sau năm nhất các ngành bên kĩ thuật có kì thi nào để chuyển sang ngành công nghệ thông tin clc không
+học công nghệ thông tin không vấn đề gì chứ
+ở trường có ngành công nghệ thông tin không
+ai học ngành công nghệ thông tin không
+tôi muốn tư vấn cho con thi vào khoa công nghệ thông tin của trường
+em muốn vào khoa công nghệ thông tin trường mình
+sắp tới em vào học công nghệ thông tin của trường mình
+cháu muốn hoc khoa công nghệ thông tin trường mình
+ngành công nghệ thông tin của trường có lấy khối điểm không
+bên trường công nghệ thông tin có khối điểm không
+công nghệ thông tin xét điểm những khối gì
+cho em hỏi ngành công nghệ thông tin của trường không có khối a0
+khoa công nghệ thông tin có lấy khối điểm không
+ngành công nghệ thông tin là khối gì vậy khối điểm toán văn anh phải không
+trường mình có điểm chuẩn khối a00 ngành công nghệ thông tin không
+có nên điểm kí công nghệ thông tin không
+cho mình hỏi khoa công nghệ thông tin của trường có lấy khối điểm không
+cả cộng điểm vùng có khả năng đỗ vào ngành công nghệ thông tin của trường không
+cái ngành công nghệ thông tin có thi khối c00 không
+ngành công nghệ thông tin có tuyển học viên khối điểm không
+ngành công nghệ thông tin có xét khối điểm không
+khối điểm có khoa công nghệ thông tin không
+công nghệ thông tin có xét khối d01 không
+ngành công nghệ thông tin có thu khối điểm không
+ngành công nghệ thông tin của nhà trường có chiêu sinh khối điểm không
+năm ngoái trường có lấy khoa công nghệ thông tin khối toán hóa anh không
+có xét khối điểm ngành công nghệ thông tin không
+khối a00 liệu có đậu công nghệ thông tin của trường tại phía nam không
+em thi khối điểm mà muốn thi vào ngành công nghệ thông tin thì có đăng ký được vào trường không
+em muốn vào ngành công nghệ thông tin mà em theo khối điểm toán văn anh thì có vào được không
+admin cho em hỏi em thi khối d1 và tổ hợp xã hội thì có được học các ngành như kế toán kinh tế công nghệ thông tin không
+thưa em học khối điểm toán văn anh thì em muốn vào ngành công nghệ thông tin thì có được không
+trường mình có đào tạo công nghệ thông tin hệ cao đẳng không
+trường mình năm nay có nhận liên thông đại học chính quy ngành công nghệ thông tin không
+ở trường có lớp tiên tiến về công nghệ thông tin không
+em hoc nganh công nghệ thông tin hoc truc tuyen tu xa ạ
+trường mình có đào tạo công nghệ thông tin không
+trường mình có khoa công nghệ thông tin liên kết với úc không
+trường trường mình có hệ cao đẳng công nghệ thông tin không
+sinh viên công nghệ thông tin có thường xuyên phải mang laptop cá nhân đi học không hay dùng máy ở trường là chính
+trường có đào tạo hệ cao đẳng ngành công nghệ thông tin hay không và thông tin cụ thể
+trường mình có đào tạo lập trình viên ở ngành công nghệ thông tin chứ
+trường mình có tuyển sinh cử nhân công nghệ thông tin học theo hình thức từ xa ko
+ngành công nghệ thông tin trường mình có đào tạo chats lượng cao không
+khoa công nghệ thông tin trường mình có hệ anh và hệ bạn không ạ
+trường mình có đào tạo thạc sĩ và tiến sĩ ngành công nghệ thông tin không
+trường mình có hệ đào tạo mới công nghệ thông tin không
+cho em hỏi năm này công nghệ thông tin của bưu chính có thể tăng trong khoảng nào
+khoa công nghệ thông tin trường mình có mạnh như bk với vnu không
+khoa công nghệ thông tin của trường có những mảng nào
+cho em hỏi đề năm nay đề dễ này thì thì xu hướng ngành công nghệ thông tin của trường có tăng nhiều không
+liệu có cơ hội đỗ ngành công nghệ thông tin của trường không
+có khả năng đỗ vào ngành công nghệ thông tin của trường ko
+ngành công nghệ thông tin của trường có ưu tiên nguyện vọng không
+liệu năm nay em có cơ hội đậu vào công nghệ thông tin của trường không
+liệu có cơ hội vào học ngành công nghệ thông tin của trường không
+liệu năm nay em có vào được ngành công nghệ thông tin được không
+có đậu vào ngành công nghệ thông tin của trường không
+hay có phương án nào khác để con được học ngành công nghệ thông tin trường mình không
+em mình năm nay khả năng không đủ điểm ngành công nghệ thông tin
+mình có được xét vào trường học công nghệ thông tin không
+điểm không biết có thể đậu ngành công nghệ thông tin của trường tại cơ sở phía nam không
+có đủ để được đậu vào ngành công nghệ thông tin trường mình không
+trường mình ngành công nghệ thông tin có chương trình liên kết quốc tế không
+có đậu được ngành công nghệ thông tin trường mình không
+thi vào ngành công nghệ thông tin
+con nhà tôi đã trúng tuyển vào khoa công nghệ thông tin nhưng tôi đang lăn tăn về công nghệ thông tin và công nghệ thông tin clc
+con chọn ngành công nghệ thông tin
+ngành trúng tuyển là ngành công nghệ thông tin
+tổ hợp môn thi ngành công nghệ thông tin
+em muốn vào ngành công nghệ thông tin ý
+thưa em muốn thi ngành công nghệ thông tin
+em muốn thi vào trường mình ngành công nghệ thông tin
+em muốn xét vào ngành công nghệ thông tin
+đỗ công nghệ thông tin ý
+vào khoa công nghệ thông tin
+khoa công nghệ thông tin
+còn ngành công nghệ thông tin
+năm nay ngành công nghệ thông tin
+còn khối công nghệ thông tin
+tôi là phụ huynh học sinh tôi muôn hỏi điều kiện để vào học lớp công nghệ thông tin chất lương cao là gì
+thí sinh mong muốn thi ngành công nghệ thông tin trường mjnhf thì thủ tục như thế nào
+cho em hỏi thông tin về tổ chức thi ứng dụng công nghệ thông tin cơ bản của trường với
+tôi muốn được hỏi về điều kiện được tuyển thẳng và khoa công nghệ thông tin của học viện
+công nghệ thông tin
+trong công nghệ thông tin
+về công nghệ thông tin
+công nghệ thông tin á
+là công nghệ thông tin xét mỗi nguyện vọng 1
+khóa công nghệ thông tin cũng thế
+hơ hơ em thích công nghệ thông tin cơ
+ngành công nghệ thông tin
+với ngành công nghệ thông tin
+ngành công nghệ thông tin đấy
+công nghệ thông tin ý
+về công nghệ thông tin ấy
+mình đang quan tâm ngành công nghệ thông tin từ xa
+của ngành công nghệ thông tin
+ngành công nghệ thông tin ý
+mình ngành công nghệ thông tin
+là công nghệ thông tin mà
+sợ mừng hụt công nghệ thông tin
+ngành công nghệ thông tin cơ
+ngoài công nghệ thông tin ra nhá
+ngành công nghệ iot là thuộc công nghệ thông tin
+nguyện vọng 1 là ngành công nghệ thông tin
+xét nguyện vọng 1 công nghệ thông tin luôn ấy
+cho tôi hỏi cháu muốn đăng ký học công nghệ thông tin của trường thì nộp hồ sơ khi nào vậy bạn
+liệu có được tuyển thẳng vào ngành công nghệ thông tin của trường không
+thì liệu em có được tuyển thẳng vào ngành công nghệ thông tin không
+ngành công nghệ thông tin có tuyển thẳng không và điều kiện tuyển thẳng
+đăng ký tuyển thẳng ngành công nghệ thông tin là thế nào
+ngành công nghệ thông tin có tuyển thẳng không
+trường cho con hỏi là cách thức xét của ngành công nghệ thông tin có xét riêng khối không
+mình muốn con học hệ tiên tiến ngành công nghệ thông tin thì vẫn lấy điểm thi trung học phổ thông qg admin nhỉ
+cho em hỏi là ngành công nghệ thông tin điểm a0 với a1 tính chung
+ngành công nghệ thông tin của trường thì khối anh với a1 xét điểm như nhau
+cho em hỏi năm nay ngành công nghệ thông tin xét điểm khối anh và a1 có khác nhau không
+trường cho em hỏi là với ngành công nghệ thông tin ta xét khối a a1 trên thang điểm chung hay là thang điểm riêng vậy
+được ưu tiên tuyển thẳng vào ngành công nghệ thông tin chương trình tiên tiến phải làm những thủ tục gì
+anh ơi em có bằng đgnlđhqg 82 150 là đủ đăng ký tuyển thẳng vậy em có được tuyển thẳng vào ngành mình thích như công nghệ thông tin không
+mà giờ em đăng ký ngành công nghệ đpt năm sau em có được đăng ký thêm ngành công nghệ thông tin không
+và em muốn đăng ký tuyển vào ngành công nghệ thông tin có được khgo6ng a
+chào admin cho mình hỏi mình 22 5 muốn đăng ký ngành công nghệ thông tin chata lượng cao của trường mình thì thể lệ đăng ký và đăng ký ứng tuyển như thế nào
+em vừa đỗ vào ngành công nghệ thông tin thì 29 8 đi nhập học em phải có mặt từ 7h30aj
+em muốn đăng ký vào lớp chất lương cao ngành công nghệ thông tin thì làm thế nào
+cho tôi hỏi con tôi dã không trúng tuyển vào khoa công nghệ thông tin của trường theo
+em là ngô văn quyết đỗ ngành công nghệ thông tin của trường sao giờ em chưa nhận được giaáy báo nhập
+admin ơi em không vào để sửa được admin có thể giúp em thay đổi thứ tự nguyện vọng được không hiện tại nguyện vọng 1 của em là công nghệtt nguyện vọng 2 là công nghệ thông tin
+cho em hỏi tiền học phí ghi trên giấy báo nhập học nhưng không em nhận được vậy cho em hỏi tiền học phí của ngành công nghệ thông tin là bnhiu
+tại em lỡ đăng ký mỗi công nghệ thông tin mà tổng em được có 27 1 mà em lỡ chưa đăng ký phương án dự phòng ý
+em thi trung học phổ thông quốc gia rồi đỗ công nghệ thông tin
+admin ơi em đăng ký công nghệ thông tin nhưng mà em được 24
+sao em thấy có thông tin là nếu em không để công nghệ thông tin ở nguyện vọng 1 là bị nhà trường gạt hồ sơ ra
+cho em hỏi là cơ sở phía nam không nhận công nghệ thông tin hay sao em nhìn chỉ tiêu 2022 không thấy
+tôi không đọc được phần điểm trúng tuyển năm nay tôi cần xem ngành công nghệ thông tin
+em có một thắc mắc xin được giải đáp em đăng ký nguyện vọng 1 ngành công nghệ thông tin vào trường mình nhưng điểm của em chỉ đủ vào hệ trong ngân sách
+năm nay em có đăng ký nguyện vọng vào trường mình nhưng không đủ điểm hôm rồi em có đăng ký trên fanpage của trường có thầy cô điện báo năm nay có hệ vừa học vừa làm 3 ngành công nghệ thông tin quản trị kinh doanh và điện tử viễn thông
+em tra rồi em trúng tuyển công nghệ thông tin rồi
+cho em hỏi công nghệ thông tin 29 lên nộp hồ sơ
+có đăng ký công nghệ thông tin trường mình tại sao em không tra cứu được
+công nghệ thông tin em không học được vì không có khối điểm
+em xem trên web trường chỉ tiêu công nghệ thông tin là 655 học sinh còn trên trang là 660

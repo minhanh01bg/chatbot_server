@@ -1,0 +1,1914 @@
+[
+  {
+    "text": "thế nên là em có thể nhận ngay ở trường hay địa chỉ hiện tại của em được không",
+    "intent": "7203e6e76c_dia_chi_co_so",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999682903289795
+    }
+  },
+  {
+    "text": "thầy cô cho em hỏi địa chỉ tiếp nhận hồ sơ xét tuyển của trường mình là km đường nguyễn trãi quận hà đông hà nội phải không",
+    "intent": "7203e6e76c_dia_chi_co_so",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.8832868337631226
+    }
+  },
+  {
+    "text": "hay chỉ cần địa chỉ nhận thôi",
+    "intent": "7203e6e76c_dia_chi_co_so",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9773620963096619
+    }
+  },
+  {
+    "text": "cho em hỏi đậu ở cơ sở miền nam là học ở địa chỉ quận phải không",
+    "intent": "7203e6e76c_dia_chi_co_so",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9598193168640137
+    }
+  },
+  {
+    "text": "ờm em muốn hỏi mã trường em ý",
+    "intent": "cae1859a0f_ma_truong",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9509922862052917
+    }
+  },
+  {
+    "text": "cho em hỏi mã trường của trường mình",
+    "intent": "cae1859a0f_ma_truong",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9989535808563232
+    }
+  },
+  {
+    "text": "cho em hỏi mã trường của mình là gì vậy",
+    "intent": "cae1859a0f_ma_truong",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999994039535522
+    }
+  },
+  {
+    "text": "admin cho mình xin mã ngành cũng như mã trường với",
+    "intent": "cae1859a0f_ma_truong",
+    "intent_prediction": {
+      "name": "7203e6e76c_dia_chi_co_so",
+      "confidence": 0.23830796778202057
+    }
+  },
+  {
+    "text": "chỗ này thì lại có mã ngành khác nữa nè admin",
+    "intent": "cae1859a0f_ma_truong",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999992847442627
+    }
+  },
+  {
+    "text": "admin ơi admin cho em xin mã trường và mã ngành công nghệ thông tin với",
+    "intent": "cae1859a0f_ma_truong",
+    "intent_prediction": {
+      "name": "beb2625046_ma_nganh",
+      "confidence": 0.6068428754806519
+    }
+  },
+  {
+    "text": "cho em hỏi mã trường của học viện bưu chính viễn thông là gì",
+    "intent": "cae1859a0f_ma_truong",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.837878406047821
+    }
+  },
+  {
+    "text": "cho em hỏi mã trường của trường mình là gì vậy",
+    "intent": "cae1859a0f_ma_truong",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999778270721436
+    }
+  },
+  {
+    "text": "liên hệ vào giờ hành chính",
+    "intent": "b8982a8989_thong_tin_lien_he",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9012722969055176
+    }
+  },
+  {
+    "text": "em có liên hệ với với số ở trong link đăng ký thì cô bảo các bạn vẫn đang nộp được",
+    "intent": "b8982a8989_thong_tin_lien_he",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.44957420229911804
+    }
+  },
+  {
+    "text": "cho em hỏi em có thắc mắc về vđeef bảo hiểm y tế thì liên hệ với ai",
+    "intent": "b8982a8989_thong_tin_lien_he",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.5258190035820007
+    }
+  },
+  {
+    "text": "xin chào admin em có vài vấn đề cần hỏi bên phía đoàn trường mà em liên hệ số điện thoại rất nhiều lần nhưng không được",
+    "intent": "b8982a8989_thong_tin_lien_he",
+    "intent_prediction": {
+      "name": "c7077c60c0_xin_chao",
+      "confidence": 0.9995421171188354
+    }
+  },
+  {
+    "text": "cho em xin số điện thoại của trường luôn",
+    "intent": "b8982a8989_thong_tin_lien_he",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999154806137085
+    }
+  },
+  {
+    "text": "em xin số điện thoại của trường",
+    "intent": "b8982a8989_thong_tin_lien_he",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999833106994629
+    }
+  },
+  {
+    "text": "cho em xin số điện thoại của trường",
+    "intent": "b8982a8989_thong_tin_lien_he",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9929637312889099
+    }
+  },
+  {
+    "text": "thì dùng số điện thoại nào để liên hệ với trường",
+    "intent": "b8982a8989_thong_tin_lien_he",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9996247291564941
+    }
+  },
+  {
+    "text": "cho tôi xin số điện thoại của cô giáo nhận ho so",
+    "intent": "b8982a8989_thong_tin_lien_he",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999858140945435
+    }
+  },
+  {
+    "text": "thời gian nào công bố điểm chuẩn theo theo kết quả thi tnpt",
+    "intent": "e706bcf777_diem_trung_tuyen",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9918447136878967
+    }
+  },
+  {
+    "text": "là điểm trúng tuyển của kỹ thuật điện tử viễn thông là",
+    "intent": "e706bcf777_diem_trung_tuyen",
+    "intent_prediction": {
+      "name": "b8982a8989_thong_tin_lien_he",
+      "confidence": 0.31154724955558777
+    }
+  },
+  {
+    "text": "em chào thầy cô em xin có câu hỏi về điểm trúng tuyển của trường mình ví dụ em có thấy điểm trúng tuyển của ngành thương mại điện tử năm ngoái là",
+    "intent": "e706bcf777_diem_trung_tuyen",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.5459542274475098
+    }
+  },
+  {
+    "text": "điểm trúng tuyển đánh giá năng lực tính như thế nào vậy",
+    "intent": "e706bcf777_diem_trung_tuyen",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "vd chỉ tiêu ngành là chỉ tiêu cho a chỉ tiêu cho a em cảm ơn",
+    "intent": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.978602945804596
+    }
+  },
+  {
+    "text": "chẳng hạn trường lấy đủ chỉ tiêu người nhưng có người lại xét vào cả bách khoa và họ chọn bách khoa thì trường sẽ bù chỉ tiêu đấy như thế nào",
+    "intent": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9957465529441833
+    }
+  },
+  {
+    "text": "cơ sở phía nam có chỉ tiêu thôi",
+    "intent": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "7203e6e76c_dia_chi_co_so",
+      "confidence": 0.8112810850143433
+    }
+  },
+  {
+    "text": "cho em hỏi ví dụ ngành công nghệ thông tin lấy điểm và nguyện vọng mà em được điểm và khi lấy đến em trường vẫn đang còn thiếu chỉ tiêu nhưng em để nguyện vọng của mình ở nguyện vọng thì có được không",
+    "intent": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.999309778213501
+    }
+  },
+  {
+    "text": "chỉ tiêu và phương thức tuyển sinh năm của trường thế nào",
+    "intent": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "e706bcf777_diem_trung_tuyen",
+      "confidence": 0.47774848341941833
+    }
+  },
+  {
+    "text": "tôi quan tâm đến chỉ tiêu của chương trình liên kết quốc tế bằng cử nhân công nghệ thông tin của đại học la trobe",
+    "intent": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.5448753833770752
+    }
+  },
+  {
+    "text": "em thấy chỉ tiêu chỉ có người ấy nếu vượt qua thì vẫn lấy hết hay loại bớt người như thế nào",
+    "intent": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.999996542930603
+    }
+  },
+  {
+    "text": "nhưng em lại kbiet ngành của em mang bao nhiêu tiền",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "d0334d005b_ky_tuc_xa",
+      "confidence": 0.16467948257923126
+    }
+  },
+  {
+    "text": "ngành marketing của trường môn tiếng anh có được nhân đôi không cho em biết cả cách tính điểm được không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9953568577766418
+    }
+  },
+  {
+    "text": "em muốn hỏi là ngành marketing có thi khối điểm toán văn anh không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9941601753234863
+    }
+  },
+  {
+    "text": "em muốn hỏi về ngành",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "anh chị cho tôi hỏi yêu cầu về hồ sơ xét tuyển đại học năm tôi thấy các ngành đều có hạn nộp là nhưng không tìm thấy mục yêu cầu về hồ sơ",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.6398160457611084
+    }
+  },
+  {
+    "text": "trường ơi em có thấy trên chỗ xét tuyển từng ngành có để hạn",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.634138822555542
+    }
+  },
+  {
+    "text": "biết điểm từng ngành luôn",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.7503103017807007
+    }
+  },
+  {
+    "text": "không biet muc diem dao dong cua ngành nay trog truong qua cac nam la bao nhiu vậy a",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.7961385250091553
+    }
+  },
+  {
+    "text": "vậy năm em đăng ký vào ngành nào trường trường ở thành phố hồ chí minh",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9995194673538208
+    }
+  },
+  {
+    "text": "ngành marketing trường mình có chuyên ngành thì khi đăng ký vào học mình được chọn học ngành nào hay chia ngành thế nào",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.5642430186271667
+    }
+  },
+  {
+    "text": "em hỏi thêm sau năm chia chuyên ngành thì ta có thể chọn và học hết các chuyên ngành đăng ký không hay chỉ thôi",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.22928228974342346
+    }
+  },
+  {
+    "text": "trường cho em hỏi là hiện tại trường mình có ngành nào xét skhối d chưa",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.31762751936912537
+    }
+  },
+  {
+    "text": "em định hỏi là ngành này trường có xét khối d không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "859bf11d41_to_hop_xet_tuyen",
+      "confidence": 0.9997497200965881
+    }
+  },
+  {
+    "text": "là trương mình năm nay có ngành nào tuyển d không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "7203e6e76c_dia_chi_co_so",
+      "confidence": 0.3350644111633301
+    }
+  },
+  {
+    "text": "nay cơ sở phía nam chỉ lấy chỉ tiêu cho ngành marketing thôi đúng không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "66cccc4b87_so_luong_chi_tieu_tuyen_sinh",
+      "confidence": 0.6315285563468933
+    }
+  },
+  {
+    "text": "với điểm số tổ hợp a là thì em có được xét tuyển vào ngành quản trị kinh doanh của trường mình không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "859bf11d41_to_hop_xet_tuyen",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "trường mình xét tuyển từ điểm a a d là ở những ngành nào phía bắc",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.7910910844802856
+    }
+  },
+  {
+    "text": "được miễn học phí năm thứ không không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.9987829327583313
+    }
+  },
+  {
+    "text": "học sinh hệ chuyên ví dụ môn văn thì không thể xét bất cứ ngành nào hết còn phương thức xét chứng chỉ ngoại ngữ thì có thể dùng bằng b tiếng trung được không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "7f3573628d_phuong_thuc_xet_tuyen",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cho em hỏi ngành an toàn thông tin và kĩ thuật điện tử viên thông có xét tuyển tổ hợp điểm không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "859bf11d41_to_hop_xet_tuyen",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "ọc bổng cho đánh giá năng lực vào ngành công nghệ thông tin của trường năm nay",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999995231628418
+    }
+  },
+  {
+    "text": "admin tư vấn giúp em với cho em hỏi ngành công nghệ đa phương tiện có phù hợp với nữ không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.7226343750953674
+    }
+  },
+  {
+    "text": "học viện cho em hỏi mai là tuần lễ sinh hoạt công dân thì ngành khoa học máy tính và công nghệ đa phương tiện học lúc nào",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.5542439222335815
+    }
+  },
+  {
+    "text": "cho mình hỏi học phí ngành kỹ thuật điện tử viễn thông năm học là bao nhiêu với",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.9644922018051147
+    }
+  },
+  {
+    "text": "ngành này chỉ có hệ chất lượng cao thôi đúng không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9382256269454956
+    }
+  },
+  {
+    "text": "ện vọng của mình ở nguyện vọng thì có được không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999984502792358
+    }
+  },
+  {
+    "text": "tối đa được đăng ký mấy ngành",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "beb2625046_ma_nganh",
+      "confidence": 0.29610392451286316
+    }
+  },
+  {
+    "text": "em nghe các anh chị đi trước nói trường có vài ngành hệ dân lập học phí cao",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.9992285966873169
+    }
+  },
+  {
+    "text": "à chỉ xét theo kết quả trung học phổ thông quốc gia thôi đúng không",
+    "intent": "b2be8803e0_cac_nganh_dao_tao",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.1617894470691681
+    }
+  },
+  {
+    "text": "cho em xin danh sách mã ngành của trường mình năm với",
+    "intent": "beb2625046_ma_nganh",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.5859100222587585
+    }
+  },
+  {
+    "text": "đầu tuần sau phải hoàn thành hồ sơ rồi mà bây giờ vẫn chưa thấy mã ngành ở đâu cả buồn quá",
+    "intent": "beb2625046_ma_nganh",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.8138891458511353
+    }
+  },
+  {
+    "text": "trường mình năm nay đã mở ngành thương mại điện tử chưa em tìm trên web của trường mà không tìm được mã ngành",
+    "intent": "beb2625046_ma_nganh",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.8987247943878174
+    }
+  },
+  {
+    "text": "cơ sở ở thành phố hồ chí minh mã ngành công nghệ đa phương tiện là gì vậy admin",
+    "intent": "beb2625046_ma_nganh",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.5698541402816772
+    }
+  },
+  {
+    "text": "và mã ngành là gì",
+    "intent": "beb2625046_ma_nganh",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9850245714187622
+    }
+  },
+  {
+    "text": "chuyên ngành là vô tuyến",
+    "intent": "beb2625046_ma_nganh",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.8727713823318481
+    }
+  },
+  {
+    "text": "và mã ngành là gì vậy",
+    "intent": "beb2625046_ma_nganh",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.7743219137191772
+    }
+  },
+  {
+    "text": "mã ngành là gì",
+    "intent": "beb2625046_ma_nganh",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9416323304176331
+    }
+  },
+  {
+    "text": "cho em xin mã ngành được không",
+    "intent": "beb2625046_ma_nganh",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9265669584274292
+    }
+  },
+  {
+    "text": "em đỗ tốt nghiệp năm bây giờ nhà trường còn nhận hồ sơ xét tuyển kết hợp không",
+    "intent": "bd6953a44f_ho_so_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ngày thứ trường có nhận hồ sơ xét tuyển kết hợp không",
+    "intent": "bd6953a44f_ho_so_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "hiện nay con tôi đã có chứng chỉ ngoại ngữ quốc tế nếu con tôi không đăng ký thi môn ngoại ngữ trong kỳ thi tốt nghiệp trung học phổ thông năm đối tượng được miễn thi ngoại ngữ thì có được nộp hồ sơ xét tuyển vào học viện theo hình thức xét tuyển kết hợp giữa chứng chỉ ngoại ngữ và kết quả học tập hay không",
+    "intent": "bd6953a44f_ho_so_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em có một thắc mắc là trong phần hồ sơ xét tuyển kết hợp có yêu cầu thế này",
+    "intent": "bd6953a44f_ho_so_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em có thắc mắc về việc nộp hồ sơ xét tuyển phương thức",
+    "intent": "bd6953a44f_ho_so_xet_tuyen",
+    "intent_prediction": {
+      "name": "7f3573628d_phuong_thuc_xet_tuyen",
+      "confidence": 0.6324014663696289
+    }
+  },
+  {
+    "text": "em có thắc mắc về nộp hồ sơ xét tuyển kết hợp",
+    "intent": "bd6953a44f_ho_so_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em là tdo có làm hồ sơ xét tuyển vào trường mình theo điểm đánh giá năng lực của đại học quốc gia hà nội",
+    "intent": "bd6953a44f_ho_so_xet_tuyen",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em không hiểu rõ về cách tính học phí kỳ là bao nhiu ý",
+    "intent": "9f5304f61a_hoc_phi",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.8642261624336243
+    }
+  },
+  {
+    "text": "ký túc xá trường thì ở bao nhiêu người phòng với cả chi phí bao nhiêu tháng",
+    "intent": "d0334d005b_ky_tuc_xa",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.6072302460670471
+    }
+  },
+  {
+    "text": "cho em hỏi là em d thì tầm là nhập học thì tầm em có được đăng ký ở ký túc xá luôn không hay phải sau khi nhập học mới được đăng ký",
+    "intent": "d0334d005b_ky_tuc_xa",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.3059891164302826
+    }
+  },
+  {
+    "text": "nếu lịch là em nhập học thì em xuống đăng ký cái phòng yêu cầu của ký túc xá trường mình thì có đăng ký không",
+    "intent": "d0334d005b_ky_tuc_xa",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.7581588625907898
+    }
+  },
+  {
+    "text": "em hỏi thêm là d nhập học luôn hay là sau đó chờ tiếp rồi mới vào ký túc xá",
+    "intent": "d0334d005b_ky_tuc_xa",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.8246206641197205
+    }
+  },
+  {
+    "text": "admin ơi em trúng tuyển vào ngành marketing lịch nhập học là vào nhưng em muốn lên đký ký túc xá luôn vì sợ hết phòng được không",
+    "intent": "d0334d005b_ky_tuc_xa",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.7778361439704895
+    }
+  },
+  {
+    "text": "cho em hỏi em muốn xét tuyển theo phương thức tuyển sinh là tổ hợp ba môn a vào ngành kỹ thuật điều khiển và tự động hóa thì có cần phải nộp hồ sơ trước không",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "7f3573628d_phuong_thuc_xet_tuyen",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em không biết có nên đổi tổ hợp xét tuyển không",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em đăng ký thi trung học phổ thông quốc gia tổ hợp d nhưng mà xét kết hợp theo đề án của trường điểm khối a của em cao hơn thì em được xét khối a đúng không",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.9922927618026733
+    }
+  },
+  {
+    "text": "cho em hỏi là ngành đó học ra sao xét khối nào và cơ hội việc làm",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "6ddd3e71fe_co_hoi_viec_lam",
+      "confidence": 0.9852644801139832
+    }
+  },
+  {
+    "text": "cho em hỏi trường mình có xét khối c không",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999983310699463
+    }
+  },
+  {
+    "text": "ngành it có xét khối d hay không",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9996833801269531
+    }
+  },
+  {
+    "text": "cho em hỏi sắp tới em đăng ký ngành thương mại điện tử thấy xét khối a a d em có được xét cả khối để thi lấy điểm không admin",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9672479629516602
+    }
+  },
+  {
+    "text": "em thấy trường có xét khối d toán văn anh nên em thắc mắc tại sao không cho xét kết hợp môn văn bởi em muốn đăng ký vào ngành maketing",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cho mình hỏi khoa marketting có xét khối a không bạn",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em xin hỏi trường là ngành công nghệ thông tin có xét khối d không",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.7762538194656372
+    }
+  },
+  {
+    "text": "con muốn biết là xét khối anh và a riêng hay là xét chung ai đủ điểm thì vào",
+    "intent": "859bf11d41_to_hop_xet_tuyen",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999992847442627
+    }
+  },
+  {
+    "text": "em thấy bản thân khá thiên về sáng tạo và em cũng vẽ được chút ít dù không đẹp lắm nên em định theo multimedia nhưng em vẫn chưa định hướng được việc làm sau này của ngành này nên có hơi hoang mang trong khi it cơ hội việc làm rất rộng lớn",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.99798583984375
+    }
+  },
+  {
+    "text": "anh tư vấn cho em về học phí cơ hội việc làm sau khi tốt nghiệp của ngành điện điện tử",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.8752483129501343
+    }
+  },
+  {
+    "text": "ngành công nghệ đa phương tiện với công nghệ thông tin thì ngành nào ra trường cơ hội việc làm tốt hơn",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9970671534538269
+    }
+  },
+  {
+    "text": "hoc phi và việc làm s khi ra trường thi s",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9932360053062439
+    }
+  },
+  {
+    "text": "học phí của ngành marketing ra sao trường còn có giới thiệt việc làm cho em không",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.9846974611282349
+    }
+  },
+  {
+    "text": "và cơ hội việc làm ra sao",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9979032278060913
+    }
+  },
+  {
+    "text": "vậy theo như bạn nói thì cơ hội việc làm rất đa ng đúng không",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em có thể nhờ admin đăng bài này để giúp trường trường hồ chí minh truyền thông về ngày hội việc làm sắp tới được không",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9919695258140564
+    }
+  },
+  {
+    "text": "chào admin admin ơi admin cho mình hỏi bên mình có ngày hội việc làm khi nào vậy bên mình hiện tại có khá nhiều job liên quan đến it để giới thiệu cho siinh viên ở trường mình nên mình đang muốn liên hệ để đặt bàn trực vao ngày hội viêc làm o trường bạn",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.2018231451511383
+    }
+  },
+  {
+    "text": "cho em hỏi em có đứa em định học ngành marketing của trường mình cho em hỏi về mức học phí và thông tin về ngành đó cơ hộ việc làm các thứ",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.8564866185188293
+    }
+  },
+  {
+    "text": "sau khi ra trường thì cơ hội việc làm có tốt không",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.5461468696594238
+    }
+  },
+  {
+    "text": "điều này gây khó khăn cho việc làm thủ tục nhập học của bản thân em cũng như nhiều bạn khác em kiến nghị nhà trường có thể lùi thời gian tiếp nhận hồ sơ hoặc có những biện pháp khác giúp chúng em được không",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.8407175540924072
+    }
+  },
+  {
+    "text": "admin ơi ngành kỹ thuật điện tử viễn thông với an toàn thông tin cái nào ổn hơn ra trường có nhiều cơ hội việc làm hơn và cụ thể như thế nào em cám ơn",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9726870656013489
+    }
+  },
+  {
+    "text": "cho em hỏi ngành công nghệ đa phương tiện của trường đào tạo như nào cơ hội việc làm ra sao",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9999439716339111
+    }
+  },
+  {
+    "text": "sinh viên có cơ hội nhận học bổng du học ở đâu không trường có liên kết đầu ra việc làm với công ty nào không",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999887943267822
+    }
+  },
+  {
+    "text": "em rất mong có cơ hội được liên kết với fanpage của trường học viện công nghệ bưu chính viễn thông để có thể hỗ trợ tìm việc làm cho các bạn cử nhân mới ra trường bằng cách đăng bài tuyển dụng qua fanpage của trường mình",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "b8982a8989_thong_tin_lien_he",
+      "confidence": 0.6587309241294861
+    }
+  },
+  {
+    "text": "khả năng sinh viên có việc làm của khoa kỹ thuật điện tử viễn thông có cao không",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9894915819168091
+    }
+  },
+  {
+    "text": "hiện tại bên em đang tổ chức chương trình trao học bổng cho bạn sinh viên năm năm khối ngành kinh tế nhằm hỗ trợ cho các bạn sinh viên có mong muốn làm việc tại ngân hàng các bạn sinh viên nghèo vượt khó có cơ hội được học tập và có được việc làm tại ngân hàng và đây là chương trình hoàn toàn miễn phí nên bên em muốn được hợp tác cùng quý trường tổ chức không biết là em có thể liên hệ được với ai bên phía nhà trường để đưa chương trình tới các bạn sinh viên được vậy",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999980926513672
+    }
+  },
+  {
+    "text": "là ngành an ninh mạng khi ra trường thì cơ hội việc làm có cao không và mức lương khởi điểm trong khoảng bao nhiêu",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.6875395774841309
+    }
+  },
+  {
+    "text": "em là học sinh trường chuyên và cũng đã hoàn tất việc làm hồ sơ cũng như thanh toán lệ phí",
+    "intent": "6ddd3e71fe_co_hoi_viec_lam",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9998296499252319
+    }
+  },
+  {
+    "text": "chào em đang là sinh viên ngành httt trường uit nay em muốn chuyển ngành học an toàn thông tin của trường trường cơ sở tphcm anh c tư vấn hướng dẫn em nộp hs vào trường cách tốt nhất em xin cảm ơn",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.999994158744812
+    }
+  },
+  {
+    "text": "em chào ban tuyển dụng của học viện",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9780555367469788
+    }
+  },
+  {
+    "text": "em chào admin hiện em đang có câu hỏi",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999935626983643
+    }
+  },
+  {
+    "text": "chào admin admin có thể giúp em vài câu hỏi được không thank admin nhiều",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9976073503494263
+    }
+  },
+  {
+    "text": "em chào thầy cô giao admin của trang cho em hỏi chut được không",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "7203e6e76c_dia_chi_co_so",
+      "confidence": 0.3318861126899719
+    }
+  },
+  {
+    "text": "em chào thầy em có thắc mắc muốn hỏi các thầy cô",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999276399612427
+    }
+  },
+  {
+    "text": "em chào thầy cô cho em xin hỏi dự kiến thời gian nào",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "e706bcf777_diem_trung_tuyen",
+      "confidence": 0.9999974966049194
+    }
+  },
+  {
+    "text": "em chào thầy cô em xin phép hỏi chút về trường hợp của em",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "xin chào cho em hỏi một chút được không",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999874830245972
+    }
+  },
+  {
+    "text": "em chào các thầy cô em có đăng ký xét tuyển kết hợp của trường mình",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em xin chào thầy cô em ntin này mong thầy cô giúp đỡ em một vào vấn đề liên quan đến việc làm hồ sợ nhập học",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "6ddd3e71fe_co_hoi_viec_lam",
+      "confidence": 0.41133829951286316
+    }
+  },
+  {
+    "text": "em chào thầy cô trong quá trình chuẩn bị hồ sơ em có sử dụng bảng điểm sat",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "e706bcf777_diem_trung_tuyen",
+      "confidence": 0.9999986886978149
+    }
+  },
+  {
+    "text": "em chào thầy cô em có chút thắc mắc về bản sơ yếu lí lịch theo mẫu của bộ gd đt",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.24542741477489471
+    }
+  },
+  {
+    "text": "em chào thầy cô em đang làm hồ sơ xét tuyển năm nay",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "bd6953a44f_ho_so_xet_tuyen",
+      "confidence": 0.9858291745185852
+    }
+  },
+  {
+    "text": "em chào các thầy cô em muốn hỏi là hiện tại em có xét tuyển theo pt xét kết hợp và hiện tại em đã xác nhận nhập học rồi",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em chào thầy cô em muốn hỏi về vấn đề nộp hồ sơ bản cứng",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999877214431763
+    }
+  },
+  {
+    "text": "xin chào admin có thể giải đáp thắc mắc cho em được không",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9994912147521973
+    }
+  },
+  {
+    "text": "chào admin em có thắc mắc về cách để xét tuyển vào trường bằng học bạ trung học phổ thông admin có thể giải đáp giúp em được không",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "2a22c6cd88_xet_tuyen_hoc_ba",
+      "confidence": 0.8809061050415039
+    }
+  },
+  {
+    "text": "em chào thầy cô em có thắc mắc cần được giải đáp thầy cô có thể giúp em được không",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999932050704956
+    }
+  },
+  {
+    "text": "em chào admin em có vài thắc mắc về vấn đề tuyển sinh của trường muốn được giải đáp",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9860435724258423
+    }
+  },
+  {
+    "text": "em xin chào ptit em có một thắc mắc cần sự giải đáp của admin",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.5705122947692871
+    }
+  },
+  {
+    "text": "em chào admin hiện tại em có thắc mắc mong được admin giải đáp",
+    "intent": "c7077c60c0_xin_chao",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9618040919303894
+    }
+  },
+  {
+    "text": "đây rồi cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.48571082949638367
+    }
+  },
+  {
+    "text": "tại em sợ nó kiếm không được nhà trả lại thui em cảm ơn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.2713901400566101
+    }
+  },
+  {
+    "text": "em tưởng bị khóa luôn rồi vậy cảm ơn admin ạ",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7784703969955444
+    }
+  },
+  {
+    "text": "em thấy rồi cảm ơn admin ạ",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7565181255340576
+    }
+  },
+  {
+    "text": "em thấy rồi ạ cảm ơn admin hihi",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5317240357398987
+    }
+  },
+  {
+    "text": "em khắc phục được rùi em cảm ơn ạ",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "e706bcf777_diem_trung_tuyen",
+      "confidence": 0.9494954347610474
+    }
+  },
+  {
+    "text": "em hiểu rồi do em đọc thiếu là quản trị nhân lực cảm ơn anh chị nhé",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.42537906765937805
+    }
+  },
+  {
+    "text": "em cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7373758554458618
+    }
+  },
+  {
+    "text": "của em ok rồi em cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.8847431540489197
+    }
+  },
+  {
+    "text": "cảm ơn admin đã giúp",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "vâyn em cảm ơn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.989105761051178
+    }
+  },
+  {
+    "text": "vâng em cảm ơn admin đã trả lời câu hỏi của em",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9355425834655762
+    }
+  },
+  {
+    "text": "admin kiểm tra giùm em cảm ơn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5876543521881104
+    }
+  },
+  {
+    "text": "em cảm ơn admin rất nhìu",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5071257948875427
+    }
+  },
+  {
+    "text": "em cảm ơn admin hi vọng em có cơ hội gặp admin ở trường",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b8982a8989_thong_tin_lien_he",
+      "confidence": 0.43060964345932007
+    }
+  },
+  {
+    "text": "em đăng nhập và làm hồ sơ được rùi cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9557482600212097
+    }
+  },
+  {
+    "text": "em cảm ơn admin nhaaaa",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.5636100172996521
+    }
+  },
+  {
+    "text": "em cảm ơn anh admin đẹp trai nhiệt tình vui tính",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7023571729660034
+    }
+  },
+  {
+    "text": "vâng em cảm ơn bạn em cũng đăng ký ngành truyền thông đa pt",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9633047580718994
+    }
+  },
+  {
+    "text": "đợi đến kết quả chính thức cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6700901389122009
+    }
+  },
+  {
+    "text": "cảm ơn admin gấu trúc",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7779502272605896
+    }
+  },
+  {
+    "text": "hihi cảm ơn admin xinh đẹp",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8132807016372681
+    }
+  },
+  {
+    "text": "cảm ơn admin em bớt lo rồi",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7619578242301941
+    }
+  },
+  {
+    "text": "vâng em cảm ơn admin admin giúp đỡ nhiệt tình quá",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9890056848526001
+    }
+  },
+  {
+    "text": "ôi may quá em cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.48467209935188293
+    }
+  },
+  {
+    "text": "cảm ơn admin em sẽ tranh thủ",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.946419358253479
+    }
+  },
+  {
+    "text": "huhu cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8350203037261963
+    }
+  },
+  {
+    "text": "cảm ơn kiu admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7123250961303711
+    }
+  },
+  {
+    "text": "thầy cô cho em hỏi em xét tuyển kết hợp xong thì gửi lệ phí thế nào em cảm ơn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em cảm ơn aj",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.22391143441200256
+    }
+  },
+  {
+    "text": "em cảm ơn admin cho em hỏi tiếng anh trường mình thi là theo phương thức tự luận",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "7203e6e76c_dia_chi_co_so",
+      "confidence": 0.3266001343727112
+    }
+  },
+  {
+    "text": "cho em hỏi ngành kỹ thuật điện tử viễn thông trường mình có xét tuyển khối a không em cảm ơn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9998050332069397
+    }
+  },
+  {
+    "text": "vâng mong có điểm chuẩn sớm em cảm ơn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "e706bcf777_diem_trung_tuyen",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "một lần nữa mình xin gửi lời cảm ơn chân thành đến admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.7326235175132751
+    }
+  },
+  {
+    "text": "em mới gọi cho tổng đài được rồi em cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.29825809597969055
+    }
+  },
+  {
+    "text": "vâng cảm ơn quý trường",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "7203e6e76c_dia_chi_co_so",
+      "confidence": 0.6633341312408447
+    }
+  },
+  {
+    "text": "điểm a có đỗ không ạ cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.4862499535083771
+    }
+  },
+  {
+    "text": "ek cảm ơn an",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8571463823318481
+    }
+  },
+  {
+    "text": "em cảm ơn vì đã cho em thời gian cụ thể đề chờ đợi",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7048797607421875
+    }
+  },
+  {
+    "text": "em cảm ơn admin đã đọc tin nhắn của em",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.7714329361915588
+    }
+  },
+  {
+    "text": "vâng làm phiền admin quá có gì hỏi được admin nhắn qua giúp em em cảm ơn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b8982a8989_thong_tin_lien_he",
+      "confidence": 0.3433682322502136
+    }
+  },
+  {
+    "text": "cảm ơn admin nhé nãy mình không để ý",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9998273849487305
+    }
+  },
+  {
+    "text": "admin ơi em cảm ơn admin đã nhiệt tình giải đáp nhứng thắc mắc của em trong thời gian qua",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5390655994415283
+    }
+  },
+  {
+    "text": "em nộp được rồi em cảm ơn admin đã trả lời",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9999823570251465
+    }
+  },
+  {
+    "text": "admin cho xin lời giải đáp nhé cảm ơn bạn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6681274175643921
+    }
+  },
+  {
+    "text": "admin báo học viện giúp em em cảm ơn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.9782580733299255
+    }
+  },
+  {
+    "text": "em cảm ơn admin cảm ơn admin đã cho em thêm động lực em sẽ cho bọn hỏa mù kia lạc trôi luôn",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.527753472328186
+    }
+  },
+  {
+    "text": "hi cảm ơn admin đợi admin phản hồi lâu quá",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.5833054780960083
+    }
+  },
+  {
+    "text": "bây giờ em xong rồi cảm ơn admin giúp đỡ em suốt thời gian em làm hồ sơ",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9970603585243225
+    }
+  },
+  {
+    "text": "à em tưởng bị khóa luôn rồi vậy cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.48816490173339844
+    }
+  },
+  {
+    "text": "cảm ơn admin nhé hjhj",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7306675910949707
+    }
+  },
+  {
+    "text": "cảm ơn admin nha khuy rồi mà còn nhiệt tình quá",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6789165735244751
+    }
+  },
+  {
+    "text": "yay cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.5307740569114685
+    }
+  },
+  {
+    "text": "cảm ơn admin cực đại",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7038044929504395
+    }
+  },
+  {
+    "text": "em cảm ơn admin nhìu aaaaaa",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.3422515094280243
+    }
+  },
+  {
+    "text": "em cảm ơn admin nhaaa",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.4064858555793762
+    }
+  },
+  {
+    "text": "em cảm ơn admin a",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8995065093040466
+    }
+  },
+  {
+    "text": "ươi em cảm ơn admin xd",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9999994039535522
+    }
+  },
+  {
+    "text": "dzạ em cảm ơn admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.607289731502533
+    }
+  },
+  {
+    "text": "em cảm ơn đội ngũ admin",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "b2be8803e0_cac_nganh_dao_tao",
+      "confidence": 0.4212972819805145
+    }
+  },
+  {
+    "text": "hic mình cảm ơn admin nhiều nha",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.6860992312431335
+    }
+  },
+  {
+    "text": "cảm ơn admin đtrai nhiều nhiềuu",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9998366832733154
+    }
+  },
+  {
+    "text": "em cảm ơn admin nhiềuuu",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.8347195982933044
+    }
+  },
+  {
+    "text": "cảm ơn admin nha mình thấy trường khác nó phát luôn nên hơi lo",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.999954104423523
+    }
+  },
+  {
+    "text": "em cảm ơn admin xinh đẹp",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "out_of_scope",
+      "confidence": 0.7664211988449097
+    }
+  },
+  {
+    "text": "em cảm ơn tại em chưa thấy tin nhắn báo trúng tuyển",
+    "intent": "94804bf720_cam_on",
+    "intent_prediction": {
+      "name": "7203e6e76c_dia_chi_co_so",
+      "confidence": 0.3953015208244324
+    }
+  },
+  {
+    "text": "cho em hỏi điểm xét tuyển đánh giá năng lực công bố hôm qua là điểm chuẩn chưa hay sau này còn điểm nữa",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "e706bcf777_diem_trung_tuyen",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cho tôi hỏi con tôi xét tuyển phương thức pt xét tuyển kết hợp giải tỉnh và pt xét tuyển đánh giá năng lực thì hồ sơ có phải gửi bộ hay chỉ cần bộ",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.9747390151023865
+    }
+  },
+  {
+    "text": "xét tuyển kết hợp và xét tuyển bằng dgnl thì phải nộp hồ sơ bản cứng ạ",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.8932439088821411
+    }
+  },
+  {
+    "text": "cho em hỏi với ạ em đăng kí cả phương thức là xét tuyển kết hợp và dgnl thì khi nộp bản cứng là dùng chung hồ sơ đúng không ạ và cần mấy bản học bạ",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.6686998009681702
+    }
+  },
+  {
+    "text": "xin hỏi quý trường thí sinh đăng ký dự tuyển có thể đăng ký trực tuyến cả hình thức xét tuyển kết hợp ielts và học bạ và hình thức điểm thi đánh giá năng lực của đhqg được không ah thời gian kết thúc đăng ký là thời điểm nào ah do con mới thi dgnl và phải cuối tháng mới có điểm đánh giá năng lực rất mong nhà trường quan tâm giải đáp",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.7172866463661194
+    }
+  },
+  {
+    "text": "ví dụ em xét kết hợp với điểm thi dgnl mà không may trượ",
+    "intent": "eaa3d0a624_danh_gia_nang_luc",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 0.9998086094856262
+    }
+  },
+  {
+    "text": "trong đề án có nói những bạn xét tuyển kết hợp mới được học bổng đâu",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.8986439108848572
+    }
+  },
+  {
+    "text": "em hỏi chút ạ em có trúng tuyển vào khoa công nghệ thông tin của trường theo phương thức là xét tuyển kết hợp và theo kết quả đánh giá năng lực cùng đỗ rồi nên em đăng kí nguyện vọng theo kết quả đánh giá năng lực lên nv theo hồ sơ kết hợp nv giờ em mới biết là nếu xét theo phương thức xét tuyển kết hợp thì được học bổng",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "em đủ đăng ký xét tuyển vào trường theo phương thức xét tuyển kết hợp nhưng điểm thi em được thì khi vào trường em có nhận được học bổng không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999996423721313
+    }
+  },
+  {
+    "text": "em đkí cả phương thức dgnl và xét tuyển kết hợp nữa ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.6014015078544617
+    }
+  },
+  {
+    "text": "cho em hỏi chính sách học bổng của trường như thế nào ạ nếu em đỗ vào trường theo xét tuyển kết hợp thì có được học bổng không ạ hay vẫn phải có điểm cao bài thi tốt nghiệp ạ em cảm ơn",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999899864196777
+    }
+  },
+  {
+    "text": "tại sao phải đi in phiếu dkxt theo phương thức xét tuyển kết hợp trong khi đi xét tuyển bằng dgnl",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9837539792060852
+    }
+  },
+  {
+    "text": "cho em hỏi là nếu chỉ dùng phương thức xét tuyển kết hợp học bạ thi em có được xét học bổng của trường nếu điểm thi trung học phổ thông trên đ không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999988079071045
+    }
+  },
+  {
+    "text": "nếu dùng phương thức xét tuyển kết hợp mà điểm thi tổ hợp điểm vẫn được học bổng của năm nhất phải không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999996423721313
+    }
+  },
+  {
+    "text": "kết quả của xét tuyển kết hợp sẽ có trước khi công bố điểm chuẩn phải không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "e706bcf777_diem_trung_tuyen",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "xin chào cán bộ và giáo viên nhà trường tôi là phụ huynh đang có con em có nguyện vọng xét tuyển vào trường ta được biết nhà trường đang có xuất học bổng cho các thí sinh có điểm thi trung học phổ thông cao trên điểm con em gia đình tôi đang xét tuyển theo phương thức kết hợp với số điểm là và khi xét tuyển kết hợp nhà trường có quan tâm đến điểm thi trung học phổ thông hay không đồng thời có điểm thi trung học phổ thông là vậy nhà trường cho tôi hỏi là nên xét tuyển theo phương thức nào sẽ có lợi thế hơn và có cơ hội cao được học bổng hơn rất mong cán bộ và thầy cô trong trường giải đáp thắc mắc tôi xin trân trọng cảm ơn",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999988079071045
+    }
+  },
+  {
+    "text": "chính sách học bổng em đọc được trong chỗ tuyển sinh có áp dụng cho những người xét tuyển kết hợp không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999130964279175
+    }
+  },
+  {
+    "text": "em đỗ vào trường theo hình thức xét tuyển kết hợp nhưng trong kì thu vừa rồi em đạt được d nên đủ tiêu chuẩn để đạt được học bổng của trường",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9834933280944824
+    }
+  },
+  {
+    "text": "con của tôi đã trúng tuyển vào khoa công nghệ thông tin theo phg thức xét tuyển kết hợp giờ thi tốt nghiệp cháu được chưa cộng ưu tiên nếu cộng ưu tiên thì cháu được vậy cháu có được học bổng miễn hoc phí năm đầu không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999860525131226
+    }
+  },
+  {
+    "text": "dạ admin ơi cho em hỏi em đã đỗ xét tuyển kết hợp vào trường nhưng trong kì thi em làm bài được mà theo như em đọc đề án thì vậy là đủ để được học bổng",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9948615431785583
+    }
+  },
+  {
+    "text": "nếu em làm hồ sơ nhập học bằng phương thức xét tuyển kết hợp thì em còn được học bổng không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999996423721313
+    }
+  },
+  {
+    "text": "xin hỏi con tôi đã đạt xét tuyển kết hợp thì khi thi cháu đạt trở lên có được học bổng không",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.999996542930603
+    }
+  },
+  {
+    "text": "với phương thức xét tuyển kết hợp con gái tôi đã đủ điều kiện vào ngành cntt điểm thi khối a toán lý anh được điểm không tính điểm ưu tiên thì có được miễn học phí năm thứ không không",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.7394318580627441
+    }
+  },
+  {
+    "text": "em xét tuyển kết hợp đã đỗ ngành công nghệ thông tin rồi ạ điểm thi của em khoảng cộng thêm điểm cộng nữa là liệu có được học bổng năm đầu không ạ",
+    "intent": "947daff3fc_xet_tuyen_ket_hop",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.999998927116394
+    }
+  },
+  {
+    "text": "là giờ néu em đỗ theo phương thức xét tuyển á nhưng em được trên thì có được học bổng không vì giờ em mới tìm hiểu trường",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9336598515510559
+    }
+  },
+  {
+    "text": "admin tư vấn phương thức xét tuyển phù hợp với em",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "947daff3fc_xet_tuyen_ket_hop",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cho em hỏi ngành đào tạo và phương thức xét tuyển học phí với thời gian học",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "9f5304f61a_hoc_phi",
+      "confidence": 0.870301365852356
+    }
+  },
+  {
+    "text": "em trúng tuyển vào học viện bằng phương thức xét tuyển điểm thi trung học phổ thông và được trên đ thì phải làm những thủ tục gì để được nhận học bổng",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9999872446060181
+    }
+  },
+  {
+    "text": "cho em hỏi nếu em phương thức xét tuyển kết quả thi trung học phổ thông nếu em đạt trên đ có được học bổng không",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "0659f57af2_hoc_bong",
+      "confidence": 0.9962840676307678
+    }
+  },
+  {
+    "text": "là cái đăng ký xét tuyển trực tuyến ấy thì em được chọn phương thức xét tuyển không",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "eaa3d0a624_danh_gia_nang_luc",
+      "confidence": 0.9983417987823486
+    }
+  },
+  {
+    "text": "em chào các thầy cô em năm nay có em gái nộp vào trường mình ngành truyền thông và được biết đối với ngành truyền thông của trường có xét khối là a a d thì em muốn hỏi là với khối này bên trường có phương thức xét tuyển chia theo khối với từng chỉ tiêu hay là chỉ có điểm chuẩn và xét cho cả khối em cảm ơn",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "beb2625046_ma_nganh",
+      "confidence": 0.1912854164838791
+    }
+  },
+  {
+    "text": "cho em hỏi là ở phần đối tượng xét tuyển của phương thức xét tuyển tổ hợp có ghi là là học sinh chuyên các môn toán lý hóa tin học của trường trung học phổ thông chuyên trên phạm vi toàn quốc các trường trung học phổ thông chuyên thuộc tỉnh thành phố trực thuộc trung ương và các trường trung học phổ thông chuyên thuộc cơ sở giáo dục đại học hoặc hệ chuyên thuôc các trường trung học phổ thông trọng điểm quốc gia và có kết quả điểm trung bình chung học tập lớp hoặc học kỳ lớp đạt từ trở lên và có hạnh kiểm khá trở lên",
+    "intent": "7f3573628d_phuong_thuc_xet_tuyen",
+    "intent_prediction": {
+      "name": "859bf11d41_to_hop_xet_tuyen",
+      "confidence": 0.9999984502792358
+    }
+  },
+  {
+    "text": "cho em hỏi em là trịnh minh hiếu mã tuyển sinh của em là ptit em đang thắc mắc tại sao hồ sơ của mình lại không đủ điều kiện xét tuyển theo phương thức xét tuyển trong khi em có nộp file chứng chỉ ta và học bạ học kỳ điểm học bạ của em là theo tổ hợp a trong khi trường lấy điểm xét tuyển là",
+    "intent": "2a22c6cd88_xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "7f3573628d_phuong_thuc_xet_tuyen",
+      "confidence": 0.9999983310699463
+    }
+  },
+  {
+    "text": "em ăn cơm chưa",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999995231628418
+    }
+  },
+  {
+    "text": "em có yêu anh không",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9995606541633606
+    }
+  },
+  {
+    "text": "em có thích anh không",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "em có thích ad không",
+    "intent": "out_of_scope",
+    "intent_prediction": {
+      "name": "94804bf720_cam_on",
+      "confidence": 0.9999963045120239
+    }
+  }
+]

@@ -1,0 +1,13 @@
+services:
+  web:
+    build: 
+      context: .
+    ports:
+      - "8000:7000"
+    container_name: chatbot_server
+  
+  # rasa:
+  #   build: ./chatbot_bert
+  #   ports:
+  #     - "5000:5056"
+  #   container_name: chatbot_rasa
